@@ -1,0 +1,125 @@
+scalar Amount_Tokens
+scalar EthereumAddress
+scalar Amount_Percentage
+scalar EmailAddress
+scalar Date
+scalar DateTime
+scalar URL
+scalar Amount_Money
+scalar OLabel
+scalar Currency
+scalar PHID
+scalar OID
+# Articles hold sections and primary docs
+
+type AtlasArticleState {
+  name: String! # Default value = ""
+  docNo: String! # A.1.1
+  content: String
+  globalTags: [String]
+  masterStatus: Status!
+  parentScope: PHID!
+  sections: [PHID!]!
+  primaryDocs: [PHID!]!
+  annotations: [PHID!]!
+  tenets: [PHID!]!
+  originalContextData: [PHID!]!
+  contingencies: String #
+  internalLink: String
+  provenance: String! # p0Hub backlink
+}
+
+enum Status {
+  PLACEHOLDER
+  PROVISIONAL # enables ecosystem participants to interact with the material in a practical context, resulting in valuable feedback or other data concerning the Document's appropriateness.
+  APPROVED # material instance can be integrated into the Atlas
+  DEFERRED
+  ARCHIVED 
+}
+
+
+
+# article
+
+input CreateArticleInput {
+  id: OID!
+  name: String!
+  docNo: String!
+  content: String
+  globalTags: String
+  masterStatus: MasterStatusInput!
+  parentScope: ScopeRefInput!
+  sections: [SectionRefInput!]
+  primaryDocs: [PrimaryDocRefInput!]
+  annotations: [AnnotationRefInput!]
+  tenets: [TenetRefInput!]
+  originalContextData: [OriginalContextDataRefInput!]
+  contingencies: String
+  internalLink: String
+  provenance: String!
+}
+
+input MasterStatusInput {
+  id: OID!
+  status: Status!
+}
+
+input ScopeRefInput {
+  id: OID!
+  name: String!
+}
+
+input SectionRefInput {
+  id: OID!
+  name: String!
+}
+
+input PrimaryDocRefInput {
+  id: OID!
+  name: String!
+}
+
+input AnnotationRefInput {
+  id: OID!
+  name: String!
+}
+
+input TenetRefInput {
+  id: OID!
+  name: String!
+}
+
+input OriginalContextDataRefInput {
+  id: OID!
+  name: String!
+}
+
+
+input UpdateArticleInput {
+  id: OID!
+  name: String
+  docNo: String
+  content: String
+  globalTags: String
+  masterStatus: MasterStatusInput
+  parentScope: ScopeRefInput
+  sections: [SectionRefInput]
+  primaryDocs: [PrimaryDocRefInput]
+  annotations: [AnnotationRefInput]
+  tenets: [TenetRefInput]
+  originalContextData: [OriginalContextDataRefInput]
+  contingencies: String
+  internalLink: String
+  provenance: String
+}
+
+
+input DeleteArticleInput {
+  id: OID!
+}
+
+
+input AddSectionToArticleInput {
+  articleId: OID!
+  section: SectionRefInput!
+}
