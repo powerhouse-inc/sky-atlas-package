@@ -11,15 +11,14 @@ scalar Currency
 scalar PHID
 scalar OID
 type AtlasScopeState {
-  name: String! # Default value = ""
-  docNo: String! # e.g, A.1
+  name: String
+  docNo: String # e.g, A.1
   content: String
   masterStatus: [Status!]! # Aggregation: MasterStatus can exist independently of Scope
-  globalTags: [String]
-  articles: [PHID!]! # Composition: If Scope is deleted, all Articles are deleted
-	originalContextData: [PHID]
-	provenance: String! # p0Hub backlink
-  #articleFunction and #modules not modeled
+  globalTags: [GlobalTag!]!
+	originalContextData: [PHID!]!
+	provenance: URL # p0Hub backlink
+	notionId: String # the same value as the one form the screenshot
 }
 
 
@@ -31,11 +30,45 @@ enum Status {
   ARCHIVED
 }
 
+enum GlobalTag {
+    RECURSIVE_IMPROVEMENT,
+    SCOPE_ADVISOR,
+    DAO_TOOLKIT,
+    PURPOSE_SYSTEM,
+    ML_LOW_PRIORITY,
+    EXTERNAL_REFERENCE,
+    ML_DEFER,
+    SUBDAO_INCUBATION,
+    V1_MIP,
+    ML_HIGH_PRIORITY,
+    ECOSYSTEM_INTELLIGENCE,
+    LEGACY_TERM_USE_APPROVED,
+    CAIS,
+    INTERNAL_REFERENCE,
+    FACILITATORDAO,
+    ML_MED_PRIORITY,
+    AVC,
+    P0_HUB_ENTRY_NEEDED,
+    ANON_WORKFORCE,
+    NEWCHAIN,
+    ML_SUPPORT_DOCS_NEEDED,
+    SUBDAO_REWARDS,
+    TWO_STAGE_BRIDGE,
+}
 
 
 
-# scope
 
-input SetNameInput {
-  name: String!
+# scope_operations
+
+input UpdateScopeInput {
+  id: OID!
+  name: String
+  docNo: String
+  content: String
+  masterStatus: [Status]
+  globalTags: [GlobalTag]
+  originalContextData: [PHID]
+  provenance: URL
+  notionId: String
 }

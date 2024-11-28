@@ -1,7 +1,7 @@
 {
     "id": "sky/atlas-scope",
-    "name": "AtlasScope",
-    "extension": "ascp",
+    "name": "atlas_scope",
+    "extension": "",
     "description": "",
     "author": {
         "name": "",
@@ -13,8 +13,8 @@
             "changeLog": [],
             "state": {
                 "global": {
-                    "schema": "type AtlasScopeState {\n  name: String! # Default value = \"\"\n  docNo: String! # e.g, A.1\n  content: String\n  masterStatus: [Status!]! # Aggregation: MasterStatus can exist independently of Scope\n  globalTags: [String]\n  articles: [PHID!]! # Composition: If Scope is deleted, all Articles are deleted\n\toriginalContextData: [PHID]\n\tprovenance: String! # p0Hub backlink\n  #articleFunction and #modules not modeled\n}\n\n\nenum Status {\n  PLACEHOLDER\n  PROVISIONAL # enables ecosystem participants to interact with the material in a practical context, resulting in valuable feedback or other data concerning the Document's appropriateness.\n  APPROVED # material instance can be integrated into the Atlas\n  DEFERRED\n  ARCHIVED\n}\n",
-                    "initialValue": "{\n  \"name\": \"\",\n  \"docNo\": \"\",\n  \"content\": \"\",\n  \"masterStatus\": [],\n  \"globalTags\": [],\n  \"articles\": [],\n  \"originalContextData\": [],\n  \"provenance\": \"\"\n}",
+                    "schema": "type AtlasScopeState {\n  name: String\n  docNo: String # e.g, A.1\n  content: String\n  masterStatus: [Status!]! # Aggregation: MasterStatus can exist independently of Scope\n  globalTags: [GlobalTag!]!\n\toriginalContextData: [PHID!]!\n\tprovenance: URL # p0Hub backlink\n\tnotionId: String # the same value as the one form the screenshot\n}\n\n\nenum Status {\n  PLACEHOLDER\n  PROVISIONAL # enables ecosystem participants to interact with the material in a practical context, resulting in valuable feedback or other data concerning the Document's appropriateness.\n  APPROVED # material instance can be integrated into the Atlas\n  DEFERRED\n  ARCHIVED\n}\n\nenum GlobalTag {\n    RECURSIVE_IMPROVEMENT,\n    SCOPE_ADVISOR,\n    DAO_TOOLKIT,\n    PURPOSE_SYSTEM,\n    ML_LOW_PRIORITY,\n    EXTERNAL_REFERENCE,\n    ML_DEFER,\n    SUBDAO_INCUBATION,\n    V1_MIP,\n    ML_HIGH_PRIORITY,\n    ECOSYSTEM_INTELLIGENCE,\n    LEGACY_TERM_USE_APPROVED,\n    CAIS,\n    INTERNAL_REFERENCE,\n    FACILITATORDAO,\n    ML_MED_PRIORITY,\n    AVC,\n    P0_HUB_ENTRY_NEEDED,\n    ANON_WORKFORCE,\n    NEWCHAIN,\n    ML_SUPPORT_DOCS_NEEDED,\n    SUBDAO_REWARDS,\n    TWO_STAGE_BRIDGE,\n}\n",
+                    "initialValue": "{\n  \"name\": \"\",\n  \"docNo\": \"\",\n  \"content\": \"\",\n  \"masterStatus\": [],\n  \"globalTags\": [],\n  \"originalContextData\": [],\n  \"provenance\": \"\",\n  \"notionId\": \"\"\n}",
                     "examples": []
                 },
                 "local": {
@@ -25,18 +25,40 @@
             },
             "modules": [
                 {
-                    "id": "0MvzjKo/RKAdPHmv/etCkPlaT/M=",
-                    "name": "scope",
+                    "id": "6W2Bb3DTkCYIlCYNTouABphosng=",
+                    "name": "scope_operations",
                     "description": "",
                     "operations": [
                         {
-                            "id": "kxBo1KFTOQtQpsV8T5Wc4474wvM=",
-                            "name": "SET_NAME",
+                            "id": "KNdTE8ifNV0wVMlCabCT8KJBwIM=",
+                            "name": "UPDATE_SCOPE",
                             "description": "",
-                            "schema": "input SetNameInput {\n  name: String!\n}",
+                            "schema": "input UpdateScopeInput {\n  id: OID!\n  name: String\n  docNo: String\n  content: String\n  masterStatus: [Status]\n  globalTags: [GlobalTag]\n  originalContextData: [PHID]\n  provenance: URL\n  notionId: String\n}\n",
                             "template": "",
                             "reducer": "",
-                            "errors": [],
+                            "errors": [
+                                {
+                                    "id": "3L0Me0n5yXGQIcQr8tI84a9ETvM=",
+                                    "name": "ScopeNotFound",
+                                    "code": "",
+                                    "description": "",
+                                    "template": ""
+                                },
+                                {
+                                    "id": "mUjf3dks6OXQ8ObNq0nWXK1QrV8=",
+                                    "name": "InvalidMasterStatus",
+                                    "code": "",
+                                    "description": "",
+                                    "template": ""
+                                },
+                                {
+                                    "id": "ca8DzZhAyFosNmYLNz1H1aY3HkI=",
+                                    "name": "InvalidOriginalContextDataReferences",
+                                    "code": "",
+                                    "description": "",
+                                    "template": ""
+                                }
+                            ],
                             "examples": [],
                             "scope": "global"
                         }
