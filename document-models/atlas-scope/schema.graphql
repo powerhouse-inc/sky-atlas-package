@@ -1,0 +1,41 @@
+scalar Amount_Tokens
+scalar EthereumAddress
+scalar Amount_Percentage
+scalar EmailAddress
+scalar Date
+scalar DateTime
+scalar URL
+scalar Amount_Money
+scalar OLabel
+scalar Currency
+scalar PHID
+scalar OID
+type AtlasScopeState {
+  name: String! # Default value = ""
+  docNo: String! # e.g, A.1
+  content: String
+  masterStatus: [Status!]! # Aggregation: MasterStatus can exist independently of Scope
+  globalTags: [String]
+  articles: [PHID!]! # Composition: If Scope is deleted, all Articles are deleted
+	originalContextData: [PHID]
+	provenance: String! # p0Hub backlink
+  #articleFunction and #modules not modeled
+}
+
+
+enum Status {
+  PLACEHOLDER
+  PROVISIONAL # enables ecosystem participants to interact with the material in a practical context, resulting in valuable feedback or other data concerning the Document's appropriateness.
+  APPROVED # material instance can be integrated into the Atlas
+  DEFERRED
+  ARCHIVED
+}
+
+
+
+
+# scope
+
+input SetNameInput {
+  name: String!
+}

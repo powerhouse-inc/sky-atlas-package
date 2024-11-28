@@ -1,0 +1,48 @@
+{
+    "id": "sky/atlas-scope",
+    "name": "AtlasScope",
+    "extension": "ascp",
+    "description": "",
+    "author": {
+        "name": "",
+        "website": ""
+    },
+    "specifications": [
+        {
+            "version": 1,
+            "changeLog": [],
+            "state": {
+                "global": {
+                    "schema": "type AtlasScopeState {\n  name: String! # Default value = \"\"\n  docNo: String! # e.g, A.1\n  content: String\n  masterStatus: [Status!]! # Aggregation: MasterStatus can exist independently of Scope\n  globalTags: [String]\n  articles: [PHID!]! # Composition: If Scope is deleted, all Articles are deleted\n\toriginalContextData: [PHID]\n\tprovenance: String! # p0Hub backlink\n  #articleFunction and #modules not modeled\n}\n\n\nenum Status {\n  PLACEHOLDER\n  PROVISIONAL # enables ecosystem participants to interact with the material in a practical context, resulting in valuable feedback or other data concerning the Document's appropriateness.\n  APPROVED # material instance can be integrated into the Atlas\n  DEFERRED\n  ARCHIVED\n}\n",
+                    "initialValue": "{\n  \"name\": \"\",\n  \"docNo\": \"\",\n  \"content\": \"\",\n  \"masterStatus\": [],\n  \"globalTags\": [],\n  \"articles\": [],\n  \"originalContextData\": [],\n  \"provenance\": \"\"\n}",
+                    "examples": []
+                },
+                "local": {
+                    "schema": "",
+                    "initialValue": "",
+                    "examples": []
+                }
+            },
+            "modules": [
+                {
+                    "id": "0MvzjKo/RKAdPHmv/etCkPlaT/M=",
+                    "name": "scope",
+                    "description": "",
+                    "operations": [
+                        {
+                            "id": "kxBo1KFTOQtQpsV8T5Wc4474wvM=",
+                            "name": "SET_NAME",
+                            "description": "",
+                            "schema": "input SetNameInput {\n  name: String!\n}",
+                            "template": "",
+                            "reducer": "",
+                            "errors": [],
+                            "examples": [],
+                            "scope": "global"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
