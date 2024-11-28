@@ -1,7 +1,7 @@
 {
     "id": "sky/atlas-article",
-    "name": "AtlasArticle",
-    "extension": "aart",
+    "name": "atlas_article",
+    "extension": "",
     "description": "",
     "author": {
         "name": "",
@@ -13,8 +13,8 @@
             "changeLog": [],
             "state": {
                 "global": {
-                    "schema": "# Articles hold sections and primary docs\n\ntype AtlasArticleState {\n  name: String! # Default value = \"\"\n  docNo: String! # A.1.1\n  content: String\n  globalTags: [String]\n  masterStatus: Status!\n  parentScope: PHID!\n  sections: [PHID!]!\n  primaryDocs: [PHID!]!\n  annotations: [PHID!]!\n  tenets: [PHID!]!\n  originalContextData: [PHID!]!\n  contingencies: String #\n  internalLink: String\n  provenance: String! # p0Hub backlink\n}\n\nenum Status {\n  PLACEHOLDER\n  PROVISIONAL # enables ecosystem participants to interact with the material in a practical context, resulting in valuable feedback or other data concerning the Document's appropriateness.\n  APPROVED # material instance can be integrated into the Atlas\n  DEFERRED\n  ARCHIVED \n}",
-                    "initialValue": "{\n  \"name\": \"\",\n  \"docNo\": \"\",\n  \"content\": \"\",\n  \"globalTags\": [],\n  \"masterStatus\": \"PLACEHOLDER\",\n  \"parentScope\": \"\",\n  \"sections\": [],\n  \"primaryDocs\": [],\n  \"annotations\": [],\n  \"tenets\": [],\n  \"originalContextData\": [],\n  \"contingencies\": \"\",\n  \"internalLink\": \"\",\n  \"provenance\": \"\"\n}",
+                    "schema": "# Articles hold sections and primary docs\n\ntype AtlasArticleState {\n  name: String \n  docNo: String\n  content: String\n  globalTags: [GlobalTag!]!\n  masterStatus: Status!\n  parentScope: PHID!\n  internalLink: URL\n  provenance: URL\n  notionId: String\n}\n\nenum Status {\n  PLACEHOLDER\n  PROVISIONAL # enables ecosystem participants to interact with the material in a practical context, resulting in valuable feedback or other data concerning the Document's appropriateness.\n  APPROVED # material instance can be integrated into the Atlas\n  DEFERRED\n  ARCHIVED \n}\n\nenum GlobalTag {\n    SCOPE_ADVISOR_,\n    AVC_,\n    CAIS_,\n    ML___LOW_PRIORITY_,\n    EXTERNAL_REFERENCE_,\n    DAO_TOOLKIT_,\n    ML___DEFER_,\n    PURPOSE_SYSTEM_,\n    NEWCHAIN_,\n    ML___SUPPORT_DOCS_NEEDED_,\n    TWO_STAGE_BRIDGE_,\n    ECOSYSTEM_INTELLIGENCE_,\n    RECURSIVE_IMPROVEMENT_,\n    LEGACY_TERM___USE_APPROVED_,\n}\n",
+                    "initialValue": "{\n  \"name\": \"\",\n  \"docNo\": \"\",\n  \"content\": \"\",\n  \"globalTags\": [],\n  \"masterStatus\": \"PLACEHOLDER\",\n  \"parentScope\": \"\",\n  \"internalLink\": \"\",\n  \"provenance\": \"\",\n  \"notionId\": \"\"\n}",
                     "examples": []
                 },
                 "local": {
@@ -25,211 +25,28 @@
             },
             "modules": [
                 {
-                    "id": "DE/IfrkspO+0941zIQX+c2ljmpA=",
-                    "name": "article",
+                    "id": "jNuqZpBIC9Tsi88hkWaJSTlfqz8=",
+                    "name": "article_operations",
                     "description": "",
                     "operations": [
                         {
-                            "id": "d76R5BnwvrSyawJUks1cCY9T7/I=",
-                            "name": "CREATE_ARTICLE",
-                            "description": "Creates a new Article in the ArticleState. This operation initializes an article with the provided id, name, docNo, content, and other optional fields. It also establishes associations with its parent scope, sections, primary documents, annotations, tenets, and original context data if provided.",
-                            "schema": "input CreateArticleInput {\n  id: OID!\n  name: String!\n  docNo: String!\n  content: String\n  globalTags: String\n  masterStatus: MasterStatusInput!\n  parentScope: ScopeRefInput!\n  sections: [SectionRefInput!]\n  primaryDocs: [PrimaryDocRefInput!]\n  annotations: [AnnotationRefInput!]\n  tenets: [TenetRefInput!]\n  originalContextData: [OriginalContextDataRefInput!]\n  contingencies: String\n  internalLink: String\n  provenance: String!\n}\n\ninput MasterStatusInput {\n  id: OID!\n  status: Status!\n}\n\ninput ScopeRefInput {\n  id: OID!\n  name: String!\n}\n\ninput SectionRefInput {\n  id: OID!\n  name: String!\n}\n\ninput PrimaryDocRefInput {\n  id: OID!\n  name: String!\n}\n\ninput AnnotationRefInput {\n  id: OID!\n  name: String!\n}\n\ninput TenetRefInput {\n  id: OID!\n  name: String!\n}\n\ninput OriginalContextDataRefInput {\n  id: OID!\n  name: String!\n}\n",
-                            "template": "",
-                            "reducer": "",
-                            "errors": [
-                                {
-                                    "id": "21t9Xxd9FTcG/vVwXO+93/68F28=",
-                                    "name": "DuplicateArticleIdException",
-                                    "code": "",
-                                    "description": "",
-                                    "template": ""
-                                },
-                                {
-                                    "id": "TofR5wfCI2hEUUzVHmw3yAAyyQs=",
-                                    "name": "InvalidMasterStatusException",
-                                    "code": "",
-                                    "description": "",
-                                    "template": ""
-                                },
-                                {
-                                    "id": "4MA1lRtTWHBs8HAq2IVYFUbOBdU=",
-                                    "name": "InvalidScopeReferenceException",
-                                    "code": "",
-                                    "description": "",
-                                    "template": ""
-                                },
-                                {
-                                    "id": "gQQ6FGQdUYhW1GnPTqMjhAGPCPo=",
-                                    "name": "InvalidSectionReferencesException",
-                                    "code": "",
-                                    "description": "",
-                                    "template": ""
-                                },
-                                {
-                                    "id": "SnnnWAQUDFmFa6OP2uRgST+nQO4=",
-                                    "name": "InvalidPrimaryDocReferencesException",
-                                    "code": "",
-                                    "description": "",
-                                    "template": ""
-                                },
-                                {
-                                    "id": "fLi0XhuKPg8sS3pqRU9q0QUXNMs=",
-                                    "name": "InvalidAnnotationReferencesException",
-                                    "code": "",
-                                    "description": "",
-                                    "template": ""
-                                },
-                                {
-                                    "id": "FzPTsG0oPw8oijXLdOsBfMHgx2M=",
-                                    "name": "InvalidTenetReferencesException",
-                                    "code": "",
-                                    "description": "",
-                                    "template": ""
-                                },
-                                {
-                                    "id": "sOu+J16jpI+hAEuuu4AOD3+XFo8=",
-                                    "name": "InvalidOriginalContextDataReferencesException",
-                                    "code": "",
-                                    "description": "",
-                                    "template": ""
-                                },
-                                {
-                                    "id": "Kph092asL2wBgNygCPi8/3XuHu8=",
-                                    "name": "MissingRequiredFieldException",
-                                    "code": "",
-                                    "description": "",
-                                    "template": ""
-                                }
-                            ],
-                            "examples": [],
-                            "scope": "global"
-                        },
-                        {
-                            "id": "NpmdcB/jcm6s88SyKjOUUuy+RYU=",
+                            "id": "YGEwL6zzp0e5393XCpxRPdTyJy8=",
                             "name": "UPDATE_ARTICLE",
-                            "description": "Updates an existing Article in the ArticleState. Only the fields provided in the input will be updated; all other fields remain unchanged. This allows partial updates to the article's properties, such as changing the content, adding new sections, or updating the master status.",
-                            "schema": "input UpdateArticleInput {\n  id: OID!\n  name: String\n  docNo: String\n  content: String\n  globalTags: String\n  masterStatus: MasterStatusInput\n  parentScope: ScopeRefInput\n  sections: [SectionRefInput]\n  primaryDocs: [PrimaryDocRefInput]\n  annotations: [AnnotationRefInput]\n  tenets: [TenetRefInput]\n  originalContextData: [OriginalContextDataRefInput]\n  contingencies: String\n  internalLink: String\n  provenance: String\n}\n",
+                            "description": "",
+                            "schema": "input UpdateArticleInput {\n  id: OID!\n  name: String\n  docNo: String\n  content: String\n  globalTags: GlobalTag\n  masterStatus: Status\n  parentScope: PHID\n  internalLink: URL\n  provenance: URL\n  notionId: String\n}\n",
                             "template": "",
                             "reducer": "",
                             "errors": [
                                 {
-                                    "id": "bXPHuvDmJC1CiXBRBFCDyit0Ae8=",
-                                    "name": "ArticleNotFoundException",
-                                    "code": "",
-                                    "description": "",
-                                    "template": ""
-                                },
-                                {
-                                    "id": "S+YA6PzPnAZKGUHsIecQCmPe8HI=",
+                                    "id": "U1CRe++V5h/4dzWYeLXqXZxqiHQ=",
                                     "name": "InvalidMasterStatusException",
                                     "code": "",
                                     "description": "",
                                     "template": ""
                                 },
                                 {
-                                    "id": "B8K+QWwtuZdm4Ri0iPHgl4kTcr0=",
-                                    "name": "InvalidSectionReferencesException",
-                                    "code": "",
-                                    "description": "",
-                                    "template": ""
-                                },
-                                {
-                                    "id": "+sJSJAAGe8pX+UFQR0PlYLt4ZEk=",
-                                    "name": "InvalidPrimaryDocReferencesException",
-                                    "code": "",
-                                    "description": "",
-                                    "template": ""
-                                },
-                                {
-                                    "id": "4PXOoIrHzzno/8iJgodwVDzWwrU=",
-                                    "name": "InvalidAnnotationReferencesException",
-                                    "code": "",
-                                    "description": "",
-                                    "template": ""
-                                },
-                                {
-                                    "id": "knToYpY+BiYrOQVbqpEpQNpI9hQ=",
-                                    "name": "InvalidTenetReferencesException",
-                                    "code": "",
-                                    "description": "",
-                                    "template": ""
-                                },
-                                {
-                                    "id": "iTBN5hsolSHgckoh+O1RVU6yWAo=",
-                                    "name": "InvalidOriginalContextDataReferencesException",
-                                    "code": "",
-                                    "description": "",
-                                    "template": ""
-                                },
-                                {
-                                    "id": "kqQpkMoyMx/9lfJr+yCxK5U6hvI=",
+                                    "id": "stw9WrHHZDLgrmB/a7x4W7tAn8Q=",
                                     "name": "NoFieldsToUpdateException",
-                                    "code": "",
-                                    "description": "",
-                                    "template": ""
-                                }
-                            ],
-                            "examples": [],
-                            "scope": "global"
-                        },
-                        {
-                            "id": "Fd+DG0IyzrVymfb6r6IajBAXBmg=",
-                            "name": "DELETE_ARTICLE",
-                            "description": "Deletes an Article from the ArticleState using the provided id. This operation removes the article and, by composition, deletes all associated sections and their child entities if they are exclusively associated with this article. It ensures that the state remains consistent after deletion.",
-                            "schema": "input DeleteArticleInput {\n  id: OID!\n}\n",
-                            "template": "",
-                            "reducer": "",
-                            "errors": [
-                                {
-                                    "id": "sjYcpJTI7Wi+JQY6wXJR+5jQSww=",
-                                    "name": "ArticleNotFoundException",
-                                    "code": "",
-                                    "description": "",
-                                    "template": ""
-                                },
-                                {
-                                    "id": "vyxnPMuKhmaVp5JdchqOdSTFZkk=",
-                                    "name": "ArticleDeletionNotAllowedException",
-                                    "code": "",
-                                    "description": "",
-                                    "template": ""
-                                },
-                                {
-                                    "id": "V8RpPbnA0Nvi4CMF9C1n55Soslo=",
-                                    "name": "DependentEntitiesExistException",
-                                    "code": "",
-                                    "description": "",
-                                    "template": ""
-                                }
-                            ],
-                            "examples": [],
-                            "scope": "global"
-                        },
-                        {
-                            "id": "zmdiYMLh/ceGkp82+muFGCl5XMM=",
-                            "name": "ADD_SECTION_TO_ARTICLE",
-                            "description": "Adds an existing Section to an Article. This operation updates the sections list within the specified article by appending the provided section reference. The section must exist in the system, and the article must be valid.",
-                            "schema": "input AddSectionToArticleInput {\n  articleId: OID!\n  section: SectionRefInput!\n}\n",
-                            "template": "",
-                            "reducer": "",
-                            "errors": [
-                                {
-                                    "id": "oRuqxXQxCNPDExZpufSivkicZ8k=",
-                                    "name": "ArticleNotFoundException",
-                                    "code": "",
-                                    "description": "",
-                                    "template": ""
-                                },
-                                {
-                                    "id": "zsF6ks+trK79IK6BAFiX6CIKg6Y=",
-                                    "name": "SectionNotFoundException",
-                                    "code": "",
-                                    "description": "",
-                                    "template": ""
-                                },
-                                {
-                                    "id": "Gmlx05gBHJmjqKzOKIYt83m5+/Y=",
-                                    "name": "SectionAlreadyAssociatedException",
                                     "code": "",
                                     "description": "",
                                     "template": ""

@@ -13,20 +13,15 @@ scalar OID
 # Articles hold sections and primary docs
 
 type AtlasArticleState {
-  name: String! # Default value = ""
-  docNo: String! # A.1.1
+  name: String 
+  docNo: String
   content: String
-  globalTags: [String]
+  globalTags: [GlobalTag!]!
   masterStatus: Status!
   parentScope: PHID!
-  sections: [PHID!]!
-  primaryDocs: [PHID!]!
-  annotations: [PHID!]!
-  tenets: [PHID!]!
-  originalContextData: [PHID!]!
-  contingencies: String #
-  internalLink: String
-  provenance: String! # p0Hub backlink
+  internalLink: URL
+  provenance: URL
+  notionId: String
 }
 
 enum Status {
@@ -37,89 +32,37 @@ enum Status {
   ARCHIVED 
 }
 
-
-
-# article
-
-input CreateArticleInput {
-  id: OID!
-  name: String!
-  docNo: String!
-  content: String
-  globalTags: String
-  masterStatus: MasterStatusInput!
-  parentScope: ScopeRefInput!
-  sections: [SectionRefInput!]
-  primaryDocs: [PrimaryDocRefInput!]
-  annotations: [AnnotationRefInput!]
-  tenets: [TenetRefInput!]
-  originalContextData: [OriginalContextDataRefInput!]
-  contingencies: String
-  internalLink: String
-  provenance: String!
+enum GlobalTag {
+    SCOPE_ADVISOR_,
+    AVC_,
+    CAIS_,
+    ML___LOW_PRIORITY_,
+    EXTERNAL_REFERENCE_,
+    DAO_TOOLKIT_,
+    ML___DEFER_,
+    PURPOSE_SYSTEM_,
+    NEWCHAIN_,
+    ML___SUPPORT_DOCS_NEEDED_,
+    TWO_STAGE_BRIDGE_,
+    ECOSYSTEM_INTELLIGENCE_,
+    RECURSIVE_IMPROVEMENT_,
+    LEGACY_TERM___USE_APPROVED_,
 }
 
-input MasterStatusInput {
-  id: OID!
-  status: Status!
-}
 
-input ScopeRefInput {
-  id: OID!
-  name: String!
-}
 
-input SectionRefInput {
-  id: OID!
-  name: String!
-}
 
-input PrimaryDocRefInput {
-  id: OID!
-  name: String!
-}
-
-input AnnotationRefInput {
-  id: OID!
-  name: String!
-}
-
-input TenetRefInput {
-  id: OID!
-  name: String!
-}
-
-input OriginalContextDataRefInput {
-  id: OID!
-  name: String!
-}
-
+# article_operations
 
 input UpdateArticleInput {
   id: OID!
   name: String
   docNo: String
   content: String
-  globalTags: String
-  masterStatus: MasterStatusInput
-  parentScope: ScopeRefInput
-  sections: [SectionRefInput]
-  primaryDocs: [PrimaryDocRefInput]
-  annotations: [AnnotationRefInput]
-  tenets: [TenetRefInput]
-  originalContextData: [OriginalContextDataRefInput]
-  contingencies: String
-  internalLink: String
-  provenance: String
-}
-
-
-input DeleteArticleInput {
-  id: OID!
-}
-
-
-input AddSectionToArticleInput {
-  articleId: OID!
-  section: SectionRefInput!
+  globalTags: GlobalTag
+  masterStatus: Status
+  parentScope: PHID
+  internalLink: URL
+  provenance: URL
+  notionId: String
 }
