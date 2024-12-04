@@ -13,12 +13,12 @@ scalar OID
 type AtlasScopeState {
   name: String
   docNo: String # e.g, A.1
-  content: String
+  content: String # change to markdown later (includes links, tables...)
   masterStatus: [Status!]! # Aggregation: MasterStatus can exist independently of Scope
   globalTags: [GlobalTag!]!
 	originalContextData: [PHID!]!
 	provenance: URL # p0Hub backlink
-	notionId: String # the same value as the one form the screenshot
+	notionId: String # verify if this can be changed to UUID type
 }
 
 
@@ -35,23 +35,23 @@ enum GlobalTag {
     SCOPE_ADVISOR,
     DAO_TOOLKIT,
     PURPOSE_SYSTEM,
-    ML_LOW_PRIORITY,
+    ML__LOW_PRIORITY,
     EXTERNAL_REFERENCE,
-    ML_DEFER,
+    ML__DEFER,
     SUBDAO_INCUBATION,
-    V1_MIP,
-    ML_HIGH_PRIORITY,
+    V1__MIP,
+    ML__HIGH_PRIORITY,
     ECOSYSTEM_INTELLIGENCE,
-    LEGACY_TERM_USE_APPROVED,
+    LEGACY_TERM__USE_APPROVED,
     CAIS,
     INTERNAL_REFERENCE,
     FACILITATORDAO,
-    ML_MED_PRIORITY,
+    ML___MED_PRIORITY,
     AVC,
     P0_HUB_ENTRY_NEEDED,
     ANON_WORKFORCE,
     NEWCHAIN,
-    ML_SUPPORT_DOCS_NEEDED,
+    ML__SUPPORT_DOCS_NEEDED,
     SUBDAO_REWARDS,
     TWO_STAGE_BRIDGE,
 }
@@ -59,16 +59,15 @@ enum GlobalTag {
 
 
 
-# scope_operations
+# scope
 
 input UpdateScopeInput {
   id: OID!
   name: String
   docNo: String
   content: String
-  masterStatus: [Status]
-  globalTags: [GlobalTag]
-  originalContextData: [PHID]
+  masterStatus: [Status!]!
+  globalTags: [String]
+  originalContextData: [PHID!]!
   provenance: URL
-  notionId: String
 }

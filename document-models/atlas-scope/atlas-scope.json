@@ -1,6 +1,6 @@
 {
     "id": "sky/atlas-scope",
-    "name": "atlas_scope",
+    "name": "AtlasScope",
     "extension": "",
     "description": "",
     "author": {
@@ -13,7 +13,7 @@
             "changeLog": [],
             "state": {
                 "global": {
-                    "schema": "type AtlasScopeState {\n  name: String\n  docNo: String # e.g, A.1\n  content: String\n  masterStatus: [Status!]! # Aggregation: MasterStatus can exist independently of Scope\n  globalTags: [GlobalTag!]!\n\toriginalContextData: [PHID!]!\n\tprovenance: URL # p0Hub backlink\n\tnotionId: String # the same value as the one form the screenshot\n}\n\n\nenum Status {\n  PLACEHOLDER\n  PROVISIONAL # enables ecosystem participants to interact with the material in a practical context, resulting in valuable feedback or other data concerning the Document's appropriateness.\n  APPROVED # material instance can be integrated into the Atlas\n  DEFERRED\n  ARCHIVED\n}\n\nenum GlobalTag {\n    RECURSIVE_IMPROVEMENT,\n    SCOPE_ADVISOR,\n    DAO_TOOLKIT,\n    PURPOSE_SYSTEM,\n    ML_LOW_PRIORITY,\n    EXTERNAL_REFERENCE,\n    ML_DEFER,\n    SUBDAO_INCUBATION,\n    V1_MIP,\n    ML_HIGH_PRIORITY,\n    ECOSYSTEM_INTELLIGENCE,\n    LEGACY_TERM_USE_APPROVED,\n    CAIS,\n    INTERNAL_REFERENCE,\n    FACILITATORDAO,\n    ML_MED_PRIORITY,\n    AVC,\n    P0_HUB_ENTRY_NEEDED,\n    ANON_WORKFORCE,\n    NEWCHAIN,\n    ML_SUPPORT_DOCS_NEEDED,\n    SUBDAO_REWARDS,\n    TWO_STAGE_BRIDGE,\n}\n",
+                    "schema": "type AtlasScopeState {\n  name: String\n  docNo: String # e.g, A.1\n  content: String # change to markdown later (includes links, tables...)\n  masterStatus: [Status!]! # Aggregation: MasterStatus can exist independently of Scope\n  globalTags: [GlobalTag!]!\n\toriginalContextData: [PHID!]!\n\tprovenance: URL # p0Hub backlink\n\tnotionId: String # verify if this can be changed to UUID type\n}\n\n\nenum Status {\n  PLACEHOLDER\n  PROVISIONAL # enables ecosystem participants to interact with the material in a practical context, resulting in valuable feedback or other data concerning the Document's appropriateness.\n  APPROVED # material instance can be integrated into the Atlas\n  DEFERRED\n  ARCHIVED\n}\n\nenum GlobalTag {\n    RECURSIVE_IMPROVEMENT,\n    SCOPE_ADVISOR,\n    DAO_TOOLKIT,\n    PURPOSE_SYSTEM,\n    ML__LOW_PRIORITY,\n    EXTERNAL_REFERENCE,\n    ML__DEFER,\n    SUBDAO_INCUBATION,\n    V1__MIP,\n    ML__HIGH_PRIORITY,\n    ECOSYSTEM_INTELLIGENCE,\n    LEGACY_TERM__USE_APPROVED,\n    CAIS,\n    INTERNAL_REFERENCE,\n    FACILITATORDAO,\n    ML___MED_PRIORITY,\n    AVC,\n    P0_HUB_ENTRY_NEEDED,\n    ANON_WORKFORCE,\n    NEWCHAIN,\n    ML__SUPPORT_DOCS_NEEDED,\n    SUBDAO_REWARDS,\n    TWO_STAGE_BRIDGE,\n}\n",
                     "initialValue": "{\n  \"name\": \"\",\n  \"docNo\": \"\",\n  \"content\": \"\",\n  \"masterStatus\": [],\n  \"globalTags\": [],\n  \"originalContextData\": [],\n  \"provenance\": \"\",\n  \"notionId\": \"\"\n}",
                     "examples": []
                 },
@@ -25,40 +25,18 @@
             },
             "modules": [
                 {
-                    "id": "6W2Bb3DTkCYIlCYNTouABphosng=",
-                    "name": "scope_operations",
+                    "id": "2/eTg/KwCW6D1XeR6YY3A4SX/9g=",
+                    "name": "scope",
                     "description": "",
                     "operations": [
                         {
-                            "id": "KNdTE8ifNV0wVMlCabCT8KJBwIM=",
+                            "id": "AlXgggfgadzPSthUlXryHzVT2QU=",
                             "name": "UPDATE_SCOPE",
-                            "description": "",
-                            "schema": "input UpdateScopeInput {\n  id: OID!\n  name: String\n  docNo: String\n  content: String\n  masterStatus: [Status]\n  globalTags: [GlobalTag]\n  originalContextData: [PHID]\n  provenance: URL\n  notionId: String\n}\n",
+                            "description": "Updates an existing Scope in the ScopeState. Only the fields provided in the input will be updated; all other fields remain unchanged. ",
+                            "schema": "input UpdateScopeInput {\n  id: OID!\n  name: String\n  docNo: String\n  content: String\n  masterStatus: [Status!]!\n  globalTags: [String]\n  originalContextData: [PHID!]!\n  provenance: URL\n}\n",
                             "template": "",
                             "reducer": "",
-                            "errors": [
-                                {
-                                    "id": "3L0Me0n5yXGQIcQr8tI84a9ETvM=",
-                                    "name": "ScopeNotFound",
-                                    "code": "",
-                                    "description": "",
-                                    "template": ""
-                                },
-                                {
-                                    "id": "mUjf3dks6OXQ8ObNq0nWXK1QrV8=",
-                                    "name": "InvalidMasterStatus",
-                                    "code": "",
-                                    "description": "",
-                                    "template": ""
-                                },
-                                {
-                                    "id": "ca8DzZhAyFosNmYLNz1H1aY3HkI=",
-                                    "name": "InvalidOriginalContextDataReferences",
-                                    "code": "",
-                                    "description": "",
-                                    "template": ""
-                                }
-                            ],
+                            "errors": [],
                             "examples": [],
                             "scope": "global"
                         }
