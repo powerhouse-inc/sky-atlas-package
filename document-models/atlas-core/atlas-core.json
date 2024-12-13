@@ -1,0 +1,56 @@
+{
+    "id": "sky/atlas-core",
+    "name": "AtlasCore",
+    "extension": "",
+    "description": "",
+    "author": {
+        "name": "",
+        "website": ""
+    },
+    "specifications": [
+        {
+            "version": 1,
+            "changeLog": [],
+            "state": {
+                "global": {
+                    "schema": "type AtlasCoreState {\n  name: String\n  docNo: String\n  parent: PHID!\n  content: String\n  masterStatus: Status!\n  globalTags: [GlobalTag!]!\n  references: [PHID!]!\n  originalContextData: [PHID!]!\n  provenance: URL\n  notionId: String\n}\n\nenum Status {\n  PLACEHOLDER\n  PROVISIONAL\n  APPROVED\n  DEFERRED\n  ARCHIVED\n}\n\nenum GlobalTag {\n  SCOPE_ADVISOR_\n  AVC_\n  CAIS_\n  ML___LOW_PRIORITY_\n  EXTERNAL_REFERENCE_\n  DAO_TOOLKIT_\n  ML___DEFER_\n  PURPOSE_SYSTEM_\n  NEWCHAIN_\n  ML___SUPPORT_DOCS_NEEDED_\n  TWO_STAGE_BRIDGE_\n  ECOSYSTEM_INTELLIGENCE_\n  RECURSIVE_IMPROVEMENT_\n  LEGACY_TERM___USE_APPROVED_\n}\n",
+                    "initialValue": "{\n  \"name\": \"\",\n  \"docNo\": \"\",\n  \"parent\": \"\",\n  \"content\": \"\",\n  \"masterStatus\": \"PLACEHOLDER\",\n  \"globalTags\": [],\n  \"references\": [],\n  \"originalContextData\": [],\n  \"provenance\": \"\",\n  \"notionId\": \"\"\n}",
+                    "examples": []
+                },
+                "local": {
+                    "schema": "",
+                    "initialValue": "",
+                    "examples": []
+                }
+            },
+            "modules": [
+                {
+                    "id": "s/d2jIEcKy4gdD6rjpV/J3uHvDI=",
+                    "name": "core",
+                    "description": "",
+                    "operations": [
+                        {
+                            "id": "AFOQs65sNdleMZUgUu8V2y0UkrI=",
+                            "name": "UPDATE_CORE",
+                            "description": "Updates an existing CoreDoc in the CoreDocState.",
+                            "schema": "input UpdateCoreInput {\n  name: String\n  content: String\n  masterStatus: [Status!]!\n  globalTags: [String]\n  references: [PHID!]!\n}",
+                            "template": "",
+                            "reducer": "",
+                            "errors": [
+                                {
+                                    "id": "YmNA9tYC68o+4A9/aJXTDhH9yPs=",
+                                    "name": "CoreDocNotFoundException",
+                                    "code": "",
+                                    "description": "",
+                                    "template": ""
+                                }
+                            ],
+                            "examples": [],
+                            "scope": "global"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -10,6 +10,7 @@ scalar OLabel
 scalar Currency
 scalar PHID
 scalar OID
+
 type AtlasScopeState {
   name: String
   docNo: String # e.g, A.1
@@ -20,6 +21,7 @@ type AtlasScopeState {
 	provenance: URL # p0Hub backlink
 	notionId: String # verify if this can be changed to UUID type
 }
+
 
 
 enum Status {
@@ -62,12 +64,9 @@ enum GlobalTag {
 # scope
 
 input UpdateScopeInput {
-  id: OID!
-  name: String
-  docNo: String
-  content: String
   masterStatus: [Status!]!
   globalTags: [String]
-  originalContextData: [PHID!]!
-  provenance: URL
 }
+
+
+
