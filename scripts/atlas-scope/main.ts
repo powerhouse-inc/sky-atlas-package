@@ -9,7 +9,6 @@ import {
     DocumentDriveDocument
 } from 'document-model-libs/document-drive';
 import * as DocumentModelsLibs from 'document-model-libs/document-models';
-// update below import to the correct document model
 import { AtlasScopeDocument, actions as AtlasScopeActions, reducer as AtlasScopeReducer } from '../../document-models/atlas-scope';
 import { ActionSigner, DocumentModel } from "document-model/document";
 import * as LocalDocumentModels from '../../document-models';
@@ -43,16 +42,6 @@ const addFoldersAndDocuments = async (driveServer: IBaseDocumentDriveServer, dri
             name: 'Sky Atlas'
         })
     );
-
-    // Create a new folder for the scopes
-    // drive = reducer(
-    //     drive,
-    //     actions.addFolder({
-    //         id: folderId,
-    //         name: 'Scopes',
-    //         parentFolder: skyAtlasFolderId
-    //     })
-    // );
 
     // // queue last 1 drive operations
     const driveOperations = drive.operations.global.slice(-1);
@@ -116,54 +105,12 @@ const addFoldersAndDocuments = async (driveServer: IBaseDocumentDriveServer, dri
                 notionId: ''
             })
         )
-
-        // const driveOperation = drive.operations.global.slice(-1);
-        // await driveServer.queueDriveOperations(driveName, driveOperation);
         
         const result = await driveServer.queueOperations(driveName, scope.id, document.operations.global.slice(-1));
         const documentResult: AtlasScopeDocument = result.document as AtlasScopeDocument;
         console.log('Adding scope', documentResult.state.global.name);
         await sleep(200)
     }
-
-
-
-    // retrieve new created document
-    // document = (await driveServer.getDocument(
-    //     driveName,
-    //     docId
-    // )) as AtlasScopeDocument;
-
-    // for (let rawTransaction of transactions) {
-
-    //     const transaction: CreateTransactionInput = {
-    //         id: uuid(),
-    //         amount: Number(rawTransaction.amount),
-    //         datetime: rawTransaction.datetime,
-    //         details: {
-    //             crypto: {
-    //                 txHash: rawTransaction.tx_hash,
-    //                 token: "token not defined",
-    //                 blockNumber: rawTransaction.block_number,
-    //             }
-    //         },
-    //         fromAccount: rawTransaction.sender,
-    //         toAccount: rawTransaction.receiver,
-    //         budget: ''
-    //     }
-
-    //     // create transaction
-    //     document = accReducer(
-    //         document,
-    //         accActions.createTransaction(transaction)
-    //     );
-
-    //     // queue new created operations for processing
-    //     const result = await driveServer.queueOperations(driveName, docId, document.operations.global.slice(-1));
-    //     const documentResult: AccountTransactionsDocument = result.document as AccountTransactionsDocument;
-    //     console.log('Adding transaction', documentResult.state.global.transactions);
-    //     // await sleep(500)
-    // }
 
 }
 
