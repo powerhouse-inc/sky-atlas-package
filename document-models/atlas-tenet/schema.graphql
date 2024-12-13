@@ -10,7 +10,7 @@ scalar OLabel
 scalar Currency
 scalar PHID
 scalar OID
-type AtlasCoreState {
+type AtlasTenetState {
   name: String
   docNo: String
   parent: PHID!
@@ -18,11 +18,11 @@ type AtlasCoreState {
   masterStatus: Status!
   globalTags: [GlobalTag!]!
   references: [PHID!]!
-  originalContextData: [PHID!]!
   provenance: URL
   notionId: String
 }
 
+
 enum Status {
   PLACEHOLDER
   PROVISIONAL
@@ -50,38 +50,12 @@ enum GlobalTag {
 
 
 
+# tenet
 
-# core
-
-input UpdateCoreInput {
+input UpdateTenetInput {
   name: String
   content: String
   masterStatus: [Status!]!
-  globalTags: [GlobalTag!]!
+  globalTags: [String]
   references: [PHID!]!
-}
-
-enum Status {
-  PLACEHOLDER
-  PROVISIONAL
-  APPROVED
-  DEFERRED
-  ARCHIVED
-}
-
-enum GlobalTag {
-  SCOPE_ADVISOR_
-  AVC_
-  CAIS_
-  ML___LOW_PRIORITY_
-  EXTERNAL_REFERENCE_
-  DAO_TOOLKIT_
-  ML___DEFER_
-  PURPOSE_SYSTEM_
-  NEWCHAIN_
-  ML___SUPPORT_DOCS_NEEDED_
-  TWO_STAGE_BRIDGE_
-  ECOSYSTEM_INTELLIGENCE_
-  RECURSIVE_IMPROVEMENT_
-  LEGACY_TERM___USE_APPROVED_
 }

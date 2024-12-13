@@ -10,19 +10,24 @@ scalar OLabel
 scalar Currency
 scalar PHID
 scalar OID
-# Articles hold sections and primary docs
-
-type AtlasArticleState {
-  name: String 
-  docNo: String
-  parent: PHID! # parent can only be a scope document
-  content: String # change to markdown later (includes links, tables...)
-  masterStatus: Status!
+type AtlasScenarioState {
+  name: String! # Default value = ""
+  docNo: String! 
+  parent: PHID! # 
+  content: String
+  masterStatus: Status! # 
   globalTags: [GlobalTag!]!
   references: [PHID!]!
-  originalContextData: [PHID!]!
   provenance: URL
   notionId: String # verify if this can be changed to UUID type
+  findings: Finding!
+  additionalGuidance: String
+}
+
+  
+type Finding {
+  isAligned: Boolean! # True if aligned, false if misaligned
+  comment: String # Optional context or explanation about the finding
 }
 
 enum Status {
@@ -30,7 +35,8 @@ enum Status {
   PROVISIONAL # enables ecosystem participants to interact with the material in a practical context, resulting in valuable feedback or other data concerning the Document's appropriateness.
   APPROVED # material instance can be integrated into the Atlas
   DEFERRED
-  ARCHIVED 
+  ARCHIVED
+  
 }
 
 enum GlobalTag {
@@ -53,22 +59,27 @@ enum GlobalTag {
 
 
 
-# article
+# scenario
 
-input UpdateArticleInput {
+input UpdateScenarioInput {
   name: String
+  parent: PHID! 
   content: String
   masterStatus: [Status!]!
   globalTags: [GlobalTag!]!
   references: [PHID!]!
+  findings: UpdateFindingInput # Optional inclusion for modularity
+  additionalGuidance: String
 }
+
 
 enum Status {
   PLACEHOLDER
   PROVISIONAL # enables ecosystem participants to interact with the material in a practical context, resulting in valuable feedback or other data concerning the Document's appropriateness.
   APPROVED # material instance can be integrated into the Atlas
   DEFERRED
-  ARCHIVED 
+  ARCHIVED
+  
 }
 
 enum GlobalTag {
@@ -86,4 +97,10 @@ enum GlobalTag {
     ECOSYSTEM_INTELLIGENCE_,
     RECURSIVE_IMPROVEMENT_,
     LEGACY_TERM___USE_APPROVED_,
+}
+
+
+input UpdateFindingInput {
+  isAligned: Boolean! # True if aligned, false if misaligned
+  comment: String # Optional context or explanation about the finding
 }

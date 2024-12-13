@@ -1,0 +1,100 @@
+scalar Amount_Tokens
+scalar EthereumAddress
+scalar Amount_Percentage
+scalar EmailAddress
+scalar Date
+scalar DateTime
+scalar URL
+scalar Amount_Money
+scalar OLabel
+scalar Currency
+scalar PHID
+scalar OID
+
+type AtlasScenarioVariationState {
+  name: String! 
+  docNo: String! 
+  parent: PHID! # 
+  content: String
+  masterStatus: Status! # 
+  globalTags: [GlobalTag!]!
+  references: [PHID!]!
+  provenance: URL
+  notionId: String # verify if this can be changed to UUID type
+  findings: Finding!
+  additionalGuidance: String
+}
+
+type Finding {
+  isAligned: Boolean! # True if aligned, false if misaligned
+  comment: String # Optional context or explanation about the finding
+}
+  
+enum Status {
+  PLACEHOLDER
+  PROVISIONAL
+  APPROVED 
+  DEFERRED
+  ARCHIVED
+  
+}
+
+enum GlobalTag { 
+SCOPE_ADVISOR
+ECOSYSTEM_INTELLIGENCE
+RECURSIVE_IMPROVEMENT
+PURPOSE_SYSTEM
+AVC
+LEGACY_TERM
+SUBDAO_REWARDS
+FACILITATOR_DAO
+
+}
+
+
+enum Finding {
+ALIGNED
+MISALIGNED
+}
+
+
+
+# scenario_variation
+
+input UpdateScenarioVariationInput {
+  name: String
+  parent: PHID! 
+  content: String
+  masterStatus: Status!
+  globalTags: [GlobalTag!]!
+  references: [PHID!]!
+  findings: UpdateFindingInput # Optional inclusion for modularity
+  additionalGuidance: String
+}
+
+input UpdateFindingInput {
+  isAligned: Boolean! # True if aligned, false if misaligned
+  comment: String # Optional context or explanation about the finding
+}
+
+enum Status {
+  PLACEHOLDER
+  PROVISIONAL
+  APPROVED 
+  DEFERRED
+  ARCHIVED
+  
+}
+
+enum GlobalTag { 
+SCOPE_ADVISOR
+ECOSYSTEM_INTELLIGENCE
+RECURSIVE_IMPROVEMENT
+PURPOSE_SYSTEM
+AVC
+LEGACY_TERM
+SUBDAO_REWARDS
+FACILITATOR_DAO
+
+}
+

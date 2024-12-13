@@ -10,27 +10,25 @@ scalar OLabel
 scalar Currency
 scalar PHID
 scalar OID
-# Articles hold sections and primary docs
+type OriginalContextDataState {
 
-type AtlasArticleState {
-  name: String 
+  name: String
   docNo: String
-  parent: PHID! # parent can only be a scope document
-  content: String # change to markdown later (includes links, tables...)
-  masterStatus: Status!
+  parent: PHID! 
+  content: String
+  masterStatus: Status! # 
   globalTags: [GlobalTag!]!
   references: [PHID!]!
-  originalContextData: [PHID!]!
   provenance: URL
   notionId: String # verify if this can be changed to UUID type
 }
-
 enum Status {
   PLACEHOLDER
   PROVISIONAL # enables ecosystem participants to interact with the material in a practical context, resulting in valuable feedback or other data concerning the Document's appropriateness.
   APPROVED # material instance can be integrated into the Atlas
   DEFERRED
-  ARCHIVED 
+  ARCHIVED
+  
 }
 
 enum GlobalTag {
@@ -52,11 +50,10 @@ enum GlobalTag {
 
 
 
+# context
 
-# article
-
-input UpdateArticleInput {
-  name: String
+input UpdateOriginalContextData {
+ name: String
   content: String
   masterStatus: [Status!]!
   globalTags: [GlobalTag!]!
@@ -68,7 +65,8 @@ enum Status {
   PROVISIONAL # enables ecosystem participants to interact with the material in a practical context, resulting in valuable feedback or other data concerning the Document's appropriateness.
   APPROVED # material instance can be integrated into the Atlas
   DEFERRED
-  ARCHIVED 
+  ARCHIVED
+  
 }
 
 enum GlobalTag {

@@ -1,0 +1,48 @@
+{
+    "id": "sky/atlas-OriginalContextData",
+    "name": "AtlasOriginalContextData",
+    "extension": "",
+    "description": "",
+    "author": {
+        "name": "",
+        "website": ""
+    },
+    "specifications": [
+        {
+            "version": 1,
+            "changeLog": [],
+            "state": {
+                "global": {
+                    "schema": "type OriginalContextDataState {\n\n  name: String\n  docNo: String\n  parent: PHID! \n  content: String\n  masterStatus: Status! # \n  globalTags: [GlobalTag!]!\n  references: [PHID!]!\n  provenance: URL\n  notionId: String # verify if this can be changed to UUID type\n}\nenum Status {\n  PLACEHOLDER\n  PROVISIONAL # enables ecosystem participants to interact with the material in a practical context, resulting in valuable feedback or other data concerning the Document's appropriateness.\n  APPROVED # material instance can be integrated into the Atlas\n  DEFERRED\n  ARCHIVED\n  \n}\n\nenum GlobalTag {\n    SCOPE_ADVISOR_,\n    AVC_,\n    CAIS_,\n    ML___LOW_PRIORITY_,\n    EXTERNAL_REFERENCE_,\n    DAO_TOOLKIT_,\n    ML___DEFER_,\n    PURPOSE_SYSTEM_,\n    NEWCHAIN_,\n    ML___SUPPORT_DOCS_NEEDED_,\n    TWO_STAGE_BRIDGE_,\n    ECOSYSTEM_INTELLIGENCE_,\n    RECURSIVE_IMPROVEMENT_,\n    LEGACY_TERM___USE_APPROVED_,\n}",
+                    "initialValue": "input UpdateOriginalContextData {\n name: String\n  content: String\n  masterStatus: [Status!]!\n  globalTags: [String]\n  references: [PHID!]!\n}\n  ",
+                    "examples": []
+                },
+                "local": {
+                    "schema": "",
+                    "initialValue": "",
+                    "examples": []
+                }
+            },
+            "modules": [
+                {
+                    "id": "Kd5bvSXXJldItEKGTjjM/Rcesw0=",
+                    "name": "context",
+                    "description": "",
+                    "operations": [
+                        {
+                            "id": "yX+sfenAZYBQIuz3HzkGj6v8pVg=",
+                            "name": "UPDATE_CONTEXT",
+                            "description": "",
+                            "schema": "input UpdateOriginalContextData {\n name: String\n  content: String\n  masterStatus: [Status!]!\n  globalTags: [String]\n  references: [PHID!]!\n}",
+                            "template": "",
+                            "reducer": "",
+                            "errors": [],
+                            "examples": [],
+                            "scope": "global"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

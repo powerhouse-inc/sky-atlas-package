@@ -10,19 +10,18 @@ scalar OLabel
 scalar Currency
 scalar PHID
 scalar OID
-# Articles hold sections and primary docs
-
-type AtlasArticleState {
-  name: String 
-  docNo: String
-  parent: PHID! # parent can only be a scope document
-  content: String # change to markdown later (includes links, tables...)
-  masterStatus: Status!
+type AtlasNeededResearchState {
+  name: String! #
+  docNo: String! 
+  parent: PHID! # 
+  content: String
+  masterStatus: Status! # 
   globalTags: [GlobalTag!]!
   references: [PHID!]!
-  originalContextData: [PHID!]!
   provenance: URL
   notionId: String # verify if this can be changed to UUID type
+  drafterCommentary: String
+  aaCommentary: String
 }
 
 enum Status {
@@ -30,11 +29,15 @@ enum Status {
   PROVISIONAL # enables ecosystem participants to interact with the material in a practical context, resulting in valuable feedback or other data concerning the Document's appropriateness.
   APPROVED # material instance can be integrated into the Atlas
   DEFERRED
-  ARCHIVED 
+  ARCHIVED
+  
 }
 
 enum GlobalTag {
     SCOPE_ADVISOR_,
+    RESEARCH_TRACK_, 
+    GOVFAC_SH__COMMENTARY, 
+    GOVSEC_REVIEW_NEEDED, 
     AVC_,
     CAIS_,
     ML___LOW_PRIORITY_,
@@ -52,27 +55,34 @@ enum GlobalTag {
 
 
 
+# reserarch
 
-# article
-
-input UpdateArticleInput {
-  name: String
+input UpdateNeededResearchInput {
+   name: String
+   parent: [PHID!]! # can have multiple parents
   content: String
   masterStatus: [Status!]!
   globalTags: [GlobalTag!]!
   references: [PHID!]!
+  drafterCommentary: String
+  aaCommentary: String
 }
+
 
 enum Status {
   PLACEHOLDER
   PROVISIONAL # enables ecosystem participants to interact with the material in a practical context, resulting in valuable feedback or other data concerning the Document's appropriateness.
   APPROVED # material instance can be integrated into the Atlas
   DEFERRED
-  ARCHIVED 
+  ARCHIVED
+  
 }
 
 enum GlobalTag {
     SCOPE_ADVISOR_,
+    RESEARCH_TRACK_, 
+    GOVFAC_SH__COMMENTARY, 
+    GOVSEC_REVIEW_NEEDED, 
     AVC_,
     CAIS_,
     ML___LOW_PRIORITY_,

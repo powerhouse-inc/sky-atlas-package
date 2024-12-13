@@ -10,19 +10,17 @@ scalar OLabel
 scalar Currency
 scalar PHID
 scalar OID
-
-type AtlasScopeState {
-  name: String
-  docNo: String # e.g, A.1
-  content: String # change to markdown later (includes links, tables...)
-  masterStatus: [Status!]! 
+type AtlasAnnotationState {
+   name: String! # Default value = ""
+  docNo: String! 
+  parent: [PHID!]! # can have multiple parents
+  content: String
+  masterStatus: Status! # 
   globalTags: [GlobalTag!]!
-	originalContextData: [PHID!]!
-	provenance: URL # p0Hub backlink
-	notionId: String # verify if this can be changed to UUID type
+  references: [PHID!]!
+  provenance: URL
+  notionId: String # verify if this can be changed to UUID type
 }
-
-
 
 enum Status {
   PLACEHOLDER
@@ -30,42 +28,38 @@ enum Status {
   APPROVED # material instance can be integrated into the Atlas
   DEFERRED
   ARCHIVED
+  
 }
 
 enum GlobalTag {
-    RECURSIVE_IMPROVEMENT,
-    SCOPE_ADVISOR,
-    DAO_TOOLKIT,
-    PURPOSE_SYSTEM,
-    ML__LOW_PRIORITY,
-    EXTERNAL_REFERENCE,
-    ML__DEFER,
-    SUBDAO_INCUBATION,
-    V1__MIP,
-    ML__HIGH_PRIORITY,
-    ECOSYSTEM_INTELLIGENCE,
-    LEGACY_TERM__USE_APPROVED,
-    CAIS,
-    INTERNAL_REFERENCE,
-    FACILITATORDAO,
-    ML___MED_PRIORITY,
-    AVC,
-    P0_HUB_ENTRY_NEEDED,
-    ANON_WORKFORCE,
-    NEWCHAIN,
-    ML__SUPPORT_DOCS_NEEDED,
-    SUBDAO_REWARDS,
-    TWO_STAGE_BRIDGE,
+    SCOPE_ADVISOR_,
+    AVC_,
+    CAIS_,
+    ML___LOW_PRIORITY_,
+    EXTERNAL_REFERENCE_,
+    DAO_TOOLKIT_,
+    ML___DEFER_,
+    PURPOSE_SYSTEM_,
+    NEWCHAIN_,
+    ML___SUPPORT_DOCS_NEEDED_,
+    TWO_STAGE_BRIDGE_,
+    ECOSYSTEM_INTELLIGENCE_,
+    RECURSIVE_IMPROVEMENT_,
+    LEGACY_TERM___USE_APPROVED_,
 }
 
 
 
 
-# scope
+# annotation
 
-input UpdateScopeInput {
+input UpdateAnnotationInput {
+  name: String
+   parent: [PHID!]! # can have multiple parents
+  content: String
   masterStatus: [Status!]!
   globalTags: [GlobalTag!]!
+  references: [PHID!]!
 }
 
 enum Status {
@@ -101,6 +95,3 @@ enum GlobalTag {
     SUBDAO_REWARDS,
     TWO_STAGE_BRIDGE,
 }
-
-
-
