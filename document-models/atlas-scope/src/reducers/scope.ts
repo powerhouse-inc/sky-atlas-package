@@ -8,7 +8,19 @@ import { AtlasScopeScopeOperations } from "../../gen/scope/operations";
 
 export const reducer: AtlasScopeScopeOperations = {
   updateScopeOperation(state, action, dispatch) {
-    // TODO: Implement "updateScopeOperation" reducer
-    throw new Error('Reducer "updateScopeOperation" not yet implemented');
+    const masterStatus = [...action.input.masterStatus]
+    const globalTags = [...action.input.globalTags]
+    const originalContextData = [...action.input.originalContextData]
+
+    state = {
+      name: action.input.name || '',
+      docNo: action.input.docNo || '',
+      content: action.input.content || '',
+      masterStatus: masterStatus,
+      globalTags: globalTags,
+      originalContextData: originalContextData,
+      provenance: action.input.provenance || '',
+      notionId: action.input.notionId || '',
+    };
   },
 };
