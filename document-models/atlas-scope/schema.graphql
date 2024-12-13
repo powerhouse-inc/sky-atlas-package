@@ -14,7 +14,7 @@ type AtlasScopeState {
   name: String
   docNo: String # e.g, A.1
   content: String # change to markdown later (includes links, tables...)
-  masterStatus: [Status!]! 
+  masterStatus: [Status!]! # Aggregation: MasterStatus can exist independently of Scope
   globalTags: [GlobalTag!]!
 	originalContextData: [PHID!]!
 	provenance: URL # p0Hub backlink
