@@ -64,8 +64,14 @@ enum GlobalTag {
 # scope
 
 input UpdateScopeInput {
-  masterStatus: [Status!]!
-  globalTags: [String]
+  name: String
+  docNo: String # e.g, A.1
+  content: String # change to markdown later (includes links, tables...)
+  masterStatus: [Status!]! # Aggregation: MasterStatus can exist independently of Scope
+  globalTags: [GlobalTag!]!
+	originalContextData: [PHID!]!
+	provenance: URL # p0Hub backlink
+	notionId: String # verify if this can be changed to UUID type
 }
 
 
