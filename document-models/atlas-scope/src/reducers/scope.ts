@@ -12,15 +12,14 @@ export const reducer: AtlasScopeScopeOperations = {
     const globalTags = [...action.input.globalTags]
     const originalContextData = [...action.input.originalContextData]
 
-    state = {
-      name: action.input.name || '',
-      docNo: action.input.docNo || '',
-      content: action.input.content || '',
-      masterStatus: masterStatus,
-      globalTags: globalTags,
-      originalContextData: originalContextData,
-      provenance: action.input.provenance || '',
-      notionId: action.input.notionId || '',
-    };
-  },
+    state.name = action.input.name || ''
+    state.docNo = action.input.docNo || ''
+    state.content = action.input.content || ''
+    state.masterStatus = masterStatus
+    state.globalTags = globalTags
+    state.originalContextData = originalContextData
+    state.provenance = action.input.provenance || ''
+    state.notionId = action.input.notionId || ''
+
+  }
 };

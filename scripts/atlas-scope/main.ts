@@ -10,12 +10,13 @@ import {
 } from 'document-model-libs/document-drive';
 import * as DocumentModelsLibs from 'document-model-libs/document-models';
 // update below import to the correct document model
-// import { AccountTransactionsDocument, actions as accActions, reducer as accReducer, CreateTransactionInput } from '../../document-models/account-transactions';
+import { AtlasScopeDocument, actions as AtlasScopeActions, reducer as AtlasScopeReducer } from '../../document-models/atlas-scope';
 import { ActionSigner, DocumentModel } from "document-model/document";
 import * as LocalDocumentModels from '../../document-models';
 import { v4 as uuid } from "uuid";
 import dotenv from "dotenv";
 import jsonScopes from './scope.json';
+import jsonMasterStatus from './masterStatus.json';
 
 dotenv.config();
 
@@ -28,76 +29,141 @@ dotenv.config();
 const addFoldersAndDocuments = async (driveServer: IBaseDocumentDriveServer, driveName: string) => {
     let docId = uuid()
     let folderId = uuid();
+    let skyAtlasFolderId = uuid();
     let drive = await driveServer.getDrive(driveName);
-    let document: AccountTransactionsDocument;
+    let document: AtlasScopeDocument;
 
-    // Getting transactions from json
-    const transactions = jsonTransactions.results;
+    // Getting scopes from json
+    const scopes = jsonScopes as Record<string, any>;
 
-    // Create a new folder for the account transactions
     drive = reducer(
         drive,
         actions.addFolder({
-            id: folderId,
-            name: 'Account Transactions'
+            id: skyAtlasFolderId,
+            name: 'Sky Atlas'
         })
     );
 
-    // Create one document to house all transactions
-    drive = reducer(
-        drive,
-        DocumentDriveUtils.generateAddNodeAction(
-            drive.state.global,
-            {
-                id: docId,
-                name: 'Transactions',
-                documentType: 'powerhouse/account-transactions',
-                parentFolder: folderId,
-            },
-            ['global', 'local']
-        )
-    );
+    // Create a new folder for the scopes
+    // drive = reducer(
+    //     drive,
+    //     actions.addFolder({
+    //         id: folderId,
+    //         name: 'Scopes',
+    //         parentFolder: skyAtlasFolderId
+    //     })
+    // );
 
-    // queue last 1 drive operations
-    const driveOperations = drive.operations.global.slice(-2);
+    // // queue last 1 drive operations
+    const driveOperations = drive.operations.global.slice(-1);
     await driveServer.queueDriveOperations(driveName, driveOperations);
+    // await sleep(100)
 
-    // retrieve new created document
-    document = (await driveServer.getDocument(
-        driveName,
-        docId
-    )) as AccountTransactionsDocument;
 
-    for (let rawTransaction of transactions) {
+    // Run through each scope and create a folder and a document for each
+    for (const key in scopes) {
+        const scope = scopes[key];
 
-        const transaction: CreateTransactionInput = {
-            id: uuid(),
-            amount: Number(rawTransaction.amount),
-            datetime: rawTransaction.datetime,
-            details: {
-                crypto: {
-                    txHash: rawTransaction.tx_hash,
-                    token: "token not defined",
-                    blockNumber: rawTransaction.block_number,
-                }
-            },
-            fromAccount: rawTransaction.sender,
-            toAccount: rawTransaction.receiver,
-            budget: ''
-        }
-
-        // create transaction
-        document = accReducer(
-            document,
-            accActions.createTransaction(transaction)
+        drive = reducer(
+            drive,
+            actions.addFolder({
+                id: scope.id + 'folder',
+                name: `${scope.docNoString} ${scope.nameString}`,
+                parentFolder: skyAtlasFolderId
+            }),
         );
 
-        // queue new created operations for processing
-        const result = await driveServer.queueOperations(driveName, docId, document.operations.global.slice(-1));
-        const documentResult: AccountTransactionsDocument = result.document as AccountTransactionsDocument;
-        console.log('Adding transaction', documentResult.state.global.transactions);
-        // await sleep(500)
+        const driveOperation1 = drive.operations.global.slice(-1);
+        await driveServer.queueDriveOperations(driveName, driveOperation1);
+        // await sleep(100)
+
+        drive = reducer(
+            drive,
+            DocumentDriveUtils.generateAddNodeAction(
+                drive.state.global,
+                {
+                    id: scope.id,
+                    name: `${scope.docNoString} ${scope.nameString}`,
+                    documentType: 'sky/atlas-scope',
+                    parentFolder: scope.id + 'folder',
+                },
+                ['global', 'local']
+            )
+        );
+
+
+        const driveOperation = drive.operations.global.slice(-1);
+        await driveServer.queueDriveOperations(driveName, driveOperation);
+        // await sleep(100)
     }
+
+    // retrive newly created documents by using the scopes id as document id
+    for (const key in scopes) {
+        const scope = scopes[key];
+        document = await driveServer.getDocument(driveName, scope.id) as AtlasScopeDocument;
+
+        // pupulate document with scope data
+        document = AtlasScopeReducer(
+            document,
+            AtlasScopeActions.updateScope({
+                name: scope.nameString,
+                docNo: scope.docNoString,
+                content: scope.content[0].plain_text,
+                masterStatus: scope.masterStatus.map((s: any) => getMasterStatus(s.id)).flat(),
+                globalTags: ['CAIS'],
+                originalContextData: ['somePHID'],
+                provenance: '',
+                notionId: ''
+            })
+        )
+
+        // const driveOperation = drive.operations.global.slice(-1);
+        // await driveServer.queueDriveOperations(driveName, driveOperation);
+        
+        const result = await driveServer.queueOperations(driveName, scope.id, document.operations.global.slice(-1));
+        const documentResult: AtlasScopeDocument = result.document as AtlasScopeDocument;
+        console.log('Adding scope', documentResult.state.global.name);
+        await sleep(200)
+    }
+
+
+
+    // retrieve new created document
+    // document = (await driveServer.getDocument(
+    //     driveName,
+    //     docId
+    // )) as AtlasScopeDocument;
+
+    // for (let rawTransaction of transactions) {
+
+    //     const transaction: CreateTransactionInput = {
+    //         id: uuid(),
+    //         amount: Number(rawTransaction.amount),
+    //         datetime: rawTransaction.datetime,
+    //         details: {
+    //             crypto: {
+    //                 txHash: rawTransaction.tx_hash,
+    //                 token: "token not defined",
+    //                 blockNumber: rawTransaction.block_number,
+    //             }
+    //         },
+    //         fromAccount: rawTransaction.sender,
+    //         toAccount: rawTransaction.receiver,
+    //         budget: ''
+    //     }
+
+    //     // create transaction
+    //     document = accReducer(
+    //         document,
+    //         accActions.createTransaction(transaction)
+    //     );
+
+    //     // queue new created operations for processing
+    //     const result = await driveServer.queueOperations(driveName, docId, document.operations.global.slice(-1));
+    //     const documentResult: AccountTransactionsDocument = result.document as AccountTransactionsDocument;
+    //     console.log('Adding transaction', documentResult.state.global.transactions);
+    //     // await sleep(500)
+    // }
 
 }
 
@@ -175,6 +241,15 @@ async function main() {
 
     })
 
+}
+
+const getMasterStatus = (searchKey: string) => {
+    const masterStatus = jsonMasterStatus as Record<string, any>;
+    const statusObject = masterStatus[searchKey];
+    if (!statusObject) {
+        throw new Error(`Master status not found for key: ${searchKey}`);
+    }
+    return statusObject.nameString.toUpperCase();
 }
 
 
