@@ -40,6 +40,7 @@
     "test": "vitest run",
     "test:nogen": "vitest run",
     "test:watch": "vitest",
+    "test:scope": "npm run generate && vitest run document-models/atlas-scope/src/tests/scope.test.ts",
     "prepublishOnly": "npm run build",
     "connect": "connect --config-file ./powerhouse.config.json",
     "install:storybook": "tsx scripts/index.ts"

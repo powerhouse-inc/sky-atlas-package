@@ -7,43 +7,43 @@ import { generateMock } from "@powerhousedao/codegen";
 import { utils as documentModelUtils } from "document-model/document";
 
 import utils from "../../gen/utils";
-import { z, UpdateScopeInput, PopulateScopeInput } from "../../gen/schema";
+import { z, UpdateGroundInput, PopulateGroundInput } from "../../gen/schema";
 import { reducer } from "../../gen/reducer";
-import * as creators from "../../gen/scope/creators";
-import { AtlasScopeDocument } from "../../gen/types";
+import * as creators from "../../gen/tenet/creators";
+import { AtlasGroundDocument } from "../../gen/types";
 
-describe("Scope Operations", () => {
-  let document: AtlasScopeDocument;
+describe("Tenet Operations", () => {
+  let document: AtlasGroundDocument;
 
   beforeEach(() => {
     document = utils.createDocument();
   });
 
-  it("should handle updateScope operation", () => {
+  it("should handle updateGround operation", () => {
     // generate a random id
     // const id = documentModelUtils.hashKey();
 
-    const input: UpdateScopeInput = generateMock(z.UpdateScopeInputSchema());
+    const input: UpdateGroundInput = generateMock(z.UpdateGroundInputSchema());
 
-    const updatedDocument = reducer(document, creators.updateScope(input));
+    const updatedDocument = reducer(document, creators.updateGround(input));
 
     expect(updatedDocument.operations.global).toHaveLength(1);
-    expect(updatedDocument.operations.global[0].type).toBe("UPDATE_SCOPE");
+    expect(updatedDocument.operations.global[0].type).toBe("UPDATE_GROUND");
     expect(updatedDocument.operations.global[0].input).toStrictEqual(input);
     expect(updatedDocument.operations.global[0].index).toEqual(0);
   });
-  it("should handle populateScope operation", () => {
+  it("should handle populateGround operation", () => {
     // generate a random id
     // const id = documentModelUtils.hashKey();
 
-    const input: PopulateScopeInput = generateMock(
-      z.PopulateScopeInputSchema(),
+    const input: PopulateGroundInput = generateMock(
+      z.PopulateGroundInputSchema(),
     );
 
-    const updatedDocument = reducer(document, creators.populateScope(input));
+    const updatedDocument = reducer(document, creators.populateGround(input));
 
     expect(updatedDocument.operations.global).toHaveLength(1);
-    expect(updatedDocument.operations.global[0].type).toBe("POPULATE_SCOPE");
+    expect(updatedDocument.operations.global[0].type).toBe("POPULATE_GROUND");
     expect(updatedDocument.operations.global[0].input).toStrictEqual(input);
     expect(updatedDocument.operations.global[0].index).toEqual(0);
   });

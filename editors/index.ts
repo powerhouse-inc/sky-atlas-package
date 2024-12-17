@@ -1,12 +1,10 @@
-export { module as AtlasScope } from "./atlas-scope";
-export { module as AtlasArticle } from "./atlas-article";
-export { module as Section } from "./section";
-export { module as Core } from "./core";
-export { module as Controller } from "./controller";
-export { module as AtlasTenet } from "./atlas-tenet";
-export { module as AtlasContext } from "./atlas-context";
-export { module as AtlasActiveData } from "./atlas-active-data";
-export { module as AtlasAnnotation } from "./atlas-annotation";
-export { module as AtlasNeededResearch } from "./atlas-needed-research";
-export { module as AtlasScenario } from "./atlas-scenario";
-export { module as AtlasScenarioVariation } from "./atlas-scenario-variation";
+/**
+ * This is a scaffold file meant for customization.
+ * Delete the file and run the code generator again to have it reset
+ */
+
+export { module as AtlasMultiParentPhdmZip } from "./atlas-multi-parent-phdm-zip";
+export { module as AtlasExploratoryPhdmZip } from "./atlas-exploratory-phdm-zip";
+export { module as AtlasFoundationPhdmZip } from "./atlas-foundation-phdm-zip";
+export { module as AtlasGroundPhdmZip } from "./atlas-ground-phdm-zip";
+export { module as AtlasScopePhdmZip } from "./atlas-scope-phdm-zip";
