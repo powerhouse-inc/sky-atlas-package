@@ -1,0 +1,150 @@
+scalar Amount_Tokens
+scalar EthereumAddress
+scalar Amount_Percentage
+scalar EmailAddress
+scalar Date
+scalar DateTime
+scalar URL
+scalar Amount_Money
+scalar OLabel
+scalar Currency
+scalar PHID
+scalar OID
+type AtlasFoundationState {
+  name: String
+  docNo: String
+  parent: PHID!
+  atlasType: AtlasType! 
+  content: String
+  masterStatus: Status!
+  globalTags: [GlobalTag!]!
+  references: [PHID!]!
+  originalContextData: [PHID!]!
+  provenance: URL
+  notionId: String
+}
+
+enum AtlasType {
+ARTICLE
+SECTION
+CORE
+ACTIVE_DATA_CONTROLLER
+}
+
+enum Status {
+  PLACEHOLDER
+  PROVISIONAL
+  APPROVED
+  DEFERRED
+  ARCHIVED
+}
+
+enum GlobalTag {
+  SCOPE_ADVISOR_
+  AVC_
+  CAIS_
+  ML_LOW_PRIORITY_
+  EXTERNAL_REFERENCE_
+  DAO_TOOLKIT_
+  ML_DEFER_
+  PURPOSE_SYSTEM_
+  NEWCHAIN_
+  ML_SUPPORT_DOCS_NEEDED_
+  TWO_STAGE_BRIDGE_
+  ECOSYSTEM_INTELLIGENCE_
+  RECURSIVE_IMPROVEMENT_
+  LEGACY_TERM_USE_APPROVED_
+}
+
+
+
+# article
+
+input UpdateFoundationInput {
+  name: String
+  atlasType: AtlasType!
+  content: String
+  masterStatus: [Status!]
+  globalTags: [GlobalTag!]
+  references: [PHID!]
+}
+
+
+enum AtlasType {
+ARTICLE
+SECTION
+CORE
+ACTIVE_DATA_CONTROLLER
+}
+
+enum Status {
+  PLACEHOLDER
+  PROVISIONAL
+  APPROVED
+  DEFERRED
+  ARCHIVED
+}
+
+enum GlobalTag {
+  SCOPE_ADVISOR_
+  AVC_
+  CAIS_
+  ML_LOW_PRIORITY_
+  EXTERNAL_REFERENCE_
+  DAO_TOOLKIT_
+  ML_DEFER_
+  PURPOSE_SYSTEM_
+  NEWCHAIN_
+  ML_SUPPORT_DOCS_NEEDED_
+  TWO_STAGE_BRIDGE_
+  ECOSYSTEM_INTELLIGENCE_
+  RECURSIVE_IMPROVEMENT_
+  LEGACY_TERM_USE_APPROVED_
+}
+
+input PopulateFoundationInput {
+  name: String
+  docNo: String
+  parent: PHID!
+  atlasType: AtlasType! 
+  content: String
+  masterStatus: Status!
+  globalTags: [GlobalTag!]
+  references: [PHID!]
+  originalContextData: [PHID!]
+  provenance: URL
+  notionId: String
+}
+
+enum AtlasType {
+ARTICLE
+SECTION
+CORE
+ACTIVE_DATA_CONTROLLER
+}
+
+
+enum Status {
+  PLACEHOLDER
+  PROVISIONAL
+  APPROVED
+  DEFERRED
+  ARCHIVED
+}
+
+enum GlobalTag {
+  SCOPE_ADVISOR_
+  AVC_
+  CAIS_
+  ML_LOW_PRIORITY_
+  EXTERNAL_REFERENCE_
+  DAO_TOOLKIT_
+  ML_DEFER_
+  PURPOSE_SYSTEM_
+  NEWCHAIN_
+  ML_SUPPORT_DOCS_NEEDED_
+  TWO_STAGE_BRIDGE_
+  ECOSYSTEM_INTELLIGENCE_
+  RECURSIVE_IMPROVEMENT_
+  LEGACY_TERM_USE_APPROVED_
+}
