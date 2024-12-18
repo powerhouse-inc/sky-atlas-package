@@ -1,14 +1,4 @@
 export { module as AtlasScope } from "./atlas-scope";
-export { module as AtlasArticle } from "./atlas-article";
-export { module as AtlasSection } from "./atlas-section";
-export { module as AtlasCore } from "./atlas-core";
-export { module as Controller } from "./controller";
-export { module as AtlasTenet } from "./atlas-tenet";
-export { module as AtlasOriginalContextData } from "./atlas-original-context-data";
-export { module as AtlasActiveData } from "./atlas-active-data";
-export { module as AtlasAnnotation } from "./atlas-annotation";
-export { module as AtlasNeededResearch } from "./atlas-needed-research";
-export { module as AtlasScenario } from "./atlas-scenario";
 export { module as AtlasExploratory } from "./atlas-exploratory";
 export { module as AtlasFoundation } from "./atlas-foundation";
 export { module as AtlasGround } from "./atlas-ground";

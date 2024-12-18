@@ -1,0 +1,261 @@
+{
+  "818e4cc2-8186-4e98-ad18-77c362384880": {
+    "id": "818e4cc2-8186-4e98-ad18-77c362384880",
+    "hub": [],
+    "type": "scenarioVariation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Alternating between two roles in separate time intervals - var. 1",
+          "link": null
+        },
+        "plain_text": "Alternating between two roles in separate time intervals - var. 1",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Alternating between two roles in separate time intervals - var. 1",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "heading": "description",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Entity occupied the role of an unranked Aligned Delegate. Entity then applied for, and secured, the role of a Facilitator. Entity actively occupied these two roles, but alternated between them in separate time intervals.",
+              "link": null
+            },
+            "plain_text": "Entity occupied the role of an unranked Aligned Delegate. Entity then applied for, and secured, the role of a Facilitator. Entity actively occupied these two roles, but alternated between them in separate time intervals.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "heading": "finding",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Misaligned",
+              "link": null
+            },
+            "plain_text": "Misaligned",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "heading": "guidance",
+        "text": []
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "fe75a64f-585b-4d08-af00-ef8667d9c307"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "1b6cf960-aeb7-4892-94c4-81c21366595a": {
+    "id": "1b6cf960-aeb7-4892-94c4-81c21366595a",
+    "hub": [],
+    "type": "scenarioVariation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "On-call or standby role - var. 1",
+          "link": null
+        },
+        "plain_text": "On-call or standby role - var. 1",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "On-call or standby role - var. 1",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "heading": "description",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Entity was an Aligned Delegate. Entity then secured a second role with an Ecosystem Actor providing Executive spell crafting services, specifically as an \"on call\" dev. Entity claims it has never been on active duty in the second role; rather, they have only ever been on \"standby\" in that role. Thus, Entity argued it did not violate the Target Document despite holding two ecosystem roles. During its investigation, the Facilitator discovered evidence that, despite the EA having a general policy that \"on call\" devs are paid only a nominal fee for the bounded time periods they are on call, Entity had been receiving an inordinately large compensation from the EA. When the Facilitator pressed both the EA and Entity for an explanation, none was given.",
+              "link": null
+            },
+            "plain_text": "Entity was an Aligned Delegate. Entity then secured a second role with an Ecosystem Actor providing Executive spell crafting services, specifically as an \"on call\" dev. Entity claims it has never been on active duty in the second role; rather, they have only ever been on \"standby\" in that role. Thus, Entity argued it did not violate the Target Document despite holding two ecosystem roles. During its investigation, the Facilitator discovered evidence that, despite the EA having a general policy that \"on call\" devs are paid only a nominal fee for the bounded time periods they are on call, Entity had been receiving an inordinately large compensation from the EA. When the Facilitator pressed both the EA and Entity for an explanation, none was given.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "heading": "finding",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Misaligned as to Entity.",
+              "link": null
+            },
+            "plain_text": "Misaligned as to Entity.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "heading": "guidance",
+        "text": []
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": [
+        {
+          "id": "454029f0-5d93-4525-b85d-ff77830ff564"
+        },
+        {
+          "id": "40e72d41-2384-40db-9624-e2f2357dd4e7"
+        }
+      ]
+    },
+    "children": []
+  },
+  "9df22647-b3da-413e-9b85-30634728f417": {
+    "id": "9df22647-b3da-413e-9b85-30634728f417",
+    "hub": [],
+    "type": "scenarioVariation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Resignation notice not received - var. 1",
+          "link": null
+        },
+        "plain_text": "Resignation notice not received - var. 1",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Resignation notice not received - var. 1",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "heading": "description",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Entity was a part-time team member of a Governance Facilitator. Entity then transitioned into the role of an AD. The Facilitator did not receive any resignation notice from Entity and continued to list Entity as an active team member on the Facilitator team. During the Governance Facilitor's investigation, Entity claimed it had sent the Facilitator a resignation email, but could not provide actual proof of this. The Governance Facilitator also discovered that Entity still had permissions to the Facilitator team workspace. The team's Discord contained casual, non-work related interactions between Entity and the Facilitator team members even after the date Entity became a formally recognized AD.",
+              "link": null
+            },
+            "plain_text": "Entity was a part-time team member of a Governance Facilitator. Entity then transitioned into the role of an AD. The Facilitator did not receive any resignation notice from Entity and continued to list Entity as an active team member on the Facilitator team. During the Governance Facilitor's investigation, Entity claimed it had sent the Facilitator a resignation email, but could not provide actual proof of this. The Governance Facilitator also discovered that Entity still had permissions to the Facilitator team workspace. The team's Discord contained casual, non-work related interactions between Entity and the Facilitator team members even after the date Entity became a formally recognized AD.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "heading": "finding",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Misaligned",
+              "link": null
+            },
+            "plain_text": "Misaligned",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "heading": "guidance",
+        "text": []
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  }
+}

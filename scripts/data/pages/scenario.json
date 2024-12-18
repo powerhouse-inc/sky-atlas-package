@@ -1,0 +1,827 @@
+{
+  "115f2ff0-8d73-80b8-9c2e-c68a25fe03d6": {
+    "id": "115f2ff0-8d73-80b8-9c2e-c68a25fe03d6",
+    "hub": [],
+    "type": "scenario",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Prime Delegate Triggers Proposal And Loses Prime Delegate Rank Immediately Thereafter",
+          "link": null
+        },
+        "plain_text": "Prime Delegate Triggers Proposal And Loses Prime Delegate Rank Immediately Thereafter",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Prime Delegate Triggers Proposal And Loses Prime Delegate Rank Immediately Thereafter",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "heading": "description",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Entity is a Prime Delegate with at least one (1) month’s worth of budget in their AD Buffer. Entity triggers a Weekly Cycle Proposal. Immediately thereafter, Entity loses their Prime Delegate rank. The Governance Facilitators continue to prepare a Governance Poll for the Proposal.",
+              "link": null
+            },
+            "plain_text": "Entity is a Prime Delegate with at least one (1) month’s worth of budget in their AD Buffer. Entity triggers a Weekly Cycle Proposal. Immediately thereafter, Entity loses their Prime Delegate rank. The Governance Facilitators continue to prepare a Governance Poll for the Proposal.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "heading": "finding",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Aligned as to Entity. Aligned as to the Governance Facilitators.",
+              "link": null
+            },
+            "plain_text": "Aligned as to Entity. Aligned as to the Governance Facilitators.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "heading": "additionalGuidance",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The fact that Entity lost their Prime Delegate rank after triggering the Proposal is inconsequential. Entity satisfied the requirement of being a Prime Delegate with at least one (1) month’s worth of budget in their AD Buffer at the time of triggering the Proposal, and thus the Proposal was properly triggered. The Governance Facilitators acted correctly to prepare a Governance Poll for the Proposal in accord with the process definition for the Atlas Edit Weekly Cycle.",
+              "link": null
+            },
+            "plain_text": "The fact that Entity lost their Prime Delegate rank after triggering the Proposal is inconsequential. Entity satisfied the requirement of being a Prime Delegate with at least one (1) month’s worth of budget in their AD Buffer at the time of triggering the Proposal, and thus the Proposal was properly triggered. The Governance Facilitators acted correctly to prepare a Governance Poll for the Proposal in accord with the process definition for the Atlas Edit Weekly Cycle.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "fe75a64f-585b-4d08-af00-ef8667d9c307"
+      }
+    ],
+    "children": [],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    }
+  },
+  "115f2ff0-8d73-807d-a7aa-cf4bb69aa459": {
+    "id": "115f2ff0-8d73-807d-a7aa-cf4bb69aa459",
+    "hub": [],
+    "type": "scenario",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Delay In Payment To Prime Delegate Triggering Proposal",
+          "link": null
+        },
+        "plain_text": "Delay In Payment To Prime Delegate Triggering Proposal",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Delay In Payment To Prime Delegate Triggering Proposal",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "heading": "description",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Entity is a Prime Delegate with one (1) month’s worth of budget in their AD Buffer. Entity triggers a Weekly Cycle Proposal. Immediately thereafter, Entity loses their Prime Delegate rank. Three days later, before the Proposal has been voted on, the Governance Facilitators distribute compensation to other Aligned Delegates but do not distribute compensation to Entity.",
+              "link": null
+            },
+            "plain_text": "Entity is a Prime Delegate with one (1) month’s worth of budget in their AD Buffer. Entity triggers a Weekly Cycle Proposal. Immediately thereafter, Entity loses their Prime Delegate rank. Three days later, before the Proposal has been voted on, the Governance Facilitators distribute compensation to other Aligned Delegates but do not distribute compensation to Entity.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "heading": "finding",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Aligned",
+              "link": null
+            },
+            "plain_text": "Aligned",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "heading": "additionalGuidance",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Paying out the AD Buffer would have led to Entity’s AD Buffer dropping below the required threshold of one (1) month’s worth of budget while the Proposal was still unresolved. In this Scenario, the triggering AD cannot receive payout from the AD Buffer until the triggered Proposal is voted on and approved by Sky Governance. Assuming that the Proposal is approved, the Governance Facilitators are authorized to disburse the entire contents of the AD Buffer to the triggering AD in the next AD compensation cycle. However, if the Proposal is rejected by the Governance Facilitators for misalignment or voted down by Sky Governance, the triggering AD would lose their entire AD Buffer.",
+              "link": null
+            },
+            "plain_text": "Paying out the AD Buffer would have led to Entity’s AD Buffer dropping below the required threshold of one (1) month’s worth of budget while the Proposal was still unresolved. In this Scenario, the triggering AD cannot receive payout from the AD Buffer until the triggered Proposal is voted on and approved by Sky Governance. Assuming that the Proposal is approved, the Governance Facilitators are authorized to disburse the entire contents of the AD Buffer to the triggering AD in the next AD compensation cycle. However, if the Proposal is rejected by the Governance Facilitators for misalignment or voted down by Sky Governance, the triggering AD would lose their entire AD Buffer.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "fe75a64f-585b-4d08-af00-ef8667d9c307"
+      }
+    ],
+    "children": [],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    }
+  },
+  "78df7b11-dc1e-497f-ac36-5584e470a1f4": {
+    "id": "78df7b11-dc1e-497f-ac36-5584e470a1f4",
+    "hub": [],
+    "type": "scenario",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "On-call or stand-by role",
+          "link": null
+        },
+        "plain_text": "On-call or stand-by role",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "On-call or stand-by role",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "heading": "description",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Entity was an Aligned Delegate. Entity then secured a second role with an Ecosystem Actor providing Executive spell crafting services, specifically as an \"on call\" dev. Entity claims it has never been on active duty in the second role; rather, they have only ever been on \"standby\" in that role. Thus, Entity argued it did not violate the Target Document despite holding two ecosystem roles.",
+              "link": null
+            },
+            "plain_text": "Entity was an Aligned Delegate. Entity then secured a second role with an Ecosystem Actor providing Executive spell crafting services, specifically as an \"on call\" dev. Entity claims it has never been on active duty in the second role; rather, they have only ever been on \"standby\" in that role. Thus, Entity argued it did not violate the Target Document despite holding two ecosystem roles.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "heading": "finding",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Misaligned",
+              "link": null
+            },
+            "plain_text": "Misaligned",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "heading": "additionalGuidance",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If an actor assumes more than one role in the Sky ecosystem, the risks of conflict of interest, collusion, conspiracy and other misaligned behavior necessarily arises. That the Entity's second position is in an \"on-call\" or stand-by position does not negate this risk. Entity is still formally occupying two roles with different mandates, incentives and access/permissions. It is conceivable that Entity's decisionmaking in their first role could be compromised or influenced, even in subtle ways, by the experiences, knowledge and biases to which Entity is exposed in their second role. Therefore, the risk of misalignment, which the Target Document aims to guard against, remains present.\n\nThe Facilitator should derecognize Entity as an AD per ",
+              "link": null
+            },
+            "plain_text": "If an actor assumes more than one role in the Sky ecosystem, the risks of conflict of interest, collusion, conspiracy and other misaligned behavior necessarily arises. That the Entity's second position is in an \"on-call\" or stand-by position does not negate this risk. Entity is still formally occupying two roles with different mandates, incentives and access/permissions. It is conceivable that Entity's decisionmaking in their first role could be compromised or influenced, even in subtle ways, by the experiences, knowledge and biases to which Entity is exposed in their second role. Therefore, the risk of misalignment, which the Target Document aims to guard against, remains present.\n\nThe Facilitator should derecognize Entity as an AD per ",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "mention",
+            "plain_text": "A.1.4 - Alignment Conservers - Accountability And Misalignment Handling - AC Derecognition",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "fac5b89b-fb80-4e02-9809-5e502f5db0b3"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".\n\nNo specific logic exists as yet for the adjudication of misalignment on the part of an Ecosystem Actor team member.",
+              "link": null
+            },
+            "plain_text": ".\n\nNo specific logic exists as yet for the adjudication of misalignment on the part of an Ecosystem Actor team member.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "children": [
+      {
+        "id": "1b6cf960-aeb7-4892-94c4-81c21366595a"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": [
+        {
+          "id": "40e72d41-2384-40db-9624-e2f2357dd4e7"
+        }
+      ]
+    }
+  },
+  "443c6945-056a-4704-9ea5-66de5481938e": {
+    "id": "443c6945-056a-4704-9ea5-66de5481938e",
+    "hub": [],
+    "type": "scenario",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Extended leave of absence",
+          "link": null
+        },
+        "plain_text": "Extended leave of absence",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Extended leave of absence",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "heading": "description",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Entity occupied the role of a Facilitator. They took a leave of absence from the Facilitator role and stepped into the role of a Stability Scope Advisor. At the time their behavior was discovered by another Facilitator, the Entity had been performing solely in the role of a Stability Scope Advisor, while remaining on a leave of absence from their Facilitator role.",
+              "link": null
+            },
+            "plain_text": "Entity occupied the role of a Facilitator. They took a leave of absence from the Facilitator role and stepped into the role of a Stability Scope Advisor. At the time their behavior was discovered by another Facilitator, the Entity had been performing solely in the role of a Stability Scope Advisor, while remaining on a leave of absence from their Facilitator role.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "heading": "finding",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Misaligned",
+              "link": null
+            },
+            "plain_text": "Misaligned",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "heading": "additionalGuidance",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If an actor assumes more than one role in the Sky ecosystem, the risks of conflict of interest, collusion, conspiracy and other misaligned behavior necessarily arises. That the Entity was on a leave of absence from one role does not negate this risk. A contributor on an extended leave of absence has not formally cut ties with the role. Entity is still formally occupying two roles with different mandates, incentives and access/permissions. It is conceivable that Entity's Stability Scope Advisor work could be compromised or influenced, even in subtle ways, by the experiences, knowledge and biases to which Entity is exposed as a Facilitator. Therefore, the risk of misalignment, which the Target Document aims to guard against, remains present.\n\nThe Facilitator should derecognize Entity from the Facilitator role per ",
+              "link": null
+            },
+            "plain_text": "If an actor assumes more than one role in the Sky ecosystem, the risks of conflict of interest, collusion, conspiracy and other misaligned behavior necessarily arises. That the Entity was on a leave of absence from one role does not negate this risk. A contributor on an extended leave of absence has not formally cut ties with the role. Entity is still formally occupying two roles with different mandates, incentives and access/permissions. It is conceivable that Entity's Stability Scope Advisor work could be compromised or influenced, even in subtle ways, by the experiences, knowledge and biases to which Entity is exposed as a Facilitator. Therefore, the risk of misalignment, which the Target Document aims to guard against, remains present.\n\nThe Facilitator should derecognize Entity from the Facilitator role per ",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "mention",
+            "plain_text": "A.1.4 - Alignment Conservers - Accountability And Misalignment Handling - AC Derecognition",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "fac5b89b-fb80-4e02-9809-5e502f5db0b3"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".\n\nThe Facilitator should likely consider derecognizing Entity from the Stability Scope Advisor role. No specific logic exists as yet for the adjudication of misalignment on the part of a Scope Advisor.",
+              "link": null
+            },
+            "plain_text": ".\n\nThe Facilitator should likely consider derecognizing Entity from the Stability Scope Advisor role. No specific logic exists as yet for the adjudication of misalignment on the part of a Scope Advisor.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "fe75a64f-585b-4d08-af00-ef8667d9c307"
+      }
+    ],
+    "children": [],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    }
+  },
+  "ac7b272f-54dd-4cb5-92e0-dc34a416fc71": {
+    "id": "ac7b272f-54dd-4cb5-92e0-dc34a416fc71",
+    "hub": [],
+    "type": "scenario",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Volunteer Discord moderator",
+          "link": null
+        },
+        "plain_text": "Volunteer Discord moderator",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Volunteer Discord moderator",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "heading": "description",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Entity was a volunteer moderator for Sky’s Discord. Without leaving their moderator role, Entity registered and became active as an Aligned Delegate.",
+              "link": null
+            },
+            "plain_text": "Entity was a volunteer moderator for Sky’s Discord. Without leaving their moderator role, Entity registered and became active as an Aligned Delegate.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "heading": "finding",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Aligned",
+              "link": null
+            },
+            "plain_text": "Aligned",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "heading": "additionalGuidance",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "‘Volunteer Discord moderator' is not a role that is formally defined in the Atlas. Therefore, Entity's first position as volunteer Discord moderator does not count as an ecosystem role. The Target Document is not triggered at all in this Scenario.",
+              "link": null
+            },
+            "plain_text": "‘Volunteer Discord moderator' is not a role that is formally defined in the Atlas. Therefore, Entity's first position as volunteer Discord moderator does not count as an ecosystem role. The Target Document is not triggered at all in this Scenario.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "fe75a64f-585b-4d08-af00-ef8667d9c307"
+      }
+    ],
+    "children": [],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    }
+  },
+  "97d0eb49-57a4-4a6e-a2f0-13640299cd7d": {
+    "id": "97d0eb49-57a4-4a6e-a2f0-13640299cd7d",
+    "hub": [],
+    "type": "scenario",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Alternating between two roles in separate time intervals",
+          "link": null
+        },
+        "plain_text": "Alternating between two roles in separate time intervals",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Alternating between two roles in separate time intervals",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "heading": "description",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Entity occupied the role of a ranked Aligned Delegate. Entity then applied for, and secured, the role of a Facilitator. The entity actively occupied these two roles, but alternated between them in separate time intervals.",
+              "link": null
+            },
+            "plain_text": "Entity occupied the role of a ranked Aligned Delegate. Entity then applied for, and secured, the role of a Facilitator. The entity actively occupied these two roles, but alternated between them in separate time intervals.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "heading": "finding",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Misaligned",
+              "link": null
+            },
+            "plain_text": "Misaligned",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "heading": "additionalGuidance",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "That Entity is alternating between two roles to perform their duties in separate time intervals does not negate the misalignment risk that the Target Document is intended to protect against. They are still formally occupying two roles at once. They still have access to sensitive information and experiences in two roles with different mandates and incentives.\n\nThe Facilitator should derecognize Entity per ",
+              "link": null
+            },
+            "plain_text": "That Entity is alternating between two roles to perform their duties in separate time intervals does not negate the misalignment risk that the Target Document is intended to protect against. They are still formally occupying two roles at once. They still have access to sensitive information and experiences in two roles with different mandates and incentives.\n\nThe Facilitator should derecognize Entity per ",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "mention",
+            "plain_text": "A.1.4 - Alignment Conservers - Accountability And Misalignment Handling - AC Derecognition",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "fac5b89b-fb80-4e02-9809-5e502f5db0b3"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "plain_text": ".",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "fe75a64f-585b-4d08-af00-ef8667d9c307"
+      }
+    ],
+    "children": [
+      {
+        "id": "818e4cc2-8186-4e98-ad18-77c362384880"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    }
+  },
+  "b9c41edf-cfb9-48d1-8355-47d4af2d8629": {
+    "id": "b9c41edf-cfb9-48d1-8355-47d4af2d8629",
+    "hub": [],
+    "type": "scenario",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Resignation notice not received",
+          "link": null
+        },
+        "plain_text": "Resignation notice not received",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Resignation notice not received",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "heading": "description",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Entity was a full-time team member of a Governance Facilitator. Entity emailed the Facilitator a formal letter of resignation and then transitioned into the role of an AD. The Facilitator did not receive the resignation email and continued to list Entity as an active team member on the Facilitator team. During the Governance Facilitator’s investigation, Entity provided proof of the resignation email. The email clearly stated an effective date of resignation, which date was prior to Entity's transition into the AD role. Entity also provided proof that all their permissions to the Facilitator team workspace were revoked; and they had no further communications or interactions with the Facilitator team after their intended resignation date.",
+              "link": null
+            },
+            "plain_text": "Entity was a full-time team member of a Governance Facilitator. Entity emailed the Facilitator a formal letter of resignation and then transitioned into the role of an AD. The Facilitator did not receive the resignation email and continued to list Entity as an active team member on the Facilitator team. During the Governance Facilitator’s investigation, Entity provided proof of the resignation email. The email clearly stated an effective date of resignation, which date was prior to Entity's transition into the AD role. Entity also provided proof that all their permissions to the Facilitator team workspace were revoked; and they had no further communications or interactions with the Facilitator team after their intended resignation date.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "heading": "finding",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Aligned",
+              "link": null
+            },
+            "plain_text": "Aligned",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      },
+      {
+        "heading": "additionalGuidance",
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Though the Facilitator incorrectly continued to list Entity as a team member, in actual practice, Entity had cut all ties with the Facilitator team after the intended resignation date. This was proven via the dated resignation email; the revoked permissions; and the lack of communications. Given these facts, the Target Document is not triggered.",
+              "link": null
+            },
+            "plain_text": "Though the Facilitator incorrectly continued to list Entity as a team member, in actual practice, Entity had cut all ties with the Facilitator team after the intended resignation date. This was proven via the dated resignation email; the revoked permissions; and the lack of communications. Given these facts, the Target Document is not triggered.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "children": [
+      {
+        "id": "9df22647-b3da-413e-9b85-30634728f417"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    }
+  }
+}

@@ -1,0 +1,4782 @@
+{
+  "154f2ff0-8d73-8015-aba7-d48a5afa4733": {
+    "id": "154f2ff0-8d73-8015-aba7-d48a5afa4733",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Straight Line Basis - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Straight Line Basis - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Straight Line Basis - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “straight-line basis” refers to a parameter being adjusted linearly between a starting value and an ending value based on time elapsed. For example: if a debt ceiling is adjusted from 100 million USD to 200 million USD on a straight-line basis over 60 days, then after 30 days have elapsed, the debt ceiling would be 150 million USD.",
+              "link": null
+            },
+            "plain_text": "The element “straight-line basis” refers to a parameter being adjusted linearly between a starting value and an ending value based on time elapsed. For example: if a debt ceiling is adjusted from 100 million USD to 200 million USD on a straight-line basis over 60 days, then after 30 days have elapsed, the debt ceiling would be 150 million USD.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "fe75a64f-585b-4d08-af00-ef8667d9c307"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "11af2ff0-8d73-80b9-ba83-fe60442a75f3": {
+    "id": "11af2ff0-8d73-80b9-ba83-fe60442a75f3",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Same Codebase - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Same Codebase - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Same Codebase - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “same codebase” refers to the fact that SparkLend is based on the Aave codebase. Vulnerabilities or exploits discovered within Aave, or any other protocol utilizing the Aave codebase, could potentially be replicated and affect SparkLend.",
+              "link": null
+            },
+            "plain_text": "The element “same codebase” refers to the fact that SparkLend is based on the Aave codebase. Vulnerabilities or exploits discovered within Aave, or any other protocol utilizing the Aave codebase, could potentially be replicated and affect SparkLend.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "fe75a64f-585b-4d08-af00-ef8667d9c307"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "11af2ff0-8d73-80bc-9576-d19d734b74bc": {
+    "id": "11af2ff0-8d73-80bc-9576-d19d734b74bc",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Multisig - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Multisig - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Multisig - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “multisig” refers to a blockchain wallet implemented as a smart contract and requiring multiple signers to approve transactions.\n\nA blockchain wallet has an address associated with it and can hold cryptocurrency assets as well as interact with smart contracts. The address of a blockchain wallet may be granted privileged access to interact with other smart contracts, allowing the owner of the wallet to perform functions not available to other users.\n\nA multisig allows the control of a wallet to be shared among the signers based on specified parameters, including the number of signers and how many signers are needed to approve each transaction. This allows a wallet to be more safely managed: for instance, a multisig prevents the possibility that a single signer could take malicious action and allows the signers to be updated if necessary.",
+              "link": null
+            },
+            "plain_text": "The element “multisig” refers to a blockchain wallet implemented as a smart contract and requiring multiple signers to approve transactions.\n\nA blockchain wallet has an address associated with it and can hold cryptocurrency assets as well as interact with smart contracts. The address of a blockchain wallet may be granted privileged access to interact with other smart contracts, allowing the owner of the wallet to perform functions not available to other users.\n\nA multisig allows the control of a wallet to be shared among the signers based on specified parameters, including the number of signers and how many signers are needed to approve each transaction. This allows a wallet to be more safely managed: for instance, a multisig prevents the possibility that a single signer could take malicious action and allows the signers to be updated if necessary.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "fe75a64f-585b-4d08-af00-ef8667d9c307"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "2c1588a5-7439-4291-8221-8579ffc0f72a": {
+    "id": "2c1588a5-7439-4291-8221-8579ffc0f72a",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Operational Weekly Cycle - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Operational Weekly Cycle - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Operational Weekly Cycle - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Previously, the “Operational Weekly Cycle” was called simply the “Weekly Governance Cycle.” With the introduction of the Atlas Edit Weekly Cycle, it became necessary to divide the Weekly Governance Cycle into two (2) subtypes: the Atlas Edit Weekly Cycle and the Operational Weekly Cycle. These two subtypes differ in terms of the permissioned parties authorized to trigger a proposal and the governance mechanisms involved. For instance, the Atlas Edit Weekly Cycle implements edits to the Atlas via the mechanism of a Governance Poll only. The Operational Weekly Cycle can action changes to the Protocol that require Atlas edits, and generally requires both a Governance Poll and an Executive Vote.",
+              "link": null
+            },
+            "plain_text": "Previously, the “Operational Weekly Cycle” was called simply the “Weekly Governance Cycle.” With the introduction of the Atlas Edit Weekly Cycle, it became necessary to divide the Weekly Governance Cycle into two (2) subtypes: the Atlas Edit Weekly Cycle and the Operational Weekly Cycle. These two subtypes differ in terms of the permissioned parties authorized to trigger a proposal and the governance mechanisms involved. For instance, the Atlas Edit Weekly Cycle implements edits to the Atlas via the mechanism of a Governance Poll only. The Operational Weekly Cycle can action changes to the Protocol that require Atlas edits, and generally requires both a Governance Poll and an Executive Vote.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "9acac8ca-3870-4680-ae38-1ba3deb09fe3": {
+    "id": "9acac8ca-3870-4680-ae38-1ba3deb09fe3",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Isolated Borrow - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Isolated Borrow - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Isolated Borrow - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "“Isolated Borrow” specifies whether an asset can be borrowed when a user is in Isolation Mode on the SparkLend platform.",
+              "link": null
+            },
+            "plain_text": "“Isolated Borrow” specifies whether an asset can be borrowed when a user is in Isolation Mode on the SparkLend platform.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "457b426a-645d-460c-82d5-aa06994a8ad5": {
+    "id": "457b426a-645d-460c-82d5-aa06994a8ad5",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Debt Ceiling - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Debt Ceiling - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Debt Ceiling - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “Debt Ceiling” refers to the maximum amount that can be borrowed against assets in a vault. Although a PSM has a zero Stability Fee and a liquidation ratio of 100%, it is still a vault and swaps of a collateral asset for Dai represent issuance of Dai that is backed by that collateral asset. The Debt Ceiling serves to limit the exposure the PSM can incur to that collateral asset.",
+              "link": null
+            },
+            "plain_text": "The element “Debt Ceiling” refers to the maximum amount that can be borrowed against assets in a vault. Although a PSM has a zero Stability Fee and a liquidation ratio of 100%, it is still a vault and swaps of a collateral asset for Dai represent issuance of Dai that is backed by that collateral asset. The Debt Ceiling serves to limit the exposure the PSM can incur to that collateral asset.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "215c5e55-e92b-47b8-8e09-6d1b5fbb2f50": {
+    "id": "215c5e55-e92b-47b8-8e09-6d1b5fbb2f50",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "BuyGem - Element Annotation",
+          "link": null
+        },
+        "plain_text": "BuyGem - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "BuyGem - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "buyGem",
+              "link": null
+            },
+            "plain_text": "buyGem",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " is a function that can be called on the LitePSM smart contract to buy a collateral asset in exchange for Dai. “Gem” here is Daiwanese for the collateral token.\n\nThe Lite Peg Stability Module maintains a pool of pre-minted Dai and Stablecoins to minimize transaction costs in swapping. The ",
+              "link": null
+            },
+            "plain_text": " is a function that can be called on the LitePSM smart contract to buy a collateral asset in exchange for Dai. “Gem” here is Daiwanese for the collateral token.\n\nThe Lite Peg Stability Module maintains a pool of pre-minted Dai and Stablecoins to minimize transaction costs in swapping. The ",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "buf",
+              "link": null
+            },
+            "plain_text": "buf",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " parameter is the amount of pre-minted Dai the LitePSM is designed to maintain in most instances. However, when a user calls ",
+              "link": null
+            },
+            "plain_text": " parameter is the amount of pre-minted Dai the LitePSM is designed to maintain in most instances. However, when a user calls ",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "buyGem",
+              "link": null
+            },
+            "plain_text": "buyGem",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " and buys the collateral asset in exchange for Dai, the amount of Dai can temporarily exceed the ",
+              "link": null
+            },
+            "plain_text": " and buys the collateral asset in exchange for Dai, the amount of Dai can temporarily exceed the ",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "buf",
+              "link": null
+            },
+            "plain_text": "buf",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": true,
+              "color": "default"
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " parameter.",
+              "link": null
+            },
+            "plain_text": " parameter.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "97d0dfb0-12a8-4f2f-8734-b92106278533": {
+    "id": "97d0dfb0-12a8-4f2f-8734-b92106278533",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Spreads - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Spreads - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Spreads - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element refers to the differences added or subtracted from the Base Rate to determine other specific rates.",
+              "link": null
+            },
+            "plain_text": "The element refers to the differences added or subtracted from the Base Rate to determine other specific rates.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "ce063dbe-6074-4e3c-a626-fa6fabdd8b70": {
+    "id": "ce063dbe-6074-4e3c-a626-fa6fabdd8b70",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Separate Claim Protocol And Standard Operational Protocol - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Separate Claim Protocol And Standard Operational Protocol - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Separate Claim Protocol And Standard Operational Protocol - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element refers to a separate set of procedures to be applied where Sky is the target of a legal or regulatory action. These separate procedures have not yet been defined. Once defined and ratified, they will be detailed in ",
+              "link": null
+            },
+            "plain_text": "The element refers to a separate set of procedures to be applied where Sky is the target of a legal or regulatory action. These separate procedures have not yet been defined. Once defined and ratified, they will be detailed in ",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "mention",
+            "plain_text": "A.2.9 - Legal Resilience - Legal Defense Resources - Legal Defense Standard Operational Protocols",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "5649bed1-adcb-408c-b92c-08d96aa26f8d"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". The Resilience Technical Committee must assist in elaborating this ruleset.",
+              "link": null
+            },
+            "plain_text": ". The Resilience Technical Committee must assist in elaborating this ruleset.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "750cc480-f48d-4e19-8fba-2bfbe7fe9b96": {
+    "id": "750cc480-f48d-4e19-8fba-2bfbe7fe9b96",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Trigger - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Trigger - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Trigger - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “trigger” refers to the Support Facilitators’ act of adding a Resilience Research and Preparedness grant payment to an Executive Vote. The Support Facilitators are also responsible for providing provenance for such requests by confirming payment requests on the Executive Sheet. See ",
+              "link": null
+            },
+            "plain_text": "The element “trigger” refers to the Support Facilitators’ act of adding a Resilience Research and Preparedness grant payment to an Executive Vote. The Support Facilitators are also responsible for providing provenance for such requests by confirming payment requests on the Executive Sheet. See ",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "mention",
+            "plain_text": "Executive Sheet - Element Annotation",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "78daeff8-6385-48a4-b422-a6587825be80"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "plain_text": ".",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "f5dced5c-9ade-4f8f-875c-2f37fa83c4c6": {
+    "id": "f5dced5c-9ade-4f8f-875c-2f37fa83c4c6",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Resilience Research And Preparedness - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Resilience Research And Preparedness - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Resilience Research And Preparedness - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This element refers to activities and studies aimed at strengthening Sky Ecosystem’s ability to respond effectively to legal uncertainties or risks, including monitoring and analysis of legal trends and regulatory changes; scenario planning and risk modeling; and the development of strategies to mitigate potential threats.",
+              "link": null
+            },
+            "plain_text": "This element refers to activities and studies aimed at strengthening Sky Ecosystem’s ability to respond effectively to legal uncertainties or risks, including monitoring and analysis of legal trends and regulatory changes; scenario planning and risk modeling; and the development of strategies to mitigate potential threats.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "d63471d3-a384-4e5d-82c0-ef58c6181d1f": {
+    "id": "d63471d3-a384-4e5d-82c0-ef58c6181d1f",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Properly Notified - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Properly Notified - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Properly Notified - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This element means that the Support Facilitators have been informed in accordance with the prescribed procedures, including the timing, method, and content of the notification, as required by the relevant Scope.",
+              "link": null
+            },
+            "plain_text": "This element means that the Support Facilitators have been informed in accordance with the prescribed procedures, including the timing, method, and content of the notification, as required by the relevant Scope.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "79eb35e9-1bba-446d-a1cc-a58f149332dd": {
+    "id": "79eb35e9-1bba-446d-a1cc-a58f149332dd",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Monitoring And Ensuring - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Monitoring And Ensuring - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Monitoring And Ensuring - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This element refers to the ongoing responsibility of Support Facilitators to monitor the progress of routine governance processes, check for compliance with the rules, and confirm that all necessary documentation and approvals are in place.",
+              "link": null
+            },
+            "plain_text": "This element refers to the ongoing responsibility of Support Facilitators to monitor the progress of routine governance processes, check for compliance with the rules, and confirm that all necessary documentation and approvals are in place.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "d29b34b0-ac3e-4901-993f-cd52d39e8a99": {
+    "id": "d29b34b0-ac3e-4901-993f-cd52d39e8a99",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Document Is Appealed - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Document Is Appealed - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Document Is Appealed - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element means that a formal request has been made to the Governance Facilitators to review an Atlas document for potential conflicts with other documents or misalignment. See ",
+              "link": null
+            },
+            "plain_text": "The element means that a formal request has been made to the Governance Facilitators to review an Atlas document for potential conflicts with other documents or misalignment. See ",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "mention",
+            "plain_text": "A.1.2 - A3 - Atlas Documents - Conflict Resolution",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "1727e87b-874e-4da4-ae81-a7f642abea5d"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "plain_text": ".",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "00285e85-44c1-4134-9e56-80723d9608c0": {
+    "id": "00285e85-44c1-4134-9e56-80723d9608c0",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Contentious - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Contentious - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Contentious - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “contentious” describes a situation where there is disagreement or dispute regarding the interpretation, application, or validity of a document.",
+              "link": null
+            },
+            "plain_text": "The element “contentious” describes a situation where there is disagreement or dispute regarding the interpretation, application, or validity of a document.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "375129b5-616f-431c-b7cd-eebebbd04386": {
+    "id": "375129b5-616f-431c-b7cd-eebebbd04386",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Active Data Controller Document - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Active Data Controller Document - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Active Data Controller Document - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Active Data Controller Documents are Primary Documents that have Active Data Documents attached to them as Supporting Documents. Edits to Active Data Controller Documents are subject to a SKY vote pursuant to the standard governance processes. These processes include:\n\n• Atlas Edit Weekly Cycle\n\n• Atlas Edit Monthly Cycle\n\n• Facilitators’ Bootstrapping Poll\n\n• Operational Weekly Cycle",
+              "link": null
+            },
+            "plain_text": "Active Data Controller Documents are Primary Documents that have Active Data Documents attached to them as Supporting Documents. Edits to Active Data Controller Documents are subject to a SKY vote pursuant to the standard governance processes. These processes include:\n\n• Atlas Edit Weekly Cycle\n\n• Atlas Edit Monthly Cycle\n\n• Facilitators’ Bootstrapping Poll\n\n• Operational Weekly Cycle",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "b436c08f-ce2a-4261-a1d8-b0199652d20f": {
+    "id": "b436c08f-ce2a-4261-a1d8-b0199652d20f",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Sensitive Security Matters - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Sensitive Security Matters - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Sensitive Security Matters - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This element refers to issues or decisions that, if publicly disclosed, could compromise the safety, integrity, or security of the Sky Ecosystem and its community members.",
+              "link": null
+            },
+            "plain_text": "This element refers to issues or decisions that, if publicly disclosed, could compromise the safety, integrity, or security of the Sky Ecosystem and its community members.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "94a5d3e7-a18e-40d0-842f-789a088bfe60": {
+    "id": "94a5d3e7-a18e-40d0-842f-789a088bfe60",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Internal Knowledge - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Internal Knowledge - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Internal Knowledge - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This element refers to information, insights, or data that are available exclusively to the Facilitators and are not shared or accessible to the Sky Ecosystem community. This could include messages in private chats, internal memos, emails, or proprietary data.",
+              "link": null
+            },
+            "plain_text": "This element refers to information, insights, or data that are available exclusively to the Facilitators and are not shared or accessible to the Sky Ecosystem community. This could include messages in private chats, internal memos, emails, or proprietary data.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "e68655c0-3bb9-444c-98ff-005a4eecd3a3": {
+    "id": "e68655c0-3bb9-444c-98ff-005a4eecd3a3",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Publicly Available Information - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Publicly Available Information - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Publicly Available Information - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This element refers to data, records, and documents that are accessible to the Sky Ecosystem community without any special access rights or permissions. This includes information published on websites, in public reports, or through other open and accessible channels.",
+              "link": null
+            },
+            "plain_text": "This element refers to data, records, and documents that are accessible to the Sky Ecosystem community without any special access rights or permissions. This includes information published on websites, in public reports, or through other open and accessible channels.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "aeadc1be-aa16-40a1-8158-5eb0af8f5b81": {
+    "id": "aeadc1be-aa16-40a1-8158-5eb0af8f5b81",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Ordinary Operations - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Ordinary Operations - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Ordinary Operations - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This element refers to the routine activities, processes, and decisions that are part of the day-to-day functioning of Sky. It excludes decisions involving extraordinary circumstances and emergencies, as these situations may require certain security-sensitive matters to be kept confidential.",
+              "link": null
+            },
+            "plain_text": "This element refers to the routine activities, processes, and decisions that are part of the day-to-day functioning of Sky. It excludes decisions involving extraordinary circumstances and emergencies, as these situations may require certain security-sensitive matters to be kept confidential.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "c3721187-ec2c-4e56-8802-f0ea17110263": {
+    "id": "c3721187-ec2c-4e56-8802-f0ea17110263",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Upcoming Executive Vote - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Upcoming Executive Vote - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Upcoming Executive Vote - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Successfully polled changes to the Sky Protocol are included in an Executive Vote that is typically conducted within approximately 30 days of the poll passing. The exact timing is dependent on the decisions made by the Governance Facilitators and the spell teams.",
+              "link": null
+            },
+            "plain_text": "Successfully polled changes to the Sky Protocol are included in an Executive Vote that is typically conducted within approximately 30 days of the poll passing. The exact timing is dependent on the decisions made by the Governance Facilitators and the spell teams.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "2eab8cb2-cf91-49ac-a8f8-c40b96a428c9": {
+    "id": "2eab8cb2-cf91-49ac-a8f8-c40b96a428c9",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Otherwise Unable To Fulfill Their Duties - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Otherwise Unable To Fulfill Their Duties - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Otherwise Unable To Fulfill Their Duties - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This element refers to situations where the Scope Facilitator is unable to perform their role due to reasons such as illness, conflict of interest, temporary suspension, or any other circumstance that significantly impairs their ability to execute their responsibilities.",
+              "link": null
+            },
+            "plain_text": "This element refers to situations where the Scope Facilitator is unable to perform their role due to reasons such as illness, conflict of interest, temporary suspension, or any other circumstance that significantly impairs their ability to execute their responsibilities.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "931de0ec-b3c4-40e8-b6ea-4d1c4055f9b2": {
+    "id": "931de0ec-b3c4-40e8-b6ea-4d1c4055f9b2",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Unresponsive - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Unresponsive - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Unresponsive - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “unresponsive\" means the failure to communicate, perform duties, or acknowledge requests, without providing a valid reason.",
+              "link": null
+            },
+            "plain_text": "The element “unresponsive\" means the failure to communicate, perform duties, or acknowledge requests, without providing a valid reason.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "4c3da076-1f9d-4dac-a7d7-f765a1a2d0c5": {
+    "id": "4c3da076-1f9d-4dac-a7d7-f765a1a2d0c5",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Current Spell Team - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Current Spell Team - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Current Spell Team - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “current spell team” refers to the group of people who are presently working on a given spell. Members of the spell team may perform a crafter role or a reviewer role. The “current spell team” does not include the “spell roster”, which latter is defined as the group of people from which spell team members for a given spell are selected.",
+              "link": null
+            },
+            "plain_text": "The element “current spell team” refers to the group of people who are presently working on a given spell. Members of the spell team may perform a crafter role or a reviewer role. The “current spell team” does not include the “spell roster”, which latter is defined as the group of people from which spell team members for a given spell are selected.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "78daeff8-6385-48a4-b422-a6587825be80": {
+    "id": "78daeff8-6385-48a4-b422-a6587825be80",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Executive Sheet - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Executive Sheet - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Executive Sheet - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The Executive Sheet refers to a Google Sheets document located at ",
+              "link": null
+            },
+            "plain_text": "The Executive Sheet refers to a Google Sheets document located at ",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "https://docs.google.com/spreadsheets/d/1w_z5WpqxzwreCcaveB2Ye1PP5B8QAHDglzyxKHG3CHw/edit?gid=1593813984#gid=1593813984",
+              "link": {
+                "url": "https://docs.google.com/spreadsheets/d/1w_z5WpqxzwreCcaveB2Ye1PP5B8QAHDglzyxKHG3CHw/edit?gid=1593813984#gid=1593813984"
+              }
+            },
+            "plain_text": "https://docs.google.com/spreadsheets/d/1w_z5WpqxzwreCcaveB2Ye1PP5B8QAHDglzyxKHG3CHw/edit?gid=1593813984#gid=1593813984",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". The Executive Sheet contains a list of content which is planned to be included in a given spell. The Executive Sheet is prepared by the Governance Facilitators.",
+              "link": null
+            },
+            "plain_text": ". The Executive Sheet contains a list of content which is planned to be included in a given spell. The Executive Sheet is prepared by the Governance Facilitators.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "256e7f99-bc04-4f4f-a1d7-15f66f5fab87": {
+    "id": "256e7f99-bc04-4f4f-a1d7-15f66f5fab87",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Counterparties - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Counterparties - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Counterparties - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This element refers to external parties or entities with whom the Facilitators might interact in the context of governance operations, such as Ecosystem Actors (active or incubating).",
+              "link": null
+            },
+            "plain_text": "This element refers to external parties or entities with whom the Facilitators might interact in the context of governance operations, such as Ecosystem Actors (active or incubating).",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "68cf7cdd-6cdd-4232-99d0-1aa2383934a4": {
+    "id": "68cf7cdd-6cdd-4232-99d0-1aa2383934a4",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Clear Breach of Good Faith - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Clear Breach of Good Faith - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Clear Breach of Good Faith - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This element refers to an action by the Star, or entities acting on its behalf, that undermines trust, integrity, or fair dealing, such as deception or unethical conduct.",
+              "link": null
+            },
+            "plain_text": "This element refers to an action by the Star, or entities acting on its behalf, that undermines trust, integrity, or fair dealing, such as deception or unethical conduct.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "d5f2ed78-dde7-4071-b319-d6e4ed70bb2b": {
+    "id": "d5f2ed78-dde7-4071-b319-d6e4ed70bb2b",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Partial Responsibility - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Partial Responsibility - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Partial Responsibility - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This element clarifies that the Facilitator cannot choose to manage only certain parts of a Scope or limit their responsibility to specific tasks. They must accept the full responsibilities and manage the Scope as a whole.",
+              "link": null
+            },
+            "plain_text": "This element clarifies that the Facilitator cannot choose to manage only certain parts of a Scope or limit their responsibility to specific tasks. They must accept the full responsibilities and manage the Scope as a whole.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "46d2f664-eb8a-438b-a5ec-6f84cd3fd217": {
+    "id": "46d2f664-eb8a-438b-a5ec-6f84cd3fd217",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Otherwise Unable To Fulfill Their Duties - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Otherwise Unable To Fulfill Their Duties - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Otherwise Unable To Fulfill Their Duties - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This element refers to situations where the Scope Facilitator is unable to perform their role due to reasons such as illness, conflict of interest, temporary suspension, or any other circumstance that significantly impairs their ability to execute their responsibilities.",
+              "link": null
+            },
+            "plain_text": "This element refers to situations where the Scope Facilitator is unable to perform their role due to reasons such as illness, conflict of interest, temporary suspension, or any other circumstance that significantly impairs their ability to execute their responsibilities.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "a0c1d4eb-3421-4f80-a8d4-7452fb01722a": {
+    "id": "a0c1d4eb-3421-4f80-a8d4-7452fb01722a",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Unresponsive - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Unresponsive - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Unresponsive - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “unresponsive\" means the failure to communicate, perform duties, or acknowledge requests, without providing a valid reason.",
+              "link": null
+            },
+            "plain_text": "The element “unresponsive\" means the failure to communicate, perform duties, or acknowledge requests, without providing a valid reason.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "691f7883-a4e2-4f30-b573-31bfe437b492": {
+    "id": "691f7883-a4e2-4f30-b573-31bfe437b492",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Cryptographically Signed Messages - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Cryptographically Signed Messages - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Cryptographically Signed Messages - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A simple way to provide the required cryptographically signed messages is to use the Verified Signature on-chain mechanism hosted by Etherscan (",
+              "link": null
+            },
+            "plain_text": "A simple way to provide the required cryptographically signed messages is to use the Verified Signature on-chain mechanism hosted by Etherscan (",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "https://etherscan.io/verifiedSignatures",
+              "link": {
+                "url": "https://etherscan.io/verifiedSignatures"
+              }
+            },
+            "plain_text": "https://etherscan.io/verifiedSignatures",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "). The cryptographic verification comes from the prospective Aligned Delegate “signing” or validating the messages using their chosen Ethereum address. In addition, the cryptographically signed messages should contain the required elements (titles and timestamps) to be valid. The required elements are specified in the Target Document.",
+              "link": null
+            },
+            "plain_text": "). The cryptographic verification comes from the prospective Aligned Delegate “signing” or validating the messages using their chosen Ethereum address. In addition, the cryptographically signed messages should contain the required elements (titles and timestamps) to be valid. The required elements are specified in the Target Document.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "893c0781-97bf-409f-b92c-172f67b9a836": {
+    "id": "893c0781-97bf-409f-b92c-172f67b9a836",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Deploying A Delegate Contract - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Deploying A Delegate Contract - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Deploying A Delegate Contract - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A prospective Aligned Delegate must deploy a new Delegate Contract(s) through the associated smart contract, using their chosen Ethereum address. To create a new Delegate Contract, an applicant should visit this page and connect an Ethereum wallet: ",
+              "link": null
+            },
+            "plain_text": "A prospective Aligned Delegate must deploy a new Delegate Contract(s) through the associated smart contract, using their chosen Ethereum address. To create a new Delegate Contract, an applicant should visit this page and connect an Ethereum wallet: ",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "https://vote.makerdao.com/account",
+              "link": {
+                "url": "https://vote.makerdao.com/account"
+              }
+            },
+            "plain_text": "https://vote.makerdao.com/account",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". \n\nAn Aligned Delegate should deploy the new Delegate Contract(s) prior to posting a Submission Message on the Sky Forum pursuant to ",
+              "link": null
+            },
+            "plain_text": ". \n\nAn Aligned Delegate should deploy the new Delegate Contract(s) prior to posting a Submission Message on the Sky Forum pursuant to ",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "mention",
+            "plain_text": "A.1.5 - Aligned Delegates - Governance Facilitator Responsibilities - AD Recognition Process - Submission Message",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "06a1471d-3ae8-4353-a983-84a24db0b62f"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "plain_text": ".",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "1806d010-c88e-4933-ba51-8fe672da3a89": {
+    "id": "1806d010-c88e-4933-ba51-8fe672da3a89",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Delegate Contract - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Delegate Contract - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Delegate Contract - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “Delegate Contract” refers to a bespoke Sky smart contract that allows SKY holders to delegate the voting strength associated with their SKY holdings to a particular Aligned Delegate. Every Aligned Delegate has at least one Delegate Contract, with which they can cast votes in Sky Governance.",
+              "link": null
+            },
+            "plain_text": "The element “Delegate Contract” refers to a bespoke Sky smart contract that allows SKY holders to delegate the voting strength associated with their SKY holdings to a particular Aligned Delegate. Every Aligned Delegate has at least one Delegate Contract, with which they can cast votes in Sky Governance.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "6bdb3051-3e92-47de-a2ab-969dc43aac42": {
+    "id": "6bdb3051-3e92-47de-a2ab-969dc43aac42",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Voting-Communication Metrics - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Voting-Communication Metrics - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Voting-Communication Metrics - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element \"voting-communication metrics\" refers to the percentage of votes for which an Aligned Delegate provides the required written explanations or justifications of their casted votes in Governance Polls and Executive Votes. These written explanations are posted in the AD’s Forum thread. \n\nThe Target Document’s function is to ensure that SKY holders delegating to the AD have full transparency to understand the AD’s decision-making process.",
+              "link": null
+            },
+            "plain_text": "The element \"voting-communication metrics\" refers to the percentage of votes for which an Aligned Delegate provides the required written explanations or justifications of their casted votes in Governance Polls and Executive Votes. These written explanations are posted in the AD’s Forum thread. \n\nThe Target Document’s function is to ensure that SKY holders delegating to the AD have full transparency to understand the AD’s decision-making process.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "61a04639-29b6-41fc-9ce7-082ee0f070c8": {
+    "id": "61a04639-29b6-41fc-9ce7-082ee0f070c8",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Proportional Linear Scale - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Proportional Linear Scale - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Proportional Linear Scale - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element \"proportional linear scale\" describes a method where the budget reduction is directly proportional to the decline in voting-communication activity between 95% and 75%. Here, the pertinent range of voting-communication activity spans from 95% to 75%, which is 20 percentage points. The budget decreases linearly across these 20 percentage points. In other words, the PD budget decreases by ",
+              "link": null
+            },
+            "plain_text": "The element \"proportional linear scale\" describes a method where the budget reduction is directly proportional to the decline in voting-communication activity between 95% and 75%. Here, the pertinent range of voting-communication activity spans from 95% to 75%, which is 20 percentage points. The budget decreases linearly across these 20 percentage points. In other words, the PD budget decreases by ",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "5%",
+              "link": null
+            },
+            "plain_text": "5%",
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " for every percentage point drop in voting-communication activity from 95% to 75% (since 100% divided by 20 percentage points = 5% per point).",
+              "link": null
+            },
+            "plain_text": " for every percentage point drop in voting-communication activity from 95% to 75% (since 100% divided by 20 percentage points = 5% per point).",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "61ebfae6-0a59-423c-af0f-435163992e50": {
+    "id": "61ebfae6-0a59-423c-af0f-435163992e50",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Proportional Linear Scale - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Proportional Linear Scale - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Proportional Linear Scale - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element \"proportional linear scale\" describes a method where the budget reduction is directly proportional to the decline in voting activity between 95% and 75%. Here, the pertinent range of voting activity spans from 95% to 75%, which is 20 percentage points. The budget decreases linearly across these 20 percentage points. In other words, the PD budget decreases by ",
+              "link": null
+            },
+            "plain_text": "The element \"proportional linear scale\" describes a method where the budget reduction is directly proportional to the decline in voting activity between 95% and 75%. Here, the pertinent range of voting activity spans from 95% to 75%, which is 20 percentage points. The budget decreases linearly across these 20 percentage points. In other words, the PD budget decreases by ",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "5%",
+              "link": null
+            },
+            "plain_text": "5%",
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " for every percentage point drop in voting activity from 95% to 75% (since 100% divided by 20 percentage points = 5% per point).",
+              "link": null
+            },
+            "plain_text": " for every percentage point drop in voting activity from 95% to 75% (since 100% divided by 20 percentage points = 5% per point).",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "a8b9be05-0768-4d23-8464-0597ed272d88": {
+    "id": "a8b9be05-0768-4d23-8464-0597ed272d88",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "One Month’s Budget Allocation - Element Annotation",
+          "link": null
+        },
+        "plain_text": "One Month’s Budget Allocation - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "One Month’s Budget Allocation - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "See ",
+              "link": null
+            },
+            "plain_text": "See ",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "mention",
+            "plain_text": "One Month’s Budget Allocation - Element Annotation",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "94a7face-0d93-4cc3-9812-9d9aeb9a7bcb"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "plain_text": ".",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "7166c4bb-6d26-4f0b-b4d5-a951908f457b": {
+    "id": "7166c4bb-6d26-4f0b-b4d5-a951908f457b",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "One Month’s Budget Allocation - Element Annotation",
+          "link": null
+        },
+        "plain_text": "One Month’s Budget Allocation - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "One Month’s Budget Allocation - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "See ",
+              "link": null
+            },
+            "plain_text": "See ",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "mention",
+            "plain_text": "One Month’s Budget Allocation - Element Annotation",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "94a7face-0d93-4cc3-9812-9d9aeb9a7bcb"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "plain_text": ".",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "94a7face-0d93-4cc3-9812-9d9aeb9a7bcb": {
+    "id": "94a7face-0d93-4cc3-9812-9d9aeb9a7bcb",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "One Month’s Budget Allocation - Element Annotation",
+          "link": null
+        },
+        "plain_text": "One Month’s Budget Allocation - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "One Month’s Budget Allocation - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "To arrive at the value of this one-month budget threshold in USDS, see ",
+              "link": null
+            },
+            "plain_text": "To arrive at the value of this one-month budget threshold in USDS, see ",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "mention",
+            "plain_text": "A.1.5 - Aligned Delegates - Budget And Participation Requirements - Budget Amount For Prime Delegate Slots",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "a8a767c3-9594-4e84-aa14-51829c6264f5"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "plain_text": ".",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "88777e27-c0b8-48ae-be16-0effcc5b949f": {
+    "id": "88777e27-c0b8-48ae-be16-0effcc5b949f",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Operational Security Or Privacy - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Operational Security Or Privacy - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Operational Security Or Privacy - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “operational security or privacy” refers to disclosure or compromise of sensitive information related to the AD’s identity, location and/or operations.",
+              "link": null
+            },
+            "plain_text": "The element “operational security or privacy” refers to disclosure or compromise of sensitive information related to the AD’s identity, location and/or operations.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "fb60ee2a-ee1f-4aa2-85b4-975a89364bf4": {
+    "id": "fb60ee2a-ee1f-4aa2-85b4-975a89364bf4",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Whistleblower Bounty - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Whistleblower Bounty - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Whistleblower Bounty - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element \"whistleblower bounty\" is a financial reward allocated to individuals who responsibly provide credible evidence that is helpful to the Facilitators’ investigation of an AD’s misalignment or operational security breach.",
+              "link": null
+            },
+            "plain_text": "The element \"whistleblower bounty\" is a financial reward allocated to individuals who responsibly provide credible evidence that is helpful to the Facilitators’ investigation of an AD’s misalignment or operational security breach.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "ba83525c-a5c7-4c49-9076-c48f17c96dda": {
+    "id": "ba83525c-a5c7-4c49-9076-c48f17c96dda",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Collateral - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Collateral - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Collateral - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element \"collateral\" in this context refers to the funds within the AD Buffer that are set aside to guarantee the availability of a whistleblower bounty.",
+              "link": null
+            },
+            "plain_text": "The element \"collateral\" in this context refers to the funds within the AD Buffer that are set aside to guarantee the availability of a whistleblower bounty.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "000152a7-85d9-4796-b20e-e6d035386bc3": {
+    "id": "000152a7-85d9-4796-b20e-e6d035386bc3",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Total Voting Power Delegated - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Total Voting Power Delegated - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Total Voting Power Delegated - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “total Voting Power delegated” refers to the cumulative SKY/MKR that has been delegated to a Delegate Contract by SKY/MKR holders and Sealing users.",
+              "link": null
+            },
+            "plain_text": "The element “total Voting Power delegated” refers to the cumulative SKY/MKR that has been delegated to a Delegate Contract by SKY/MKR holders and Sealing users.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "7d24a45b-5d86-477f-8ef5-0e0dc0e42586": {
+    "id": "7d24a45b-5d86-477f-8ef5-0e0dc0e42586",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Delegated Voting Power - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Delegated Voting Power - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Delegated Voting Power - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “delegated voting power” refers to the ability of SKY holders and Sealing users to entrust their voting power to a Delegate Contract, allowing the Aligned Delegate controlling that contract to cast votes in the Sky Governance process on their behalf. The SKY holder or Sealing user always maintains full ownership of their tokens.",
+              "link": null
+            },
+            "plain_text": "The element “delegated voting power” refers to the ability of SKY holders and Sealing users to entrust their voting power to a Delegate Contract, allowing the Aligned Delegate controlling that contract to cast votes in the Sky Governance process on their behalf. The SKY holder or Sealing user always maintains full ownership of their tokens.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "ba3f9d08-2d95-416b-b9e7-229387fb0e00": {
+    "id": "ba3f9d08-2d95-416b-b9e7-229387fb0e00",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Risk Of Misalignment Spreading Among ACs - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Risk Of Misalignment Spreading Among ACs - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Risk Of Misalignment Spreading Among ACs - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “risk of misalignment spreading among ACs\" refers to the potential for misalignment by one AC to influence or lead to misalignment among other ACs, creating a broader systemic risk. The element emphasizes the need for quick action to contain any breach before it spreads and causes wider disruptions.",
+              "link": null
+            },
+            "plain_text": "The element “risk of misalignment spreading among ACs\" refers to the potential for misalignment by one AC to influence or lead to misalignment among other ACs, creating a broader systemic risk. The element emphasizes the need for quick action to contain any breach before it spreads and causes wider disruptions.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "91b947d3-32fa-46af-86b1-9046f242cf2e": {
+    "id": "91b947d3-32fa-46af-86b1-9046f242cf2e",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Inaction - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Inaction - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Inaction - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element \"inaction\" refers to the failure to act when action is necessary to prevent or address breaches of Universal Alignment or the Spirit of the Atlas. Inaction is considered as serious as active misalignment.",
+              "link": null
+            },
+            "plain_text": "The element \"inaction\" refers to the failure to act when action is necessary to prevent or address breaches of Universal Alignment or the Spirit of the Atlas. Inaction is considered as serious as active misalignment.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "af3f518a-6864-4246-b4aa-3d94572871be": {
+    "id": "af3f518a-6864-4246-b4aa-3d94572871be",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Governance Dynamic - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Governance Dynamic - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Governance Dynamic - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “governance dynamic” refers generally to the balance of power and the integrity of operational processes that sustain Sky’s Governance system. Disruption of this dynamic can lead to instability or misalignment.",
+              "link": null
+            },
+            "plain_text": "The element “governance dynamic” refers generally to the balance of power and the integrity of operational processes that sustain Sky’s Governance system. Disruption of this dynamic can lead to instability or misalignment.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "c22cc9d8-a23e-428a-b423-7199c47814f2": {
+    "id": "c22cc9d8-a23e-428a-b423-7199c47814f2",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Circumvent - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Circumvent - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Circumvent - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “circumvent” means to find a way to evade or distort the Atlas’ established rules, principles, or processes, with the intent to undermine Universal Alignment.",
+              "link": null
+            },
+            "plain_text": "The element “circumvent” means to find a way to evade or distort the Atlas’ established rules, principles, or processes, with the intent to undermine Universal Alignment.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "44c1da73-6fad-4482-bfb0-06902c7721b7": {
+    "id": "44c1da73-6fad-4482-bfb0-06902c7721b7",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Secretly Organizing - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Secretly Organizing - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Secretly Organizing - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “secretly organizing” is closely related to the term “colluding”. See ",
+              "link": null
+            },
+            "plain_text": "The element “secretly organizing” is closely related to the term “colluding”. See ",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "mention",
+            "plain_text": "Colluding - Element Annotation",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "7aab48e5-8654-4639-9d52-2f2292d2b414"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". “Secretly organizing” means planning or coordinating actions behind closed doors, with the malign intent to bypass or undermine official processes or principles.",
+              "link": null
+            },
+            "plain_text": ". “Secretly organizing” means planning or coordinating actions behind closed doors, with the malign intent to bypass or undermine official processes or principles.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "7aab48e5-8654-4639-9d52-2f2292d2b414": {
+    "id": "7aab48e5-8654-4639-9d52-2f2292d2b414",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Colluding - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Colluding - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Colluding - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “colluding” refers to the act of conspiring or working together in secret to achieve an outcome that violates or undermines Universal Alignment or the Spirit of the Atlas.",
+              "link": null
+            },
+            "plain_text": "The element “colluding” refers to the act of conspiring or working together in secret to achieve an outcome that violates or undermines Universal Alignment or the Spirit of the Atlas.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "4d1505c3-b19e-4935-a502-f9e24f36a1b3": {
+    "id": "4d1505c3-b19e-4935-a502-f9e24f36a1b3",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Nested Document Trees - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Nested Document Trees - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Nested Document Trees - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “nested document trees” refers to the hierarchical organization of Atlas documents, where each document is part of a larger structure with parent and child relationships. Higher-level documents govern or influence the interpretation and application of lower-level documents.",
+              "link": null
+            },
+            "plain_text": "The element “nested document trees” refers to the hierarchical organization of Atlas documents, where each document is part of a larger structure with parent and child relationships. Higher-level documents govern or influence the interpretation and application of lower-level documents.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "327134f4-8632-4a6f-9093-0c86dc9a39b9": {
+    "id": "327134f4-8632-4a6f-9093-0c86dc9a39b9",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Precedent - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Precedent - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Precedent - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element \"precedent\" refers to the established examples or standards set by documented Atlas Interpretations, which guide future decision-making and interpretations. Atlas Interpretations can be codified in the Facilitator Action Precedent Document Type. See ",
+              "link": null
+            },
+            "plain_text": "The element \"precedent\" refers to the established examples or standards set by documented Atlas Interpretations, which guide future decision-making and interpretations. Atlas Interpretations can be codified in the Facilitator Action Precedent Document Type. See ",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "mention",
+            "plain_text": "A.1.2 - Atlas Documents - Structure, Categories, And Types Of Atlas Documents - The Facilitator Action Precedent Type",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "2da657cd-4454-4b7c-81da-2e96befa3e2a"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "plain_text": ".",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "515005a1-b60d-4f83-90e2-a88fe4ccc0cd": {
+    "id": "515005a1-b60d-4f83-90e2-a88fe4ccc0cd",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Expanded Definitions - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Expanded Definitions - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Expanded Definitions - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “expanded definitions” describes the process of providing more detailed or comprehensive explanations of terms that are vague, overly broad, or otherwise unclear. Such expanded definitions can be codified in the Element Annotation Document Type. See ",
+              "link": null
+            },
+            "plain_text": "The element “expanded definitions” describes the process of providing more detailed or comprehensive explanations of terms that are vague, overly broad, or otherwise unclear. Such expanded definitions can be codified in the Element Annotation Document Type. See ",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "mention",
+            "plain_text": "A.1.2 - Atlas Documents - Structure, Categories, And Types Of Atlas Documents - The Element Annotation Type",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "cdffdce4-8de4-4955-baac-cbb4e9f1e6dd"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "plain_text": ".",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "94fef469-53de-43c5-8782-cc3ca1ed4f00": {
+    "id": "94fef469-53de-43c5-8782-cc3ca1ed4f00",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Contradictions - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Contradictions - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Contradictions - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “contradictions\" refers to instances where different Atlas documents conflict with one another, leading to confusion or inconsistency in their application.",
+              "link": null
+            },
+            "plain_text": "The element “contradictions\" refers to instances where different Atlas documents conflict with one another, leading to confusion or inconsistency in their application.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "a8db055e-b820-4ba0-b84b-a894239c7034": {
+    "id": "a8db055e-b820-4ba0-b84b-a894239c7034",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Ambiguity - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Ambiguity - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Ambiguity - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “ambiguity” refers to instances where the language of an Atlas document allows for multiple possible interpretations.",
+              "link": null
+            },
+            "plain_text": "The element “ambiguity” refers to instances where the language of an Atlas document allows for multiple possible interpretations.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "8d81ac0c-81d0-4d62-af53-df32aac76f12": {
+    "id": "8d81ac0c-81d0-4d62-af53-df32aac76f12",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Extrapolated - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Extrapolated - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Extrapolated - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element \"extrapolated\" refers to the process by which a Facilitator has inferred or deduced from their understanding of the Spirit of the Atlas a necessary course of action when explicit guidance is not available. This inferred action is also based on the Facilitator’s current state of Universal Alignment.",
+              "link": null
+            },
+            "plain_text": "The element \"extrapolated\" refers to the process by which a Facilitator has inferred or deduced from their understanding of the Spirit of the Atlas a necessary course of action when explicit guidance is not available. This inferred action is also based on the Facilitator’s current state of Universal Alignment.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "fc3c9b34-3d0d-4dbd-84f3-5dd91e039c64": {
+    "id": "fc3c9b34-3d0d-4dbd-84f3-5dd91e039c64",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Where Feasible - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Where Feasible - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Where Feasible - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This element “where feasible” introduces a degree of flexibility or discretion. It indicates that Scope Facilitators are encouraged to run Governance Polls in the context of the Target Document when it is possible, practical or appropriate to do so.",
+              "link": null
+            },
+            "plain_text": "This element “where feasible” introduces a degree of flexibility or discretion. It indicates that Scope Facilitators are encouraged to run Governance Polls in the context of the Target Document when it is possible, practical or appropriate to do so.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "4ad26483-aa40-4a05-a78d-29d9a3ad354a": {
+    "id": "4ad26483-aa40-4a05-a78d-29d9a3ad354a",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Formalize Actions - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Formalize Actions - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Formalize Actions - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Facilitators have broad discretionary authority to interpret or supersede the Atlas pursuant to ",
+              "link": null
+            },
+            "plain_text": "Facilitators have broad discretionary authority to interpret or supersede the Atlas pursuant to ",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "mention",
+            "plain_text": "A.0.1 - Atlas Preamble - General Provisions - Facilitators’ Broad Discretionary Capacity",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "9baf179a-ac10-4ed1-b4f2-1cb2cbb7daf1"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". \n\nThe element \"formalize actions\" pertains to the recommendation that Scope Facilitators, where feasible, conduct Governance Polls to officially ratify changes in the Atlas that correspond to the actions they have undertaken based on the aforementioned document.\n\nFor example, if a Scope Facilitator decides to supersede a particular Atlas document due to its inadequacy in addressing a specific challenge, the Facilitator is encouraged to initiate a Governance Poll to allow SKY holders to vote on a revised version of the document that corrects the identified shortcomings.",
+              "link": null
+            },
+            "plain_text": ". \n\nThe element \"formalize actions\" pertains to the recommendation that Scope Facilitators, where feasible, conduct Governance Polls to officially ratify changes in the Atlas that correspond to the actions they have undertaken based on the aforementioned document.\n\nFor example, if a Scope Facilitator decides to supersede a particular Atlas document due to its inadequacy in addressing a specific challenge, the Facilitator is encouraged to initiate a Governance Poll to allow SKY holders to vote on a revised version of the document that corrects the identified shortcomings.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "e2d90c40-79eb-47d5-a6cc-b92f4b53b997": {
+    "id": "e2d90c40-79eb-47d5-a6cc-b92f4b53b997",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Slippery Slope Misalignment - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Slippery Slope Misalignment - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Slippery Slope Misalignment - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “slippery slope misalignment” refers to the potential for incremental deviations from Sky’s core principles to gradually lead to significant and undesirable shifts, ultimately steering the Ecosystem away from its intended purpose and vision.",
+              "link": null
+            },
+            "plain_text": "The element “slippery slope misalignment” refers to the potential for incremental deviations from Sky’s core principles to gradually lead to significant and undesirable shifts, ultimately steering the Ecosystem away from its intended purpose and vision.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "8f098e6b-1a51-4421-8249-a7107fdc3a47": {
+    "id": "8f098e6b-1a51-4421-8249-a7107fdc3a47",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Stabilize - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Stabilize - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Stabilize - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element \"stabilize\" refers to the objective of maintaining USDS’s value within a narrow range, preventing significant fluctuations that could lead to volatility. USDS should be worth $1 USD to fulfill its promise of being a Stablecoin.",
+              "link": null
+            },
+            "plain_text": "The element \"stabilize\" refers to the objective of maintaining USDS’s value within a narrow range, preventing significant fluctuations that could lead to volatility. USDS should be worth $1 USD to fulfill its promise of being a Stablecoin.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "9b016ad1-0ef9-4fc9-b865-97024d9de068": {
+    "id": "9b016ad1-0ef9-4fc9-b865-97024d9de068",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Optimizing And Aligning - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Optimizing And Aligning - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Optimizing And Aligning - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element \"optimizing\" refers to the process of making the Core Stability Parameters as effective as possible in achieving their goal of stabilizing the USDS Stablecoin. The element \"aligning\" refers to ensuring that these parameters are consistent and work in harmony with the objectives of Sky and with each other to prevent conflicts or discrepancies that could undermine stability.",
+              "link": null
+            },
+            "plain_text": "The element \"optimizing\" refers to the process of making the Core Stability Parameters as effective as possible in achieving their goal of stabilizing the USDS Stablecoin. The element \"aligning\" refers to ensuring that these parameters are consistent and work in harmony with the objectives of Sky and with each other to prevent conflicts or discrepancies that could undermine stability.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "e7c5efe4-5fa7-4558-af91-d4ff7951b16c": {
+    "id": "e7c5efe4-5fa7-4558-af91-d4ff7951b16c",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Processes - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Processes - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Processes - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element \"processes\" refers to the step-by-step procedures or sequences of actions carried out to implement the methodologies referenced in the Target Document.",
+              "link": null
+            },
+            "plain_text": "The element \"processes\" refers to the step-by-step procedures or sequences of actions carried out to implement the methodologies referenced in the Target Document.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "2828e624-0ecf-4e17-8f00-37e8a38b064e": {
+    "id": "2828e624-0ecf-4e17-8f00-37e8a38b064e",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Methodologies - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Methodologies - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Methodologies - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element \"methodologies\" refers to the systematic approaches or frameworks used to achieve the specific objective of optimizing and aligning the Core Stability Parameters.",
+              "link": null
+            },
+            "plain_text": "The element \"methodologies\" refers to the systematic approaches or frameworks used to achieve the specific objective of optimizing and aligning the Core Stability Parameters.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "348018b6-32b8-4a54-bc1a-a437707aa539": {
+    "id": "348018b6-32b8-4a54-bc1a-a437707aa539",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Business Activities - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Business Activities - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Business Activities - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element \"business activities\" refers to the commercial activities, transactions, and interactions that Ecosystem Actors perform within the ecosystem. These may include, but are not limited to, service delivery, product development, collaboration, and information exchange.",
+              "link": null
+            },
+            "plain_text": "The element \"business activities\" refers to the commercial activities, transactions, and interactions that Ecosystem Actors perform within the ecosystem. These may include, but are not limited to, service delivery, product development, collaboration, and information exchange.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "182bfe0c-876b-4dc1-b869-11aad6e524e8": {
+    "id": "182bfe0c-876b-4dc1-b869-11aad6e524e8",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Ecosystem - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Ecosystem - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Ecosystem - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element \"Ecosystem\" in the phrase “Ecosystem Agreements” should be understood as the collaborative network in which multiple stakeholders (referred to as “Ecosystem Actors”) interact to conduct business operations benefiting Sky.",
+              "link": null
+            },
+            "plain_text": "The element \"Ecosystem\" in the phrase “Ecosystem Agreements” should be understood as the collaborative network in which multiple stakeholders (referred to as “Ecosystem Actors”) interact to conduct business operations benefiting Sky.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "41d2d18c-949a-4878-835a-5a28d8c5df87": {
+    "id": "41d2d18c-949a-4878-835a-5a28d8c5df87",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Foundational Principles - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Foundational Principles - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Foundational Principles - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element \"foundational principles\" indicates the primary or essential rules, policies and objectives that serve as the groundwork for Sky Governance. To avoid ambiguity or slippery slope misalignment, these foundational principles must be specifically defined to the furthest extent possible in the Immutable Documents, as they are the base upon which the Adaptive Documents are built.",
+              "link": null
+            },
+            "plain_text": "The element \"foundational principles\" indicates the primary or essential rules, policies and objectives that serve as the groundwork for Sky Governance. To avoid ambiguity or slippery slope misalignment, these foundational principles must be specifically defined to the furthest extent possible in the Immutable Documents, as they are the base upon which the Adaptive Documents are built.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "6ba99936-60da-4e4b-b471-7b260c94048e": {
+    "id": "6ba99936-60da-4e4b-b471-7b260c94048e",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Spirit of the Atlas - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Spirit of the Atlas - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Spirit of the Atlas - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element \"Spirit of the Atlas\" refers to the guiding principles that form the ethical, philosophical and operational foundation of the Sky ecosystem. This element should be understood as encompassing the core ideals and objectives influencing the governance, and thus the evolution, of Sky Ecosystem. \n\nThe Spirit of the Atlas should be specified to the furthest extent possible in the Immutable Documents. The Spirit of the Atlas is continually evolving in response to internal and external stimuli; and thus reflects the adaptive intelligence of the Sky ecosystem as a whole. Once the Endgame State is reached and the Immutable Documents are forever locked down, the Spirit of the Atlas will continue to evolve through the vehicle of the Adaptive Documents. \n\nSee also, ",
+              "link": null
+            },
+            "plain_text": "The element \"Spirit of the Atlas\" refers to the guiding principles that form the ethical, philosophical and operational foundation of the Sky ecosystem. This element should be understood as encompassing the core ideals and objectives influencing the governance, and thus the evolution, of Sky Ecosystem. \n\nThe Spirit of the Atlas should be specified to the furthest extent possible in the Immutable Documents. The Spirit of the Atlas is continually evolving in response to internal and external stimuli; and thus reflects the adaptive intelligence of the Sky ecosystem as a whole. Once the Endgame State is reached and the Immutable Documents are forever locked down, the Spirit of the Atlas will continue to evolve through the vehicle of the Adaptive Documents. \n\nSee also, ",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "mention",
+            "plain_text": "A.0.1 - Atlas Preamble - Definitions - The Atlas",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "a47b69fd-515c-403b-9212-fb390a5b9909"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " and ",
+              "link": null
+            },
+            "plain_text": " and ",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          },
+          {
+            "type": "mention",
+            "plain_text": "A.0.1 - Atlas Preamble - Definitions - Letter Of The Rule Vs Spirit Of The Rule",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "87f95cee-ff66-49c0-ba91-fa5f38c3d32e"
+              }
+            }
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "plain_text": ".",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "ea050b28-edc5-449e-a716-5caea766cc85": {
+    "id": "ea050b28-edc5-449e-a716-5caea766cc85",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Operationally Active - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Operationally Active - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Operationally Active - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “operationally active” refers to being formally engaged in a specific role that is defined in the Atlas as executing a mission or function within the Sky ecosystem.",
+              "link": null
+            },
+            "plain_text": "The element “operationally active” refers to being formally engaged in a specific role that is defined in the Atlas as executing a mission or function within the Sky ecosystem.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "fe75a64f-585b-4d08-af00-ef8667d9c307"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "2bd7fdff-ac03-478c-8033-d069f9e04bd9": {
+    "id": "2bd7fdff-ac03-478c-8033-d069f9e04bd9",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Clearly Delineated Processes and Frameworks - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Clearly Delineated Processes and Frameworks - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Clearly Delineated Processes and Frameworks - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element, “clearly delineated processes and frameworks,” highlights a central issue in interpreting the Atlas. All language must be interpreted to be understood. In this sense, eliminating subjectivity is an unattainable goal. (Even an artificial intelligence system which eliminates many steps of research for the user will still serve up information that must be first interpreted by the user before it can be effective.) Inference or extrapolation is necessarily inherent in interpretation, and comes in degrees. In the context of the Target Document, the element, “clearly delineated processes and frameworks,” affirms that an interpreter's extraction of rules/principles/processes should be maximally grounded in the explicit language of the Immutable Documents.",
+              "link": null
+            },
+            "plain_text": "The element, “clearly delineated processes and frameworks,” highlights a central issue in interpreting the Atlas. All language must be interpreted to be understood. In this sense, eliminating subjectivity is an unattainable goal. (Even an artificial intelligence system which eliminates many steps of research for the user will still serve up information that must be first interpreted by the user before it can be effective.) Inference or extrapolation is necessarily inherent in interpretation, and comes in degrees. In the context of the Target Document, the element, “clearly delineated processes and frameworks,” affirms that an interpreter's extraction of rules/principles/processes should be maximally grounded in the explicit language of the Immutable Documents.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  },
+  "db15a751-6b5a-4392-a8fd-27779c1e31f0": {
+    "id": "db15a751-6b5a-4392-a8fd-27779c1e31f0",
+    "hub": [],
+    "type": "annotation",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Governance Attacks - Element Annotation",
+          "link": null
+        },
+        "plain_text": "Governance Attacks - Element Annotation",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "Governance Attacks - Element Annotation",
+    "name": [],
+    "nameString": "",
+    "content": [
+      {
+        "text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “governance attack” is a critical violation of the Sky ecosystem's governance protocols, far surpassing minor breaches in scope and impact. This term is reserved for misaligned acts with the near-term potential to severely compromise the Ecosystem's foundational structure and operational integrity. In contrast to mild breaches, which may involve actors with unintentional or benign motivations, a Governance Attack is distinguished by its deliberate and premeditated nature. Actors orchestrating such attacks are likely driven by strategic intent, aiming to destabilize or exploit the governance framework for their own gain.",
+              "link": null
+            },
+            "plain_text": "The element “governance attack” is a critical violation of the Sky ecosystem's governance protocols, far surpassing minor breaches in scope and impact. This term is reserved for misaligned acts with the near-term potential to severely compromise the Ecosystem's foundational structure and operational integrity. In contrast to mild breaches, which may involve actors with unintentional or benign motivations, a Governance Attack is distinguished by its deliberate and premeditated nature. Actors orchestrating such attacks are likely driven by strategic intent, aiming to destabilize or exploit the governance framework for their own gain.",
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            }
+          }
+        ]
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "fe75a64f-585b-4d08-af00-ef8667d9c307"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    },
+    "children": []
+  }
+}

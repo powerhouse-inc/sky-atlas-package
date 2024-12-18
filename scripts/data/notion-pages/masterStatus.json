@@ -1,0 +1,1394 @@
+[
+  {
+    "object": "page",
+    "id": "121f2ff0-8d73-80d2-8dc0-e16cb0fba863",
+    "created_time": "2024-10-16T02:52:00.000Z",
+    "last_edited_time": "2024-10-16T02:52:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "c066fbc5-020f-4dee-a642-e43c82409bd0"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "c066fbc5-020f-4dee-a642-e43c82409bd0"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Un-Archival Proposed",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Un-Archival Proposed",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Un-Archival-Proposed-121f2ff08d7380d28dc0e16cb0fba863",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "121f2ff0-8d73-80d2-b715-fbda3f35c239",
+    "created_time": "2024-10-16T02:51:00.000Z",
+    "last_edited_time": "2024-10-16T02:52:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "c066fbc5-020f-4dee-a642-e43c82409bd0"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "c066fbc5-020f-4dee-a642-e43c82409bd0"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Un-Deferral Proposed",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Un-Deferral Proposed",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Un-Deferral-Proposed-121f2ff08d7380d2b715fbda3f35c239",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "121f2ff0-8d73-8083-b786-f1df6ee1e369",
+    "created_time": "2024-10-16T02:51:00.000Z",
+    "last_edited_time": "2024-10-16T02:51:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "c066fbc5-020f-4dee-a642-e43c82409bd0"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "c066fbc5-020f-4dee-a642-e43c82409bd0"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Archival Proposed",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Archival Proposed",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Archival-Proposed-121f2ff08d738083b786f1df6ee1e369",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "121f2ff0-8d73-8089-8b13-fc9bb5282bb6",
+    "created_time": "2024-10-16T02:50:00.000Z",
+    "last_edited_time": "2024-10-16T02:53:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "c066fbc5-020f-4dee-a642-e43c82409bd0"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "c066fbc5-020f-4dee-a642-e43c82409bd0"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Deferral Proposed",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Deferral Proposed",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Deferral-Proposed-121f2ff08d7380898b13fc9bb5282bb6",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "104f2ff0-8d73-8089-ae73-ef08a536c006",
+    "created_time": "2024-09-17T21:13:00.000Z",
+    "last_edited_time": "2024-10-03T01:16:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "c066fbc5-020f-4dee-a642-e43c82409bd0"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "💬"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Proposed",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Proposed",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Proposed-104f2ff08d738089ae73ef08a536c006",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "434486e6-0d5e-4541-9f00-40cb9bd67d1c",
+    "created_time": "2024-08-01T17:48:00.000Z",
+    "last_edited_time": "2024-08-01T17:48:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Archived",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Archived",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Archived-434486e60d5e45419f0040cb9bd67d1c",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "7e33f5fd-238c-4dd2-8483-f2141a42ca88",
+    "created_time": "2024-07-28T15:54:00.000Z",
+    "last_edited_time": "2024-07-28T15:54:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Category - Deferred",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Category - Deferred",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Category-Deferred-7e33f5fd238c4dd28483f2141a42ca88",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "6604bdd4-88e0-48b7-9578-e437f1b8cafb",
+    "created_time": "2024-06-25T02:41:00.000Z",
+    "last_edited_time": "2024-06-25T02:41:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": {
+      "type": "external",
+      "external": {
+        "url": "https://www.notion.so/icons/hand_gray.svg"
+      }
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "P4",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "P4",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/P4-6604bdd488e048b79578e437f1b8cafb",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "7bdf067a-c1b2-4bbc-8738-1a4f195c1413",
+    "created_time": "2024-06-23T18:25:00.000Z",
+    "last_edited_time": "2024-06-23T18:26:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "🔷"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "P3",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "P3",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/P3-7bdf067ac1b24bbc87381a4f195c1413",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "938cb0ce-a09c-4cdc-a11d-9c0027f0b96c",
+    "created_time": "2024-06-23T18:25:00.000Z",
+    "last_edited_time": "2024-06-23T18:26:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "⚠️"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "P2",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "P2",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/P2-938cb0cea09c4cdca11d9c0027f0b96c",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "c21983b0-779e-41e7-ab85-3a057c4403f3",
+    "created_time": "2024-06-23T18:25:00.000Z",
+    "last_edited_time": "2024-06-23T18:26:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "🔻"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "P1",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "P1",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/P1-c21983b0779e41e7ab853a057c4403f3",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "19920f25-7bfa-4efa-871d-f1e487c268a7",
+    "created_time": "2024-06-23T18:25:00.000Z",
+    "last_edited_time": "2024-06-23T18:47:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "❗"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "P0",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "P0",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/P0-19920f257bfa4efa871df1e487c268a7",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "82094b1d-276e-47fc-b654-9d3b436d2f02",
+    "created_time": "2024-06-22T01:36:00.000Z",
+    "last_edited_time": "2024-06-22T01:46:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "🚨"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Update Needed",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Update Needed",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Update-Needed-82094b1d276e47fcb6549d3b436d2f02",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "d1c1af51-799b-4581-83f4-a6db69630b64",
+    "created_time": "2024-06-18T02:09:00.000Z",
+    "last_edited_time": "2024-06-23T18:10:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "🔻"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "High Priority",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "High Priority",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/High-Priority-d1c1af51799b458183f4a6db69630b64",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "20830ccc-3547-4fd3-b077-a4090d6989db",
+    "created_time": "2024-06-14T20:54:00.000Z",
+    "last_edited_time": "2024-06-14T20:55:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "🚵🏼‍♂️"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Research Track",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Research Track",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Research-Track-20830ccc35474fd3b077a4090d6989db",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "629b690d-4c5f-4bce-b232-137d813f586c",
+    "created_time": "2024-06-08T04:46:00.000Z",
+    "last_edited_time": "2024-06-21T20:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "🙋🏼"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "AA Owns",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "AA Owns",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/AA-Owns-629b690d4c5f4bceb232137d813f586c",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "1a060664-db37-473d-93b6-a55cf3312369",
+    "created_time": "2024-04-21T16:32:00.000Z",
+    "last_edited_time": "2024-04-21T16:32:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "♊"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Alternative Version",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Alternative Version",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Alternative-Version-1a060664db37473d93b6a55cf3312369",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "38304868-76dc-4ace-9808-59611296500c",
+    "created_time": "2024-04-21T16:21:00.000Z",
+    "last_edited_time": "2024-04-21T16:26:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "🔍"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Research",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Research",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Research-3830486876dc4ace980859611296500c",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "fe75a64f-585b-4d08-af00-ef8667d9c307",
+    "created_time": "2024-04-21T16:21:00.000Z",
+    "last_edited_time": "2024-10-03T04:06:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "c066fbc5-020f-4dee-a642-e43c82409bd0"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "🟢"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Approved",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Approved",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Approved-fe75a64f585b4d08af00ef8667d9c307",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768",
+    "created_time": "2024-04-21T16:21:00.000Z",
+    "last_edited_time": "2024-04-21T16:28:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "🟡"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Provisional",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Provisional",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Provisional-3dbb9d9cfd63462b99f31ce879f16768",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "9177ea3c-8308-433d-a5dc-71ee1bff5ee9",
+    "created_time": "2024-04-21T16:21:00.000Z",
+    "last_edited_time": "2024-04-21T16:22:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "✨"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Not Started",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Not Started",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Not-Started-9177ea3c8308433da5dc71ee1bff5ee9",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "f38bf53d-96bd-4345-a403-c6629ed202a1",
+    "created_time": "2024-04-21T16:20:00.000Z",
+    "last_edited_time": "2024-07-27T21:24:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": {
+      "type": "external",
+      "external": {
+        "url": "https://www.notion.so/icons/hand_gray.svg"
+      }
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Deferred",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Deferred",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Deferred-f38bf53d96bd4345a403c6629ed202a1",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "3edf54e3-be0e-4bbb-b008-502cfc23394e",
+    "created_time": "2024-04-20T23:59:00.000Z",
+    "last_edited_time": "2024-04-21T16:32:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": {
+      "type": "external",
+      "external": {
+        "url": "https://www.notion.so/icons/save_purple.svg"
+      }
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Placeholder",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Placeholder",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Placeholder-3edf54e3be0e4bbbb008502cfc23394e",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "28277082-3015-4615-a835-bd722de6ca61",
+    "created_time": "2024-04-20T22:27:00.000Z",
+    "last_edited_time": "2024-06-23T18:09:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "🔷"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Low Priority",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Low Priority",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Low-Priority-2827708230154615a835bd722de6ca61",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "766e2a3f-2b07-4bdf-81a9-121bb5aef316",
+    "created_time": "2024-04-20T22:27:00.000Z",
+    "last_edited_time": "2024-06-23T18:10:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "⚠️"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Med Priority",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Med Priority",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Med-Priority-766e2a3f2b074bdf81a9121bb5aef316",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "04651ef0-2bf2-48c4-b721-7530f118e2af",
+    "created_time": "2024-04-20T22:26:00.000Z",
+    "last_edited_time": "2024-06-24T18:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "❗"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Urgent",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Urgent",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Urgent-04651ef02bf248c4b7217530f118e2af",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "22750dae-6e0d-4764-a6a4-1cbe5fcc4be9",
+    "created_time": "2024-04-20T22:23:00.000Z",
+    "last_edited_time": "2024-06-20T18:47:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": {
+      "type": "emoji",
+      "emoji": "👽"
+    },
+    "parent": {
+      "type": "database_id",
+      "database_id": "37f256fa-cc7e-40df-a045-564ebb347b12"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Name": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "AA Review",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "AA Review",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/AA-Review-22750dae6e0d4764a6a41cbe5fcc4be9",
+    "public_url": null
+  }
+]

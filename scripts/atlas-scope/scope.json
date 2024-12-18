@@ -1,0 +1,832 @@
+{
+  "4281ab93-ef4f-4974-988d-7dad149a693d": {
+    "id": "4281ab93-ef4f-4974-988d-7dad149a693d",
+    "hub": [],
+    "type": "scope",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "A.0",
+          "link": null
+        },
+        "plain_text": "A.0",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "A.0",
+    "name": [
+      {
+        "type": "text",
+        "text": {
+          "content": "Atlas Preamble",
+          "link": null
+        },
+        "plain_text": "Atlas Preamble",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "nameString": "Atlas Preamble",
+    "content": [
+      {
+        "type": "text",
+        "text": {
+          "content": "This Preamble will be further populated in later iterations of the Atlas.",
+          "link": null
+        },
+        "plain_text": "This Preamble will be further populated in later iterations of the Atlas.",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "children": [
+      {
+        "id": "4371c842-4ea4-4974-8927-be425cf89aad"
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    }
+  },
+  "9e3f76e6-3343-4e70-af0b-c914be2e8d5a": {
+    "id": "9e3f76e6-3343-4e70-af0b-c914be2e8d5a",
+    "hub": [],
+    "type": "scope",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "A.5",
+          "link": null
+        },
+        "plain_text": "A.5",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "A.5",
+    "name": [
+      {
+        "type": "text",
+        "text": {
+          "content": "The Accessibility Scope",
+          "link": null
+        },
+        "plain_text": "The Accessibility Scope",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "nameString": "The Accessibility Scope",
+    "content": [
+      {
+        "type": "text",
+        "text": {
+          "content": "The Accessibility Scope governs accessibility and distribution efforts, and regulates user-facing frontends.",
+          "link": null
+        },
+        "plain_text": "The Accessibility Scope governs accessibility and distribution efforts, and regulates user-facing frontends.",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "children": [
+      {
+        "id": "d788d60f-be4b-4b93-aa08-d3935081c8e4"
+      },
+      {
+        "id": "837db22d-33c8-4f5b-bbda-001ddf5c2a6e"
+      },
+      {
+        "id": "7c0751bb-defe-4e67-8a98-4a46bf0d7aca"
+      },
+      {
+        "id": "2ee10f81-20c3-4768-b899-53e6ceef540e"
+      },
+      {
+        "id": "f3f46c23-9197-486e-b0ab-2206017541ff"
+      },
+      {
+        "id": "553ee681-dba2-4e2e-8bb8-2fc606989e88"
+      },
+      {
+        "id": "f20f79e8-3c47-4983-891a-3897d15f16c0"
+      },
+      {
+        "id": "4cab767d-75b1-4a22-a494-85c384ca7722"
+      },
+      {
+        "id": "1f433d9d-7cdb-406f-b7e8-f9bc4855eb77"
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "fe75a64f-585b-4d08-af00-ef8667d9c307"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    }
+  },
+  "0ba1b2bd-9513-487d-974c-0d08fb04b341": {
+    "id": "0ba1b2bd-9513-487d-974c-0d08fb04b341",
+    "hub": [],
+    "type": "scope",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "A.4",
+          "link": null
+        },
+        "plain_text": "A.4",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "A.4",
+    "name": [
+      {
+        "type": "text",
+        "text": {
+          "content": "The Protocol Scope",
+          "link": null
+        },
+        "plain_text": "The Protocol Scope",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "nameString": "The Protocol Scope",
+    "content": [
+      {
+        "type": "text",
+        "text": {
+          "content": "The Protocol Scope regulates the maintenance and development of the core Sky Protocol and its critical, non-collateral components. The Protocol Scope defines all rules for protocol engineering.",
+          "link": null
+        },
+        "plain_text": "The Protocol Scope regulates the maintenance and development of the core Sky Protocol and its critical, non-collateral components. The Protocol Scope defines all rules for protocol engineering.",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "children": [
+      {
+        "id": "3515ea08-8891-47b3-860e-7e34733e1734"
+      },
+      {
+        "id": "62c0af7d-9817-4cf5-b04e-c95b3194545c"
+      },
+      {
+        "id": "cf62c28d-f0f8-4a7c-bfaf-fcc3addd670b"
+      },
+      {
+        "id": "af0fc799-89fc-4917-92d6-1a55a490a20d"
+      },
+      {
+        "id": "15c7ed2b-ab2d-4e98-9f2f-e7a34cb35881"
+      },
+      {
+        "id": "d0ade975-2340-47d2-a35f-0b94e13dfab0"
+      },
+      {
+        "id": "edc575fd-f78c-410a-8949-1c69a1daa520"
+      },
+      {
+        "id": "840291f5-cd49-437c-9f15-908fb8891d92"
+      },
+      {
+        "id": "8471210c-ae0b-443c-93b7-2ef40bc52fa2"
+      },
+      {
+        "id": "d4eba30e-3f42-4a1f-af42-10e1d5caf244"
+      },
+      {
+        "id": "21ed89ba-7bc7-4560-a781-e14d7ac0e946"
+      },
+      {
+        "id": "17c9313b-4d63-4d42-9359-abe4aae004e2"
+      },
+      {
+        "id": "06e649e2-b05b-40df-85de-68038faaf4c0"
+      },
+      {
+        "id": "699a2f1f-3856-4c14-b01c-06f7ee229047"
+      },
+      {
+        "id": "48141a13-a8f4-4532-afd8-e72b13527d54"
+      },
+      {
+        "id": "392ddcc4-fa20-4745-92b9-c61ae7df740e"
+      },
+      {
+        "id": "9a8207f2-641f-4992-adc5-0d0cf7b45bc1"
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "fe75a64f-585b-4d08-af00-ef8667d9c307"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    }
+  },
+  "cde3202c-9073-43db-8405-4094624c57ea": {
+    "id": "cde3202c-9073-43db-8405-4094624c57ea",
+    "hub": [],
+    "type": "scope",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "A.3",
+          "link": null
+        },
+        "plain_text": "A.3",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "A.3",
+    "name": [
+      {
+        "type": "text",
+        "text": {
+          "content": "The Stability Scope",
+          "link": null
+        },
+        "plain_text": "The Stability Scope",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "nameString": "The Stability Scope",
+    "content": [
+      {
+        "type": "text",
+        "text": {
+          "content": "The Stability Scope governs the management of the USDS Stablecoin. The USDS Stablecoin must be a permissionless and useful currency available to anyone. Its stability and risk must be managed to generate as much value for Sky and public good as possible.",
+          "link": null
+        },
+        "plain_text": "The Stability Scope governs the management of the USDS Stablecoin. The USDS Stablecoin must be a permissionless and useful currency available to anyone. Its stability and risk must be managed to generate as much value for Sky and public good as possible.",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "children": [
+      {
+        "id": "0399a42b-60ee-421d-a7f4-afea08b69686"
+      },
+      {
+        "id": "c2b41343-74d7-4ebd-b4dc-642d591eb733"
+      },
+      {
+        "id": "4135a8e1-dd45-40ec-a58d-b38e49a3f81d"
+      },
+      {
+        "id": "cfe7bc6d-8abb-44e6-b0b6-c6ed04db5997"
+      },
+      {
+        "id": "c58d38dc-4b17-4c0a-a1df-546a06612c54"
+      },
+      {
+        "id": "a4359ed3-4e06-4933-b359-af3ff775b57d"
+      },
+      {
+        "id": "8af65651-8b62-46ed-a1d2-6952e1c41c5d"
+      },
+      {
+        "id": "67ae137a-e0a1-4505-acce-7828af1df452"
+      },
+      {
+        "id": "c3642e2e-d9c4-45e8-aae4-e6d776aee2d6"
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "fe75a64f-585b-4d08-af00-ef8667d9c307"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    }
+  },
+  "eca5e587-79e3-480b-b70d-dd25697c9e1f": {
+    "id": "eca5e587-79e3-480b-b70d-dd25697c9e1f",
+    "hub": [],
+    "type": "scope",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "A.2",
+          "link": null
+        },
+        "plain_text": "A.2",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "A.2",
+    "name": [
+      {
+        "type": "text",
+        "text": {
+          "content": "The Support Scope",
+          "link": null
+        },
+        "plain_text": "The Support Scope",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "nameString": "The Support Scope",
+    "content": [
+      {
+        "type": "text",
+        "text": {
+          "content": "The Support Scope governs all routine aspects of ecosystem support, including governance process infrastructure and management, Star support and Ecosystem Actor support. ",
+          "link": null
+        },
+        "plain_text": "The Support Scope governs all routine aspects of ecosystem support, including governance process infrastructure and management, Star support and Ecosystem Actor support. ",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "children": [
+      {
+        "id": "19ecc26f-5d5b-4be0-bba5-10ad3ab8c623"
+      },
+      {
+        "id": "9c9e66d5-572f-4571-8bf2-cb1df4080fa1"
+      },
+      {
+        "id": "fa2907ca-0cc3-4b6b-a2c2-560ca0ab6759"
+      },
+      {
+        "id": "d5cf4ca5-4421-452f-936a-b99512fe9568"
+      },
+      {
+        "id": "1a442f4d-2813-4e06-a1cb-92489744392c"
+      },
+      {
+        "id": "4a2804d9-e510-49e6-a73c-f4b372e2df48"
+      },
+      {
+        "id": "77843b48-1d30-4499-ac49-46cd921da76c"
+      },
+      {
+        "id": "9814c083-b7df-452d-821a-8c5f3d2275ba"
+      },
+      {
+        "id": "522d3ea5-3842-4434-979a-f349d08f8009"
+      },
+      {
+        "id": "ee1614e6-2f5e-403f-be3e-81a320a3d8b5"
+      },
+      {
+        "id": "32f31a29-1698-4f68-aa6a-f9ba2207609f"
+      },
+      {
+        "id": "64c150da-a251-4e9f-9f11-4fba04593f63"
+      },
+      {
+        "id": "350a4935-11d9-49bb-bfd4-dd7abdbf4492"
+      },
+      {
+        "id": "c96016b1-d87f-45b0-8d76-c75a621c3b56"
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "fe75a64f-585b-4d08-af00-ef8667d9c307"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [],
+      "neededResearch": []
+    }
+  },
+  "422bae2b-2aec-4324-ae40-33c544820db3": {
+    "id": "422bae2b-2aec-4324-ae40-33c544820db3",
+    "hub": [],
+    "type": "scope",
+    "docNo": [
+      {
+        "type": "text",
+        "text": {
+          "content": "A.1",
+          "link": null
+        },
+        "plain_text": "A.1",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "docNoString": "A.1",
+    "name": [
+      {
+        "type": "text",
+        "text": {
+          "content": "The Governance Scope",
+          "link": null
+        },
+        "plain_text": "The Governance Scope",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "nameString": "The Governance Scope",
+    "content": [
+      {
+        "type": "text",
+        "text": {
+          "content": "The Governance Scope regulates the governance processes and balance of power of the Sky Ecosystem. The Governance Scope must ensure that the resilient equilibrium of Sky Governance remains protected against all potential direct and indirect threats.",
+          "link": null
+        },
+        "plain_text": "The Governance Scope regulates the governance processes and balance of power of the Sky Ecosystem. The Governance Scope must ensure that the resilient equilibrium of Sky Governance remains protected against all potential direct and indirect threats.",
+        "annotations": {
+          "bold": false,
+          "italic": false,
+          "strikethrough": false,
+          "underline": false,
+          "code": false,
+          "color": "default"
+        }
+      }
+    ],
+    "children": [
+      {
+        "id": "2b902cfa-c8b8-4117-a496-6c9fadeabd8b"
+      },
+      {
+        "id": "8ca173dc-455c-4394-912a-da557e0610f6"
+      },
+      {
+        "id": "0d3822f3-a57f-4819-8772-eec594a9b828"
+      },
+      {
+        "id": "4bff6963-4ac6-453e-a7bd-00864b321092"
+      },
+      {
+        "id": "df984da7-dd21-4d8f-a67c-fe2852094a9e"
+      },
+      {
+        "id": "4addc93d-996d-408e-9750-b9c39743af4e"
+      },
+      {
+        "id": "e858b46f-89d4-4cc9-9d1c-914afbe70758"
+      },
+      {
+        "id": "10872a45-7037-40c4-8575-2bef7f88b088"
+      },
+      {
+        "id": "9f356440-52b7-43b1-857e-a4947cf43435"
+      },
+      {
+        "id": "c9374618-22ae-4072-aa69-11bd0601ca3d"
+      },
+      {
+        "id": "0d4e2d2d-d205-4aba-bf57-4bb37b11951d"
+      },
+      {
+        "id": "67498c36-7b72-4e7b-8a2c-f4f9ceb703cf"
+      },
+      {
+        "id": "95671ce7-60d8-4d8e-b9b6-de7493560308"
+      },
+      {
+        "id": "54d76c73-366a-453f-92e6-13e775ef326e"
+      },
+      {
+        "id": "a1c2d773-f5f9-4e17-9da4-edd82ea4140b"
+      },
+      {
+        "id": "b86cf8c8-de6f-406f-9db2-f37cf403f832"
+      }
+    ],
+    "masterStatus": [
+      {
+        "id": "fe75a64f-585b-4d08-af00-ef8667d9c307"
+      }
+    ],
+    "supportingDocuments": {
+      "originalContextData": [
+        {
+          "id": "56f5a6dc-c0cd-4586-80f4-f3da59d6f699"
+        },
+        {
+          "id": "d7b088fc-6fc3-4625-b3af-8c8878cec22b"
+        },
+        {
+          "id": "57a69739-5b2d-4e81-8b4a-f1aad5d9f1fc"
+        },
+        {
+          "id": "fa6c1241-bfeb-4a02-b22e-b8771ca1052c"
+        },
+        {
+          "id": "c2b86ab6-f073-4b45-a309-6884a3c6c827"
+        },
+        {
+          "id": "e8bd608c-ae28-4a25-a4f9-da9014a53525"
+        },
+        {
+          "id": "a95bc37a-0155-4ca9-8e89-55d1e6fc091a"
+        },
+        {
+          "id": "89fcded6-9683-4111-9452-dae1950a787a"
+        },
+        {
+          "id": "0da35045-c1fd-4e73-9e22-1020a81ce7cc"
+        },
+        {
+          "id": "0aa16413-5495-4344-ac34-59caea9607d6"
+        },
+        {
+          "id": "a0e00795-aec3-4176-bfce-8135ffbc7a25"
+        },
+        {
+          "id": "248e5361-0edd-48bc-aab9-620be6e56dbf"
+        },
+        {
+          "id": "f02242e1-5e2f-427e-a74c-fdca3f53b82a"
+        },
+        {
+          "id": "4c598c1c-c311-4225-a972-c2ba4c83f31e"
+        },
+        {
+          "id": "b7160981-0e56-4e9b-80e6-820d996475f4"
+        },
+        {
+          "id": "f264da28-2cc2-4959-8557-ef4dfbd2c652"
+        },
+        {
+          "id": "f4d6bbdf-260b-4f37-9efe-a2efa14d6df4"
+        },
+        {
+          "id": "418996b9-52f8-4d7a-8471-78397d0afd33"
+        },
+        {
+          "id": "73422d73-6cb8-4f8d-83fc-597434a7d876"
+        },
+        {
+          "id": "d346d025-910f-4f79-bac0-8e8e27c6cd55"
+        },
+        {
+          "id": "1b3b25b9-45b5-4d92-9961-ed39eb4e9b1c"
+        },
+        {
+          "id": "fb35e00c-73dc-4052-ae6a-7f065d76be09"
+        },
+        {
+          "id": "af5d121a-743b-4d53-bf75-5c56b15f84c1"
+        },
+        {
+          "id": "3cf5c204-b1f4-4fac-8d53-7a05ab49e3e8"
+        },
+        {
+          "id": "01c3a2b6-7d4a-48bd-a178-429d3d2ab1a5"
+        },
+        {
+          "id": "a08b9466-bfeb-4961-9d0d-498da0fcece7"
+        },
+        {
+          "id": "4422413e-488d-4ed6-9d16-d55c14dce5a9"
+        },
+        {
+          "id": "7820faaf-e6fd-4295-a83d-e14fb94accca"
+        },
+        {
+          "id": "98fd2d87-3eb8-4e2e-9c86-8a464d484df5"
+        },
+        {
+          "id": "04bd657a-714a-4f11-bb85-ed99d6646147"
+        },
+        {
+          "id": "e44501ae-6ac5-4a17-9b2d-e43dd6cee3a8"
+        },
+        {
+          "id": "1fc24e64-a1f3-4939-af99-5a9f3e7e4b12"
+        },
+        {
+          "id": "eb442ec5-1b2f-4dd9-b589-38290831c1d7"
+        },
+        {
+          "id": "d4eeed55-2259-41c1-8b29-7bac584789ee"
+        },
+        {
+          "id": "8999c993-40ae-433d-a494-dda433d14979"
+        },
+        {
+          "id": "9ce99ebb-a4f4-46ca-bec7-5a4dbb613df2"
+        },
+        {
+          "id": "c348f7c9-2ae3-4ac0-a7cf-e79829f229d4"
+        },
+        {
+          "id": "fd594f5a-fe6d-4272-8219-d4c60bfc7a3f"
+        },
+        {
+          "id": "2e503dea-9db5-4a17-9b0d-e5653167dde9"
+        },
+        {
+          "id": "50e12b7e-0ed4-4229-9ca2-1747fecd7ae8"
+        },
+        {
+          "id": "4b4c6a2c-4b8d-45e3-97bd-388f86928a83"
+        },
+        {
+          "id": "b0cec983-b97e-4612-bbe8-c3af474af13c"
+        },
+        {
+          "id": "c30d3209-5cdd-4dbd-8a6f-1dccaffd6409"
+        },
+        {
+          "id": "24c801ad-c017-466f-baa2-ed8507d2398c"
+        },
+        {
+          "id": "9c0fd7c6-e1bc-467c-8a00-f3c6d878e019"
+        },
+        {
+          "id": "8092a75b-00fe-4ab7-8bec-41e17d49a1b9"
+        },
+        {
+          "id": "f68203a8-c85e-4104-8a61-5165423b52ba"
+        },
+        {
+          "id": "a3e70848-e165-4a9d-9791-06e706edb0b2"
+        },
+        {
+          "id": "06d75f82-a0b2-4c80-9210-bd5a372e6ae8"
+        },
+        {
+          "id": "8ed3647f-565b-46e4-8804-f1902069c477"
+        },
+        {
+          "id": "8f43ee8f-e53e-4363-846e-28842dcd1d2c"
+        },
+        {
+          "id": "d6806ee9-3a3b-481c-89c4-8d9c3af1df7d"
+        },
+        {
+          "id": "9ed9575b-4c10-4b66-bb96-229538082124"
+        },
+        {
+          "id": "51260919-bac6-4d5e-90ea-9e2784a84a07"
+        },
+        {
+          "id": "8cccafa2-18e4-4da8-b5b9-4e8c3ff31a4b"
+        },
+        {
+          "id": "e7678b8b-a758-4449-bdce-ccf5487315a4"
+        },
+        {
+          "id": "429216f0-e781-4743-88a0-6bfd1b143dd5"
+        },
+        {
+          "id": "4c12f6e5-5a3e-45c4-81cf-0a2fafcba169"
+        },
+        {
+          "id": "237e3587-b004-4e3c-b672-c1ce36b1341d"
+        },
+        {
+          "id": "88a461fc-42d9-4a17-86b2-99c6faa3077a"
+        },
+        {
+          "id": "32055562-9cc6-45eb-94c4-2a65ee0fd701"
+        },
+        {
+          "id": "ce1766df-3610-4613-94bf-bbdc3dbb2f12"
+        },
+        {
+          "id": "5a777cd0-957e-45ad-8d8e-820fa1ee726d"
+        },
+        {
+          "id": "c51e0ed3-f06b-4f0f-b0c8-a1975105ea4b"
+        },
+        {
+          "id": "56f7b1df-d175-4ade-bf3e-c0f40e44c846"
+        }
+      ],
+      "neededResearch": [
+        {
+          "id": "44d85d73-827c-4b1d-972d-9a34df77ca0c"
+        }
+      ]
+    }
+  }
+}

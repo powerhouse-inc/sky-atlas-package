@@ -40,13 +40,12 @@
     "test": "vitest run",
     "test:nogen": "vitest run",
     "test:watch": "vitest",
-    "test:scope": "npm run generate && vitest run document-models/atlas-scope/src/tests/scope.test.ts",
     "prepublishOnly": "npm run build",
     "connect": "connect --config-file ./powerhouse.config.json",
     "install:storybook": "tsx scripts/index.ts"
   },
   "peerDependencies": {
-    "document-model": "^2.7.1",
+    "document-model": "^2.14.0",
     "document-model-libs": "^1.116.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
@@ -59,7 +58,7 @@
     "@powerhousedao/connect": "develop",
     "@powerhousedao/scalars": "^1.8.0",
     "@powerhousedao/design-system": "^1.9.1",
-    "@powerhousedao/ph-cli": "^0.6.1",
+    "@powerhousedao/ph-cli": "^0.11.0",
     "@types/eslint__js": "^8.42.3",
     "@types/node": "^22.7.3",
     "@types/react": "^18.3.9",
@@ -86,5 +85,8 @@
     "vitest": "^2.1.1",
     "zod": "^3.23.8"
   },
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "document-drive": "^1.10.1"
+  }
 }

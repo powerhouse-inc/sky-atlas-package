@@ -1,0 +1,5183 @@
+[
+  {
+    "object": "page",
+    "id": "11bf2ff0-8d73-8036-8083-f90a13ead3ee",
+    "created_time": "2024-10-10T17:14:00.000Z",
+    "last_edited_time": "2024-10-17T11:10:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "c066fbc5-020f-4dee-a642-e43c82409bd0"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "29949557-a9a9-422f-bb4d-b16017e7644a"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "fe75a64f-585b-4d08-af00-ef8667d9c307"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Governance Facilitators Must Exercise Due Caution In Reviewing Use Of Multisig",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Governance Facilitators Must Exercise Due Caution In Reviewing Use Of Multisig",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The list of instances justifying use of the Multisig in the Target Document is not intended to be exhaustive. However, the Governance Facilitators must exercise due caution in reviewing and validating use of the Multisig in edge cases, i.e., use of the Multisig that falls outside of the examples provided in the Target Document. In such “edge cases,” the Governance Facilitators must ensure that a postmortem is publicly published on the Sky Forum which justifies the use of the Multisig. The Governance Facilitators should also consider proposing an edit to the Target Document so that the edge case is explicitly included in the examples provided in the Target Document.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The list of instances justifying use of the Multisig in the Target Document is not intended to be exhaustive. However, the Governance Facilitators must exercise due caution in reviewing and validating use of the Multisig in edge cases, i.e., use of the Multisig that falls outside of the examples provided in the Target Document. In such “edge cases,” the Governance Facilitators must ensure that a postmortem is publicly published on the Sky Forum which justifies the use of the Multisig. The Governance Facilitators should also consider proposing an edit to the Target Document so that the edge case is explicitly included in the examples provided in the Target Document.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Governance Facilitators Must Exercise Due Caution In Reviewing Use Of Multisig"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Governance-Facilitators-Must-Exercise-Due-Caution-In-Reviewing-Use-Of-Multisig-11bf2ff08d7380368083f90a13ead3ee",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "115f2ff0-8d73-8004-bf41-d1897f5d8eae",
+    "created_time": "2024-10-04T16:06:00.000Z",
+    "last_edited_time": "2024-10-17T09:45:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "c066fbc5-020f-4dee-a642-e43c82409bd0"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "29949557-a9a9-422f-bb4d-b16017e7644a"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "fe75a64f-585b-4d08-af00-ef8667d9c307"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Prime Delegate Loss Of Rank After Triggering Proposal Is Inconsequential",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Prime Delegate Loss Of Rank After Triggering Proposal Is Inconsequential",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "A Weekly Cycle Proposal is considered correctly triggered when the triggering Aligned Delegate is a Prime Delegate with at least one (1) month’s worth of budget in their AD Buffer at the time of triggering the Proposal. It is inconsequential if, after triggering the Proposal, the Prime Delegate loses Prime Delegate rank.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A Weekly Cycle Proposal is considered correctly triggered when the triggering Aligned Delegate is a Prime Delegate with at least one (1) month’s worth of budget in their AD Buffer at the time of triggering the Proposal. It is inconsequential if, after triggering the Proposal, the Prime Delegate loses Prime Delegate rank.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Prime Delegate Loss Of Rank After Triggering Proposal Is Inconsequential"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "115f2ff0-8d73-80b8-9c2e-c68a25fe03d6"
+          }
+        ],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Prime-Delegate-Loss-Of-Rank-After-Triggering-Proposal-Is-Inconsequential-115f2ff08d738004bf41d1897f5d8eae",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "115f2ff0-8d73-8077-9c93-d58afd56c475",
+    "created_time": "2024-10-04T16:00:00.000Z",
+    "last_edited_time": "2024-10-17T09:39:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "c066fbc5-020f-4dee-a642-e43c82409bd0"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "29949557-a9a9-422f-bb4d-b16017e7644a"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "fe75a64f-585b-4d08-af00-ef8667d9c307"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Prime Delegates Must Stake Their AD Buffer To Trigger Weekly Cycle Proposals",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Prime Delegates Must Stake Their AD Buffer To Trigger Weekly Cycle Proposals",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "To deter spurious or misaligned proposals, Prime Delegates must “stake” their AD Buffer to trigger a Proposal. A Prime Delegate can trigger a Weekly Cycle Proposal only if their AD Buffer contains at least one (1) month’s worth of budget at the time of triggering the Proposal. This “staking” requirement of one month’s worth of budget remains in effect until the triggered Proposal is fully resolved - that is, until either (1) the Proposal is rejected by the Governance Facilitators for misalignment, or (2) a Sky Governance vote on the Proposal concludes in an approval or rejection. If the Proposal is voted down or rejected for misalignment, the PD will lose their entire AD Buffer.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "To deter spurious or misaligned proposals, Prime Delegates must “stake” their AD Buffer to trigger a Proposal. A Prime Delegate can trigger a Weekly Cycle Proposal only if their AD Buffer contains at least one (1) month’s worth of budget at the time of triggering the Proposal. This “staking” requirement of one month’s worth of budget remains in effect until the triggered Proposal is fully resolved - that is, until either (1) the Proposal is rejected by the Governance Facilitators for misalignment, or (2) a Sky Governance vote on the Proposal concludes in an approval or rejection. If the Proposal is voted down or rejected for misalignment, the PD will lose their entire AD Buffer.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Prime Delegates Must Stake Their AD Buffer To Trigger Weekly Cycle Proposals"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "115f2ff0-8d73-807d-a7aa-cf4bb69aa459"
+          }
+        ],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Prime-Delegates-Must-Stake-Their-AD-Buffer-To-Trigger-Weekly-Cycle-Proposals-115f2ff08d7380779c93d58afd56c475",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "ed337031-1f2a-43f6-9a43-9d032ea9433a",
+    "created_time": "2024-08-30T00:39:00.000Z",
+    "last_edited_time": "2024-08-30T00:46:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Trigger - Support Facilitators Must Add Atlas Core Development Payments To Executive Vote",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Trigger - Support Facilitators Must Add Atlas Core Development Payments To Executive Vote",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In this context, the element “trigger” means that the Support Facilitators are responsible for requesting the addition of Atlas Core Development payments to an Executive Vote. The Support Facilitators are also responsible for providing provenance for such requests by confirming payment requests on the Executive Sheet. See ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In this context, the element “trigger” means that the Support Facilitators are responsible for requesting the addition of Atlas Core Development payments to an Executive Vote. The Support Facilitators are also responsible for providing provenance for such requests by confirming payment requests on the Executive Sheet. See ",
+            "href": null
+          },
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "78daeff8-6385-48a4-b422-a6587825be80"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Executive Sheet - Element Annotation",
+            "href": "https://www.notion.so/78daeff8638548a4b422a6587825be80"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Trigger - Support Facilitators Must Add Atlas Core Development Payments To Executive Vote"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Trigger-Support-Facilitators-Must-Add-Atlas-Core-Development-Payments-To-Executive-Vote-ed3370311f2a43f69a439d032ea9433a",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "f0fe0998-ad8b-4f72-96c0-18b2f765d98f",
+    "created_time": "2024-08-29T23:52:00.000Z",
+    "last_edited_time": "2024-08-30T00:04:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Clear Error",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Clear Error",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The Target Document grants Facilitators the authority to directly edit an Active Data document if it contains a mistake or inaccuracy that is obvious, unambiguous, and indisputable. The term \"clear error\" means that the mistake is apparent and does not require extensive debate or investigation to be recognized as such.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The Target Document grants Facilitators the authority to directly edit an Active Data document if it contains a mistake or inaccuracy that is obvious, unambiguous, and indisputable. The term \"clear error\" means that the mistake is apparent and does not require extensive debate or investigation to be recognized as such.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Clear Error"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Clear-Error-f0fe0998ad8b4f7296c018b2f765d98f",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "2a7416ee-d3ad-47da-9ada-7e6b0cd46a55",
+    "created_time": "2024-08-29T22:53:00.000Z",
+    "last_edited_time": "2024-08-29T22:54:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Spell Teams - All Recognized Spell Teams Can Participate",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Spell Teams - All Recognized Spell Teams Can Participate",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “spell teams” indicates that the entire spell roster can participate in the decision described in the Target Document. The spell roster is defined as all spell team members authorized to perform spell crafting and spell reviewing services for Sky Core. ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The element “spell teams” indicates that the entire spell roster can participate in the decision described in the Target Document. The spell roster is defined as all spell team members authorized to perform spell crafting and spell reviewing services for Sky Core. ",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Spell Teams - All Recognized Spell Teams Can Participate"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Spell-Teams-All-Recognized-Spell-Teams-Can-Participate-2a7416eed3ad47da9ada7e6b0cd46a55",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "39a64cdf-1986-4a03-8736-28e0ca63baf9",
+    "created_time": "2024-08-29T21:17:00.000Z",
+    "last_edited_time": "2024-09-13T10:12:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "29949557-a9a9-422f-bb4d-b16017e7644a"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Determine How They Are Modified - Immutable Documents Can Be Amended In The Transition To Endgame",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Determine How They Are Modified - Immutable Documents Can Be Amended In The Transition To Endgame",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Currently, in the transition to Endgame, the Immutable Documents (Articles and Sections) can be amended pursuant to ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Currently, in the transition to Endgame, the Immutable Documents (Articles and Sections) can be amended pursuant to ",
+            "href": null
+          },
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "95671ce7-60d8-4d8e-b9b6-de7493560308"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A.1.11",
+            "href": "https://www.notion.so/95671ce760d84d8eb9b6de7493560308"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " and ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " and ",
+            "href": null
+          },
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "54d76c73-366a-453f-92e6-13e775ef326e"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A.1.12",
+            "href": "https://www.notion.so/54d76c73366a453f92e613e775ef326e"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": {
+                "url": "https://www.notion.so/A-1-12-54d76c73366a453f92e613e775ef326e"
+              }
+            },
+            "annotations": {
+              "bold": true,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": "https://www.notion.so/A-1-12-54d76c73366a453f92e613e775ef326e"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " Once the Sky Ecosystem enters the Endgame State, the Immutable Documents of the Atlas will be forever locked down and cannot be changed.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " Once the Sky Ecosystem enters the Endgame State, the Immutable Documents of the Atlas will be forever locked down and cannot be changed.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Determine How They Are Modified - Immutable Documents Can Be Amended In The Transition To Endgame"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Determine-How-They-Are-Modified-Immutable-Documents-Can-Be-Amended-In-The-Transition-To-Endgame-39a64cdf19864a03873628e0ca63baf9",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "16187318-4f50-4f9b-b238-b81ef5a6d569",
+    "created_time": "2024-08-29T04:36:00.000Z",
+    "last_edited_time": "2024-08-29T04:56:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Key Atlas Contributors",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Key Atlas Contributors",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Key Atlas contributors are individuals or teams that play a crucial role in the development of the Atlas. Relevant workstreams can include community building, research, data collection, data processing, data review, drafting, peer review, etc. The Support Facilitators, in consultation with Atlas Axis or other relevant Ecosystem Actors, will distribute funding based on criteria such as the scope of the contribution, its impact on the Atlas, and the quality of the work produced.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Key Atlas contributors are individuals or teams that play a crucial role in the development of the Atlas. Relevant workstreams can include community building, research, data collection, data processing, data review, drafting, peer review, etc. The Support Facilitators, in consultation with Atlas Axis or other relevant Ecosystem Actors, will distribute funding based on criteria such as the scope of the contribution, its impact on the Atlas, and the quality of the work produced.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Key Atlas Contributors"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Key-Atlas-Contributors-161873184f504f9bb238b81ef5a6d569",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "8a0e1e60-963b-4e7c-92b4-488fb92e9ef8",
+    "created_time": "2024-08-29T00:44:00.000Z",
+    "last_edited_time": "2024-08-29T21:18:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In The Transition To Endgame - Immutable Documents Can Be Amended",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In The Transition To Endgame - Immutable Documents Can Be Amended",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Currently, in the transition to Endgame, the Immutable Documents (Articles and Sections) can be amended pursuant to ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Currently, in the transition to Endgame, the Immutable Documents (Articles and Sections) can be amended pursuant to ",
+            "href": null
+          },
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "95671ce7-60d8-4d8e-b9b6-de7493560308"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A.1.11",
+            "href": "https://www.notion.so/95671ce760d84d8eb9b6de7493560308"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " and ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " and ",
+            "href": null
+          },
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "54d76c73-366a-453f-92e6-13e775ef326e"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A.1.12",
+            "href": "https://www.notion.so/54d76c73366a453f92e613e775ef326e"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". Once the Sky Ecosystem enters the Endgame State, the Immutable Documents of the Atlas will be forever locked down and cannot be changed.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ". Once the Sky Ecosystem enters the Endgame State, the Immutable Documents of the Atlas will be forever locked down and cannot be changed.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "In The Transition To Endgame - Immutable Documents Can Be Amended"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/In-The-Transition-To-Endgame-Immutable-Documents-Can-Be-Amended-8a0e1e60963b4e7c92b4488fb92e9ef8",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "1b1afa3c-6c47-4230-8f64-fe47f79b987d",
+    "created_time": "2024-08-29T00:37:00.000Z",
+    "last_edited_time": "2024-09-02T01:57:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "c066fbc5-020f-4dee-a642-e43c82409bd0"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In Progress - Change To Minimum Positive Participation Value Cannot Affect Polls That Have Already Begun",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In Progress - Change To Minimum Positive Participation Value Cannot Affect Polls That Have Already Begun",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "“In progress\" refers to the state of a Ratification Poll that has already started, where voting is currently taking place. The Target Document thus states that any changes to Minimum Positive Participation values cannot affect polls that have already begun.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "“In progress\" refers to the state of a Ratification Poll that has already started, where voting is currently taking place. The Target Document thus states that any changes to Minimum Positive Participation values cannot affect polls that have already begun.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "In Progress - Change To Minimum Positive Participation Value Cannot Affect Polls That Have Already Begun"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/In-Progress-Change-To-Minimum-Positive-Participation-Value-Cannot-Affect-Polls-That-Have-Already-B-1b1afa3c6c4742308f64fe47f79b987d",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "3aba9399-dc9a-41bf-978d-f288884a73f3",
+    "created_time": "2024-08-28T23:56:00.000Z",
+    "last_edited_time": "2024-08-28T23:58:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Amended - Blocked AEPs Cannot Be Re-Submitted In Original Form",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Amended - Blocked AEPs Cannot Be Re-Submitted In Original Form",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "An AEP that was blocked for misalignment cannot be resubmitted in its original form; it must be edited before it can be formally submitted again to the Monthly Cycle.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "An AEP that was blocked for misalignment cannot be resubmitted in its original form; it must be edited before it can be formally submitted again to the Monthly Cycle.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Amended - Blocked AEPs Cannot Be Re-Submitted In Original Form"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Amended-Blocked-AEPs-Cannot-Be-Re-Submitted-In-Original-Form-3aba9399dc9a41bf978df288884a73f3",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "2f4a5f50-02af-4db3-8386-bae5036ccca3",
+    "created_time": "2024-08-28T22:47:00.000Z",
+    "last_edited_time": "2024-08-28T22:49:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Useful - Whistleblower Evidence Must Have Material Impact",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Useful - Whistleblower Evidence Must Have Material Impact",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “useful” means that the evidence provided by the whistleblower must have had a material impact on the adjudication. The term \"material impact\" here does not imply that the adjudication process would have been impossible to resolve without the whistleblower's evidence. Instead, the evidence provided by the whistleblower can still be considered “useful” or of “material impact” if it serves a supportive role in the adjudication, even if it does not play a central or decisive part. The evidence simply needs to contribute meaningfully to the investigation, regardless of the extent of its influence. The Governance Facilitators ultimately have broad discretion here in awarding the bounty.\n\nIt is important to note that the payment of the whistleblower bounty is dependent on the outcome of the decision. If the Facilitators rule in favor of the AD, the bounty should not be awarded. If the Facilitators rule against the AD, the bounty should be awarded if the whistleblower has responsibly submitted useful evidence.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The element “useful” means that the evidence provided by the whistleblower must have had a material impact on the adjudication. The term \"material impact\" here does not imply that the adjudication process would have been impossible to resolve without the whistleblower's evidence. Instead, the evidence provided by the whistleblower can still be considered “useful” or of “material impact” if it serves a supportive role in the adjudication, even if it does not play a central or decisive part. The evidence simply needs to contribute meaningfully to the investigation, regardless of the extent of its influence. The Governance Facilitators ultimately have broad discretion here in awarding the bounty.\n\nIt is important to note that the payment of the whistleblower bounty is dependent on the outcome of the decision. If the Facilitators rule in favor of the AD, the bounty should not be awarded. If the Facilitators rule against the AD, the bounty should be awarded if the whistleblower has responsibly submitted useful evidence.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Useful - Whistleblower Evidence Must Have Material Impact"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Useful-Whistleblower-Evidence-Must-Have-Material-Impact-2f4a5f5002af4db38386bae5036ccca3",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "763b7b13-2be2-41e7-b74d-bb9d26fd4213",
+    "created_time": "2024-08-28T22:23:00.000Z",
+    "last_edited_time": "2024-08-28T22:25:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Promptly Derecognized - Mandated Timeline For AD Derecognition For Operational Security Breach",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Promptly Derecognized - Mandated Timeline For AD Derecognition For Operational Security Breach",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element 'promptly' in the Target Document means 'as soon as is reasonably possible.'\n\nTo adhere to this commitment, the Governance Facilitators must derecognize the AD within a general timeframe of 1-2 calendar days upon conclusion of an investigation that finds against the AD for breach of operational security. Failure to meet this deadline requires a showing of good cause, demonstrating extenuating circumstances beyond the Facilitators’ control.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The element 'promptly' in the Target Document means 'as soon as is reasonably possible.'\n\nTo adhere to this commitment, the Governance Facilitators must derecognize the AD within a general timeframe of 1-2 calendar days upon conclusion of an investigation that finds against the AD for breach of operational security. Failure to meet this deadline requires a showing of good cause, demonstrating extenuating circumstances beyond the Facilitators’ control.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "e94c0ec4-e657-46df-abdb-af0b12e9eb8e"
+          },
+          {
+            "id": "0fb3b33c-9577-447a-a76c-01fbd541a3db"
+          }
+        ],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Promptly Derecognized - Mandated Timeline For AD Derecognition For Operational Security Breach"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Promptly-Derecognized-Mandated-Timeline-For-AD-Derecognition-For-Operational-Security-Breach-763b7b132be241e7b74dbb9d26fd4213",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "734cea37-fabd-4471-ad16-697a98765bbf",
+    "created_time": "2024-08-28T04:27:00.000Z",
+    "last_edited_time": "2024-08-28T04:31:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Unanimity Is Not Required To Block Proposal For Misalignment",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Unanimity Is Not Required To Block Proposal For Misalignment",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Unanimity is not required among Governance Facilitators to block an Atlas Edit Weekly Cycle Proposal for misalignment.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Unanimity is not required among Governance Facilitators to block an Atlas Edit Weekly Cycle Proposal for misalignment.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Unanimity Is Not Required To Block Proposal For Misalignment"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Unanimity-Is-Not-Required-To-Block-Proposal-For-Misalignment-734cea37fabd4471ad16697a98765bbf",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "a0e80590-2c40-4622-b042-a60e596262c9",
+    "created_time": "2024-08-28T02:38:00.000Z",
+    "last_edited_time": "2024-08-28T02:40:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Clearly Detail Their Interactions - Facilitators' Documentation Mandate",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Clearly Detail Their Interactions - Facilitators' Documentation Mandate",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Facilitators are required to thoroughly document all aspects of their communications and dealings with counterparties. This includes the content of discussions, the context of interactions (date and time), and any decisions made or actions taken as a result.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Facilitators are required to thoroughly document all aspects of their communications and dealings with counterparties. This includes the content of discussions, the context of interactions (date and time), and any decisions made or actions taken as a result.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Clearly Detail Their Interactions - Facilitators' Documentation Mandate"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Clearly-Detail-Their-Interactions-Facilitators-Documentation-Mandate-a0e805902c404622b042a60e596262c9",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "f55ff84b-a8b4-4e73-bbf6-53f89009ea20",
+    "created_time": "2024-08-28T02:19:00.000Z",
+    "last_edited_time": "2024-08-29T21:48:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Any Active Scope Facilitator - Only Active Scope Facilitators Can Take Over Expedited Onboarding of Reserve Facilitators",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Any Active Scope Facilitator - Only Active Scope Facilitators Can Take Over Expedited Onboarding of Reserve Facilitators",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In the event that the Governance Facilitators are unable to fulfill their role, only currently active Scope Facilitators (not Reserve or Interim Facilitators) are authorized to take over the expedited process of onboarding Reserve Facilitators defined in ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In the event that the Governance Facilitators are unable to fulfill their role, only currently active Scope Facilitators (not Reserve or Interim Facilitators) are authorized to take over the expedited process of onboarding Reserve Facilitators defined in ",
+            "href": null
+          },
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "0a76afa9-b9dd-43b9-bfc2-0b15308da351"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A.1.6 - Facilitators - Expedited Onboarding Of Reserve Facilitators",
+            "href": "https://www.notion.so/0a76afa9b9dd43b9bfc20b15308da351"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ". ",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Any Active Scope Facilitator - Only Active Scope Facilitators Can Take Over Expedited Onboarding of Reserve Facilitators"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Any-Active-Scope-Facilitator-Only-Active-Scope-Facilitators-Can-Take-Over-Expedited-Onboarding-of--f55ff84ba8b44e73bbf653f89009ea20",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "f8135bb8-2839-4707-9fe9-d40a08e2a7a4",
+    "created_time": "2024-08-28T02:04:00.000Z",
+    "last_edited_time": "2024-08-28T22:47:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Useful - Whistleblower Evidence Must Have Material Impact",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Useful - Whistleblower Evidence Must Have Material Impact",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “useful” means that the evidence provided by the whistleblower must have had a material impact on the adjudication. The term \"material impact\" here does not imply that the adjudication process would have been impossible to resolve without the whistleblower's evidence. Instead, the evidence provided by the whistleblower can still be considered “useful” or of “material impact” if it serves a supportive role in the adjudication, even if it does not play a central or decisive part. The evidence simply needs to contribute meaningfully to the investigation, regardless of the extent of its influence. The Governance Facilitators ultimately have broad discretion here in awarding the bounty.\n\nIt is important to note that the payment of the whistleblower bounty is dependent on the outcome of the decision. If the Facilitators rule in favor of the AD, the bounty should not be awarded. If the Facilitators rule against the AD, the bounty should be awarded if the whistleblower has responsibly submitted useful evidence.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The element “useful” means that the evidence provided by the whistleblower must have had a material impact on the adjudication. The term \"material impact\" here does not imply that the adjudication process would have been impossible to resolve without the whistleblower's evidence. Instead, the evidence provided by the whistleblower can still be considered “useful” or of “material impact” if it serves a supportive role in the adjudication, even if it does not play a central or decisive part. The evidence simply needs to contribute meaningfully to the investigation, regardless of the extent of its influence. The Governance Facilitators ultimately have broad discretion here in awarding the bounty.\n\nIt is important to note that the payment of the whistleblower bounty is dependent on the outcome of the decision. If the Facilitators rule in favor of the AD, the bounty should not be awarded. If the Facilitators rule against the AD, the bounty should be awarded if the whistleblower has responsibly submitted useful evidence.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Useful - Whistleblower Evidence Must Have Material Impact"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Useful-Whistleblower-Evidence-Must-Have-Material-Impact-f8135bb8283947079fe9d40a08e2a7a4",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "91ced8ab-05e2-405b-ab79-b5bd8ae2876f",
+    "created_time": "2024-08-27T16:45:00.000Z",
+    "last_edited_time": "2024-08-29T17:06:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "29949557-a9a9-422f-bb4d-b16017e7644a"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Any Active Scope Facilitator - Reserve And Interim Governance Facilitators Cannot Initiate Formal Adjudication",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Any Active Scope Facilitator - Reserve And Interim Governance Facilitators Cannot Initiate Formal Adjudication",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Only currently active Scope Facilitators can initiate a formal adjudication pursuant to ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Only currently active Scope Facilitators can initiate a formal adjudication pursuant to ",
+            "href": null
+          },
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "45b9378d-78b4-4bff-b650-d55ca048b814"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A.1.4 - Alignment Conservers - Accountability And Misalignment Handling - Adjudication Process",
+            "href": "https://www.notion.so/45b9378d78b44bffb650d55ca048b814"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". This Action Tenet does not limit in any way a Reserve or Interim Facilitator from bringing allegations of potential Facilitator misalignment to the Governance Facilitators or another active Scope Facilitator. If warranted, the active Scope Facilitators can then decide to initiate a formal adjudication to investigate the allegations.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ". This Action Tenet does not limit in any way a Reserve or Interim Facilitator from bringing allegations of potential Facilitator misalignment to the Governance Facilitators or another active Scope Facilitator. If warranted, the active Scope Facilitators can then decide to initiate a formal adjudication to investigate the allegations.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Any Active Scope Facilitator - Reserve And Interim Governance Facilitators Cannot Initiate Formal Adjudication"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Any-Active-Scope-Facilitator-Reserve-And-Interim-Governance-Facilitators-Cannot-Initiate-Formal-Ad-91ced8ab05e2405bab79b5bd8ae2876f",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "0e3d1586-c605-4228-b41a-16fe3a61f638",
+    "created_time": "2024-08-27T05:15:00.000Z",
+    "last_edited_time": "2024-09-02T01:57:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "c066fbc5-020f-4dee-a642-e43c82409bd0"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Promptly Derecognized - Mandated Timeline For Facilitator Derecognition",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Promptly Derecognized - Mandated Timeline For Facilitator Derecognition",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element 'promptly' in the Target Document means 'as soon as is reasonably possible.'\n\nTo adhere to this commitment, the Governance Facilitators must derecognize the Facilitator within a general timeframe of 1-2 calendar days upon conclusion of an investigation that finds against the Facilitator. Failure to meet this deadline requires a showing of good cause, demonstrating extenuating circumstances beyond the Facilitators’ control.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The element 'promptly' in the Target Document means 'as soon as is reasonably possible.'\n\nTo adhere to this commitment, the Governance Facilitators must derecognize the Facilitator within a general timeframe of 1-2 calendar days upon conclusion of an investigation that finds against the Facilitator. Failure to meet this deadline requires a showing of good cause, demonstrating extenuating circumstances beyond the Facilitators’ control.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "e94c0ec4-e657-46df-abdb-af0b12e9eb8e"
+          },
+          {
+            "id": "0fb3b33c-9577-447a-a76c-01fbd541a3db"
+          }
+        ],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Promptly Derecognized - Mandated Timeline For Facilitator Derecognition"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Promptly-Derecognized-Mandated-Timeline-For-Facilitator-Derecognition-0e3d1586c6054228b41a16fe3a61f638",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "1cfbee44-9897-459f-b56b-8c67bcf7b07f",
+    "created_time": "2024-08-27T00:24:00.000Z",
+    "last_edited_time": "2024-08-29T17:10:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "29949557-a9a9-422f-bb4d-b16017e7644a"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Facilitators’ Authority To Raise Formal Allegation",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Facilitators’ Authority To Raise Formal Allegation",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Any community member or Aligned Delegate with information pertinent to suspected Alignment Conserver misalignment may take their concerns directly to the Governance Facilitators.  Upon receiving such information, the Governance Facilitators must promptly conduct an initial review to quickly assess the credibility of the concern. Based on this preliminary review, the Governance Facilitators must decide whether to initiate a formal adjudication process in accordance with ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Any community member or Aligned Delegate with information pertinent to suspected Alignment Conserver misalignment may take their concerns directly to the Governance Facilitators.  Upon receiving such information, the Governance Facilitators must promptly conduct an initial review to quickly assess the credibility of the concern. Based on this preliminary review, the Governance Facilitators must decide whether to initiate a formal adjudication process in accordance with ",
+            "href": null
+          },
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "45b9378d-78b4-4bff-b650-d55ca048b814"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A.1.4 - Alignment Conservers - Accountability And Misalignment Handling - Adjudication Process",
+            "href": "https://www.notion.so/45b9378d78b44bffb650d55ca048b814"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".\n\nWhere the allegation of misalignment concerns a Governance Facilitator, a community member can take their concerns to any other Scope Facilitator, who is then empowered to initiate the formal adjudication process.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".\n\nWhere the allegation of misalignment concerns a Governance Facilitator, a community member can take their concerns to any other Scope Facilitator, who is then empowered to initiate the formal adjudication process.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Facilitators’ Authority To Raise Formal Allegation"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Facilitators-Authority-To-Raise-Formal-Allegation-1cfbee449897459fb56b8c67bcf7b07f",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "3e44053d-4c11-4a12-89ae-6b294056e783",
+    "created_time": "2024-08-26T23:37:00.000Z",
+    "last_edited_time": "2024-08-28T22:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Promptly Derecognized - Mandated Timeline For AC Derecognition For Misalignment",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Promptly Derecognized - Mandated Timeline For AC Derecognition For Misalignment",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element 'promptly' in the Target Document means 'as soon as is reasonably possible.'\n\nTo adhere to this commitment, the Governance Facilitators must derecognize the AC within a general timeframe of 1-2 calendar days upon conclusion of an adjudication that finds against the AC for misalignment. Failure to meet this deadline requires a showing of good cause, demonstrating extenuating circumstances beyond the Facilitators’ control.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The element 'promptly' in the Target Document means 'as soon as is reasonably possible.'\n\nTo adhere to this commitment, the Governance Facilitators must derecognize the AC within a general timeframe of 1-2 calendar days upon conclusion of an adjudication that finds against the AC for misalignment. Failure to meet this deadline requires a showing of good cause, demonstrating extenuating circumstances beyond the Facilitators’ control.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "e94c0ec4-e657-46df-abdb-af0b12e9eb8e"
+          },
+          {
+            "id": "0fb3b33c-9577-447a-a76c-01fbd541a3db"
+          }
+        ],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Promptly Derecognized - Mandated Timeline For AC Derecognition For Misalignment"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Promptly-Derecognized-Mandated-Timeline-For-AC-Derecognition-For-Misalignment-3e44053d4c114a1289ae6b294056e783",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "31e2f64e-285a-4975-b8ad-af26dbe860fd",
+    "created_time": "2024-08-26T23:29:00.000Z",
+    "last_edited_time": "2024-08-26T23:30:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Opportunity To Respond",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Opportunity To Respond",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The opportunity to respond should include sufficient time to prepare a response, the ability to submit information or evidence, and reasonable access to any information pertinent to the allegation. Where an internal or external whistleblower has provided evidence of potential AC misalignment, the Governance Facilitators should keep the whistleblower’s identity confidential.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The opportunity to respond should include sufficient time to prepare a response, the ability to submit information or evidence, and reasonable access to any information pertinent to the allegation. Where an internal or external whistleblower has provided evidence of potential AC misalignment, the Governance Facilitators should keep the whistleblower’s identity confidential.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Opportunity To Respond"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Opportunity-To-Respond-31e2f64e285a4975b8adaf26dbe860fd",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "0414537c-36da-4ef0-bb1e-834f775842f1",
+    "created_time": "2024-08-26T23:01:00.000Z",
+    "last_edited_time": "2024-08-27T05:37:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Where Feasible - Governance Facilitators Have Discretion In Determining Whether Public Report Should Be Issued",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Where Feasible - Governance Facilitators Have Discretion In Determining Whether Public Report Should Be Issued",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “where feasible” means that the Governance Facilitators have discretion to determine whether it is appropriate to issue a Public Report following an AC misalignment adjudication. Where an adjudication proceeding involves sensitive security matters or evidence, the Governance Facilitators have the option to defer from issuing a public report entirely; or to issue a report that excludes the sensitive security matters, while maintaining as much transparency as possible. The latter option should be preferred where possible.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The element “where feasible” means that the Governance Facilitators have discretion to determine whether it is appropriate to issue a Public Report following an AC misalignment adjudication. Where an adjudication proceeding involves sensitive security matters or evidence, the Governance Facilitators have the option to defer from issuing a public report entirely; or to issue a report that excludes the sensitive security matters, while maintaining as much transparency as possible. The latter option should be preferred where possible.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Where Feasible - Governance Facilitators Have Discretion In Determining Whether Public Report Should Be Issued"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Where-Feasible-Governance-Facilitators-Have-Discretion-In-Determining-Whether-Public-Report-Should-0414537c36da4ef0bb1e834f775842f1",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "2d1891c7-1c5b-4e05-abc9-791a325f85b7",
+    "created_time": "2024-08-24T07:34:00.000Z",
+    "last_edited_time": "2024-08-26T23:27:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Must Act Swiftly - Facilitators Must Take Immediate And Prompt Action",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Must Act Swiftly - Facilitators Must Take Immediate And Prompt Action",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "By \"swiftly,” the Target Document requires Facilitators to take immediate and prompt action without unnecessary delay. The urgency is intended to prevent further harm or disruption within the governance system. A highly time-sensitive response is mandated for any breaches or potential risks of AC misalignment.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "By \"swiftly,” the Target Document requires Facilitators to take immediate and prompt action without unnecessary delay. The urgency is intended to prevent further harm or disruption within the governance system. A highly time-sensitive response is mandated for any breaches or potential risks of AC misalignment.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Must Act Swiftly - Facilitators Must Take Immediate And Prompt Action"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Must-Act-Swiftly-Facilitators-Must-Take-Immediate-And-Prompt-Action-2d1891c71c5b4e05abc9791a325f85b7",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "5aab448a-9cf1-4b51-b0d6-01362d3dd031",
+    "created_time": "2024-08-24T07:16:00.000Z",
+    "last_edited_time": "2024-08-29T17:01:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "29949557-a9a9-422f-bb4d-b16017e7644a"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "ACs Must Go Beyond Mere Technical Compliance With Rules",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "ACs Must Go Beyond Mere Technical Compliance With Rules",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Alignment Conservers (ACs) must meet the most stringent standards for Universal Alignment, demonstrating not only compliance with the letter of the rules but also a deep and authentic commitment to the spirit of the rules, i.e., the underlying principles and goals of Sky. This demanding standard goes beyond mere technical compliance and requires proof of genuine intent and actions consistent with upholding the Spirit of the Atlas. \n\nSee ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Alignment Conservers (ACs) must meet the most stringent standards for Universal Alignment, demonstrating not only compliance with the letter of the rules but also a deep and authentic commitment to the spirit of the rules, i.e., the underlying principles and goals of Sky. This demanding standard goes beyond mere technical compliance and requires proof of genuine intent and actions consistent with upholding the Spirit of the Atlas. \n\nSee ",
+            "href": null
+          },
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "87f95cee-ff66-49c0-ba91-fa5f38c3d32e"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A.0.1 - Atlas Preamble - Definitions - Letter Of The Rule Vs Spirit Of The Rule",
+            "href": "https://www.notion.so/87f95ceeff6649c0ba91fa5f38c3d32e"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "ACs Must Go Beyond Mere Technical Compliance With Rules"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/ACs-Must-Go-Beyond-Mere-Technical-Compliance-With-Rules-5aab448a9cf14b51b0d601362d3dd031",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "30d146c1-e676-472d-9c56-33dd5d12e6fb",
+    "created_time": "2024-08-24T07:13:00.000Z",
+    "last_edited_time": "2024-08-24T07:16:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Doubt Regarding AC’s Alignment Will Be Resolved Against Them",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Doubt Regarding AC’s Alignment Will Be Resolved Against Them",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In adjudicating potential misalignment of Alignment Conservers, Facilitators are not to assume innocence or give leeway in cases of ambiguity. Instead, the burden is on the Alignment Conserver to provide clear and convincing evidence of their alignment. Any uncertainty or doubt regarding the AC’s alignment will be resolved against them, requiring them to definitively prove their adherence to the Atlas.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In adjudicating potential misalignment of Alignment Conservers, Facilitators are not to assume innocence or give leeway in cases of ambiguity. Instead, the burden is on the Alignment Conserver to provide clear and convincing evidence of their alignment. Any uncertainty or doubt regarding the AC’s alignment will be resolved against them, requiring them to definitively prove their adherence to the Atlas.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Doubt Regarding AC’s Alignment Will Be Resolved Against Them"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Doubt-Regarding-AC-s-Alignment-Will-Be-Resolved-Against-Them-30d146c1e676472d9c5633dd5d12e6fb",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "168fa746-2d8b-4d7b-8387-ccc2b2fad91b",
+    "created_time": "2024-08-24T00:58:00.000Z",
+    "last_edited_time": "2024-08-24T01:05:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Determination Of Feasibility Is Itself At The Discretion of Facilitators",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Determination Of Feasibility Is Itself At The Discretion of Facilitators",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The determination of feasibility may depend on factors such as time constraints, resource availability, or the urgency of the decision. The determination of feasibility Is itself at the discretion of the Facilitators.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The determination of feasibility may depend on factors such as time constraints, resource availability, or the urgency of the decision. The determination of feasibility Is itself at the discretion of the Facilitators.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Determination Of Feasibility Is Itself At The Discretion of Facilitators"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Determination-Of-Feasibility-Is-Itself-At-The-Discretion-of-Facilitators-168fa7462d8b4d7b8387ccc2b2fad91b",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "0ab579dd-30b3-4e65-9b86-7f817a3964fe",
+    "created_time": "2024-08-23T23:56:00.000Z",
+    "last_edited_time": "2024-08-29T17:10:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "29949557-a9a9-422f-bb4d-b16017e7644a"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Formalizing actions via Governance Poll is encouraged, but not mandatory",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Formalizing actions via Governance Poll is encouraged, but not mandatory",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "If a Scope Facilitator decides to supersede a particular Atlas document due to its inadequacy in addressing a specific challenge, the Facilitator is encouraged, though not required, to initiate a Governance Poll to allow SKY holders to vote on a revised version of the document that corrects the identified shortcomings. The Target Document does not require Facilitators to run a Governance Poll to formalize their actions.\n\nSimilarly, if a Facilitator identifies a gap in the Atlas where a particular need is not explicitly addressed, they may extrapolate a course of action based on their interpretation of the Spirit of the Atlas. In this case, as well, the Target Document does not require Facilitators to run a Governance Poll to formalize their interpretation or extrapolated actions.\n\nThis Action Tenet acknowledges the necessity for Facilitators to possess flexible and broad discretionary authority during the early stages of the Atlas’  development. Such flexibility ensures that the ecosystem can swiftly adapt to emerging challenges. Consequently, it is important at this stage to avoid over-formalizing actions and decisions taken by Facilitators pursuant to ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "If a Scope Facilitator decides to supersede a particular Atlas document due to its inadequacy in addressing a specific challenge, the Facilitator is encouraged, though not required, to initiate a Governance Poll to allow SKY holders to vote on a revised version of the document that corrects the identified shortcomings. The Target Document does not require Facilitators to run a Governance Poll to formalize their actions.\n\nSimilarly, if a Facilitator identifies a gap in the Atlas where a particular need is not explicitly addressed, they may extrapolate a course of action based on their interpretation of the Spirit of the Atlas. In this case, as well, the Target Document does not require Facilitators to run a Governance Poll to formalize their interpretation or extrapolated actions.\n\nThis Action Tenet acknowledges the necessity for Facilitators to possess flexible and broad discretionary authority during the early stages of the Atlas’  development. Such flexibility ensures that the ecosystem can swiftly adapt to emerging challenges. Consequently, it is important at this stage to avoid over-formalizing actions and decisions taken by Facilitators pursuant to ",
+            "href": null
+          },
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "9baf179a-ac10-4ed1-b4f2-1cb2cbb7daf1"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A.0.1 - Atlas Preamble - General Provisions - Facilitators’ Broad Discretionary Capacity",
+            "href": "https://www.notion.so/9baf179aac104ed1b4f21cb2cbb7daf1"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Formalizing actions via Governance Poll is encouraged, but not mandatory"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Formalizing-actions-via-Governance-Poll-is-encouraged-but-not-mandatory-0ab579dd30b34e659b867f817a3964fe",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "a1d3d61c-83c0-451a-81a9-59000c82f20b",
+    "created_time": "2024-08-18T00:33:00.000Z",
+    "last_edited_time": "2024-08-29T16:53:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "29949557-a9a9-422f-bb4d-b16017e7644a"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          },
+          {
+            "id": "82094b1d-276e-47fc-b654-9d3b436d2f02"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Responsibly Provided - Whistleblower Evidence Of Operational Security Breach Must Be Secured Ethically",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Responsibly Provided - Whistleblower Evidence Of Operational Security Breach Must Be Secured Ethically",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The phrase “responsibly provided” places limits on the sort of data, evidence and information that will enable a whistleblower to qualify for the bounty. Such data, evidence or information must have been secured ethically. A whistleblower who used publicly available blockchain data to demonstrate that an Aligned Delegate breached operational security best practices will qualify for the bounty. A whistleblower who hacked into the Aligned Delegate’s devices or accounts to make this same demonstration will be disqualified from receiving the bounty. \n\nWhere reasonable people would disagree about the ethical nature of the whistleblower’s actions, the Governance Facilitators should err on the side of disqualifying the whistleblower. In such instances, disqualification prevents the setting of precedent that might incentivize future whistleblowers to engage in unethical or illegal activities.\n\nBoth the Action Tenet and the above-stated presumption are supported by the Universal Alignment Assumption, which states that the “underlying intent of rules always aims to serve human values and promote public benefit within a given context.” See ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The phrase “responsibly provided” places limits on the sort of data, evidence and information that will enable a whistleblower to qualify for the bounty. Such data, evidence or information must have been secured ethically. A whistleblower who used publicly available blockchain data to demonstrate that an Aligned Delegate breached operational security best practices will qualify for the bounty. A whistleblower who hacked into the Aligned Delegate’s devices or accounts to make this same demonstration will be disqualified from receiving the bounty. \n\nWhere reasonable people would disagree about the ethical nature of the whistleblower’s actions, the Governance Facilitators should err on the side of disqualifying the whistleblower. In such instances, disqualification prevents the setting of precedent that might incentivize future whistleblowers to engage in unethical or illegal activities.\n\nBoth the Action Tenet and the above-stated presumption are supported by the Universal Alignment Assumption, which states that the “underlying intent of rules always aims to serve human values and promote public benefit within a given context.” See ",
+            "href": null
+          },
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "f5907d9f-b720-4297-b799-8cb60671b60a"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A.0.1 - Atlas Preamble - Definitions - Universal Alignment Assumption",
+            "href": "https://www.notion.so/f5907d9fb7204297b7998cb60671b60a"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Responsibly Provided - Whistleblower Evidence Of Operational Security Breach Must Be Secured Ethically"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Responsibly-Provided-Whistleblower-Evidence-Of-Operational-Security-Breach-Must-Be-Secured-Ethical-a1d3d61c83c0451a81a959000c82f20b",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "1aebce58-d316-4be2-9d0f-2f3d618996e5",
+    "created_time": "2024-08-18T00:19:00.000Z",
+    "last_edited_time": "2024-08-29T17:08:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "29949557-a9a9-422f-bb4d-b16017e7644a"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          },
+          {
+            "id": "82094b1d-276e-47fc-b654-9d3b436d2f02"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Responsibly Provided - Whistleblower Evidence Of Misalignment Must Be Secured Ethically",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Responsibly Provided - Whistleblower Evidence Of Misalignment Must Be Secured Ethically",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The phrase “responsibly provided” places limits on the sort of data, evidence and information that will enable a whistleblower to qualify for the bounty. Such data, evidence or information must have been secured ethically. A whistleblower who used publicly available data (e.g., public Discord or Forum posts) to demonstrate that an Aligned Delegate committed misaligned acts will qualify for the bounty. A whistleblower who hacked into the Aligned Delegate’s devices or accounts to make this same demonstration will be disqualified from receiving the bounty. \n\nWhere reasonable people would disagree about the ethical nature of the whistleblower’s actions, the Governance Facilitators should err on the side of disqualifying the whistleblower. In such instances, disqualification prevents the setting of precedent that might incentivize future whistleblowers to engage in unethical or illegal activities.\n\nBoth the Action Tenet and the above-stated presumption are supported by the Universal Alignment Assumption, which states that the “underlying intent of rules always aims to serve human values and promote public benefit within a given context.” See ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The phrase “responsibly provided” places limits on the sort of data, evidence and information that will enable a whistleblower to qualify for the bounty. Such data, evidence or information must have been secured ethically. A whistleblower who used publicly available data (e.g., public Discord or Forum posts) to demonstrate that an Aligned Delegate committed misaligned acts will qualify for the bounty. A whistleblower who hacked into the Aligned Delegate’s devices or accounts to make this same demonstration will be disqualified from receiving the bounty. \n\nWhere reasonable people would disagree about the ethical nature of the whistleblower’s actions, the Governance Facilitators should err on the side of disqualifying the whistleblower. In such instances, disqualification prevents the setting of precedent that might incentivize future whistleblowers to engage in unethical or illegal activities.\n\nBoth the Action Tenet and the above-stated presumption are supported by the Universal Alignment Assumption, which states that the “underlying intent of rules always aims to serve human values and promote public benefit within a given context.” See ",
+            "href": null
+          },
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "f5907d9f-b720-4297-b799-8cb60671b60a"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A.0.1 - Atlas Preamble - Definitions - Universal Alignment Assumption",
+            "href": "https://www.notion.so/f5907d9fb7204297b7998cb60671b60a"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Responsibly Provided - Whistleblower Evidence Of Misalignment Must Be Secured Ethically"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Responsibly-Provided-Whistleblower-Evidence-Of-Misalignment-Must-Be-Secured-Ethically-1aebce58d3164be29d0f2f3d618996e5",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "5165334d-9563-409e-bbb0-9017f060b3ba",
+    "created_time": "2024-06-08T20:31:00.000Z",
+    "last_edited_time": "2024-08-29T21:25:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "cc8b2a24-9ad0-40ae-871b-2289642268eb"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "ADs & Facilitators required to adhere to comprehensive operational security practices",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "ADs & Facilitators required to adhere to comprehensive operational security practices",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The operational security of the Alignment Conserver roles is key to governance integrity overall. Aligned Delegates and Facilitators are mandated to maintain rigorous operational security practices to ensure that their identities and work activities are anonymized and all related information is safeguarded. Such practices must go beyond basic privacy-enhancing measures and must include the use of secure communication channels, stringent data encryption, anonymity tools like VPNs and TOR networks, regular security audits, and rigorous digital footprint management.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The operational security of the Alignment Conserver roles is key to governance integrity overall. Aligned Delegates and Facilitators are mandated to maintain rigorous operational security practices to ensure that their identities and work activities are anonymized and all related information is safeguarded. Such practices must go beyond basic privacy-enhancing measures and must include the use of secure communication channels, stringent data encryption, anonymity tools like VPNs and TOR networks, regular security audits, and rigorous digital footprint management.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "ADs & Facilitators required to adhere to comprehensive operational security practices"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/ADs-Facilitators-required-to-adhere-to-comprehensive-operational-security-practices-5165334d9563409ebbb09017f060b3ba",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "1ed57c41-03ce-42f9-87dd-8b1e3d6e7991",
+    "created_time": "2024-06-08T20:22:00.000Z",
+    "last_edited_time": "2024-08-06T01:20:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "cc8b2a24-9ad0-40ae-871b-2289642268eb"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "c066fbc5-020f-4dee-a642-e43c82409bd0"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "fe75a64f-585b-4d08-af00-ef8667d9c307"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Evaluating AC breach of role-specific requirement vs. general requirement",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Evaluating AC breach of role-specific requirement vs. general requirement",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "When an Alignment Conserver breaches a role-specific requirement, this is misalignment on par with a breach of a general AC requirement, and vice versa. Facilitators must not default to assigning greater or lesser culpability on the sole basis of whether the breached rule is role-specific or general. Apart from this caveat, misaligned acts can have varying degrees of severity or harm, and should be individually evaluated by the Facilitator in any action.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "When an Alignment Conserver breaches a role-specific requirement, this is misalignment on par with a breach of a general AC requirement, and vice versa. Facilitators must not default to assigning greater or lesser culpability on the sole basis of whether the breached rule is role-specific or general. Apart from this caveat, misaligned acts can have varying degrees of severity or harm, and should be individually evaluated by the Facilitator in any action.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Evaluating AC breach of role-specific requirement vs. general requirement"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Evaluating-AC-breach-of-role-specific-requirement-vs-general-requirement-1ed57c4103ce42f987dd8b1e3d6e7991",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "3b900bcc-555a-4e11-b0c7-0c997a01eef9",
+    "created_time": "2024-06-08T16:07:00.000Z",
+    "last_edited_time": "2024-08-29T17:05:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "cc8b2a24-9ad0-40ae-871b-2289642268eb"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "29949557-a9a9-422f-bb4d-b16017e7644a"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Adjudication Guidelines to be applied to a second misaligned act or a first misaligned act that is not mild",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Adjudication Guidelines to be applied to a second misaligned act or a first misaligned act that is not mild",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The Target Document fails to specify accountability measures for an AC who commits a misaligned act that is not mild. The Target Document is also silent on the subject of the proper remedial approach if an AC commits a subsequent misaligned act after an initial mild breach. The language does imply subsequent breaches should be treated with increasing severity.\n\nDespite the lack of explicit guidance, however, Facilitators have likely been given sufficient information in ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The Target Document fails to specify accountability measures for an AC who commits a misaligned act that is not mild. The Target Document is also silent on the subject of the proper remedial approach if an AC commits a subsequent misaligned act after an initial mild breach. The language does imply subsequent breaches should be treated with increasing severity.\n\nDespite the lack of explicit guidance, however, Facilitators have likely been given sufficient information in ",
+            "href": null
+          },
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "4bff6963-4ac6-453e-a7bd-00864b321092"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A.1.4",
+            "href": "https://www.notion.so/4bff69634ac6453ea7bd00864b321092"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": " to reach a reliable adjudication principle. \n\nTaken in its totality, the above cited Article requires Facilitators to take a highly aggressive stance when it comes to responding to AC misalignment risk. The absence of a substantial punitive measure for the first mild breach provides the AC with an opportunity for corrective action and learning. \n\nAfter the initial warning, any subsequent breach must immediately trigger derecognition, regardless of the degree of severity. Similarly, an initial breach that is not mild in scope or impact must trigger derecognition. This escalation is a necessary consequence of the Atlas's mandate that ACs are held to the highest standards of Universal Alignment.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " to reach a reliable adjudication principle. \n\nTaken in its totality, the above cited Article requires Facilitators to take a highly aggressive stance when it comes to responding to AC misalignment risk. The absence of a substantial punitive measure for the first mild breach provides the AC with an opportunity for corrective action and learning. \n\nAfter the initial warning, any subsequent breach must immediately trigger derecognition, regardless of the degree of severity. Similarly, an initial breach that is not mild in scope or impact must trigger derecognition. This escalation is a necessary consequence of the Atlas's mandate that ACs are held to the highest standards of Universal Alignment.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Adjudication Guidelines to be applied to a second misaligned act or a first misaligned act that is not mild"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Adjudication-Guidelines-to-be-applied-to-a-second-misaligned-act-or-a-first-misaligned-act-that-is-n-3b900bcc555a4e11b0c70c997a01eef9",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "92b03a1f-72ca-4e63-8993-3d2acfd36fd1",
+    "created_time": "2024-06-08T16:05:00.000Z",
+    "last_edited_time": "2024-08-31T17:34:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "cc8b2a24-9ad0-40ae-871b-2289642268eb"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "fe75a64f-585b-4d08-af00-ef8667d9c307"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Mild slippery slope breaches - Evaluating whether a misaligned act is 'very mild'",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Mild slippery slope breaches - Evaluating whether a misaligned act is 'very mild'",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “mild slippery slope breach” characterizes a form of misalignment or rule breach that, when viewed in isolation, exhibits relatively insignificant scope or impact. Furthermore, a “very mild” act of misalignment often indicates a lack of ill intent (i.e., innocent mistake) or premeditation on the part of the rule violator. A “very mild slippery slope breach” will likely be the violator's first offense.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The element “mild slippery slope breach” characterizes a form of misalignment or rule breach that, when viewed in isolation, exhibits relatively insignificant scope or impact. Furthermore, a “very mild” act of misalignment often indicates a lack of ill intent (i.e., innocent mistake) or premeditation on the part of the rule violator. A “very mild slippery slope breach” will likely be the violator's first offense.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Mild slippery slope breaches - Evaluating whether a misaligned act is 'very mild'"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Mild-slippery-slope-breaches-Evaluating-whether-a-misaligned-act-is-very-mild-92b03a1f72ca4e6389933d2acfd36fd1",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "f0e7115a-3cc4-4e4c-8c64-3060ac08eaf2",
+    "created_time": "2024-06-08T16:03:00.000Z",
+    "last_edited_time": "2024-08-26T23:47:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "cc8b2a24-9ad0-40ae-871b-2289642268eb"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "fe75a64f-585b-4d08-af00-ef8667d9c307"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Mild slippery slope breaches - Facilitators required to be proactive against even mild misalignment",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Mild slippery slope breaches - Facilitators required to be proactive against even mild misalignment",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Any Alignment Conserver misalignment, regardless of its seemingly trivial nature, carries inherent risks. ACs must be held to the highest standards of Universal Alignment. The Target Document indicates that leniency towards AC infractions could set a risky precedent, where, for instance, misaligned actors justify themselves based on prior instances of lenience.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Any Alignment Conserver misalignment, regardless of its seemingly trivial nature, carries inherent risks. ACs must be held to the highest standards of Universal Alignment. The Target Document indicates that leniency towards AC infractions could set a risky precedent, where, for instance, misaligned actors justify themselves based on prior instances of lenience.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Mild slippery slope breaches - Facilitators required to be proactive against even mild misalignment"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Mild-slippery-slope-breaches-Facilitators-required-to-be-proactive-against-even-mild-misalignment-f0e7115a3cc44e4c8c643060ac08eaf2",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "687933ce-87eb-4f35-a171-30333b31a462",
+    "created_time": "2024-04-10T02:40:00.000Z",
+    "last_edited_time": "2024-08-24T05:16:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Other Ecosystem Roles - Ecosystem Role need not be compensated or full-time to be regulated under Target Document",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Other Ecosystem Roles - Ecosystem Role need not be compensated or full-time to be regulated under Target Document",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "An \"ecosystem role\" need not be compensated or full-time to be regulated by the Target Document.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "An \"ecosystem role\" need not be compensated or full-time to be regulated by the Target Document.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Other Ecosystem Roles - Ecosystem Role need not be compensated or full-time to be regulated under Target Document"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Other-Ecosystem-Roles-Ecosystem-Role-need-not-be-compensated-or-full-time-to-be-regulated-under-Ta-687933ce87eb4f35a17130333b31a462",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "74e91e89-5254-42f3-89be-0da755de9f8e",
+    "created_time": "2024-04-10T02:35:00.000Z",
+    "last_edited_time": "2024-08-29T16:52:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "29949557-a9a9-422f-bb4d-b16017e7644a"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Other Ecosystem Roles  - Phrase must be read in its broadest sense by Facilitators",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Other Ecosystem Roles  - Phrase must be read in its broadest sense by Facilitators",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The Target Document is violated if an Alignment Conserver formally occupies two or more Sky ecosystem roles. The phrase \"other ecosystem roles\" is read in its broadest sense to mean the totality of roles that are formally defined in the Atlas with a function in the Sky ecosystem. \n\nSuch \"ecosystem roles\" include, but are not limited to, Alignment Conserver, Governance Process Support Ecosystem Actor, Active or Incubating Ecosystem Actor, Star Advisor, Arranger, and the contributors supporting these aforementioned actors. \n\nThe rationale of this rule is to protect against misalignment risks that arise when a stakeholder occupies two or more ecosystem roles, each of which has different mandates and inner incentives. Such misalignment risks include conflict of interest and bias, collusion and conspiracy.\n\nSee also, ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The Target Document is violated if an Alignment Conserver formally occupies two or more Sky ecosystem roles. The phrase \"other ecosystem roles\" is read in its broadest sense to mean the totality of roles that are formally defined in the Atlas with a function in the Sky ecosystem. \n\nSuch \"ecosystem roles\" include, but are not limited to, Alignment Conserver, Governance Process Support Ecosystem Actor, Active or Incubating Ecosystem Actor, Star Advisor, Arranger, and the contributors supporting these aforementioned actors. \n\nThe rationale of this rule is to protect against misalignment risks that arise when a stakeholder occupies two or more ecosystem roles, each of which has different mandates and inner incentives. Such misalignment risks include conflict of interest and bias, collusion and conspiracy.\n\nSee also, ",
+            "href": null
+          },
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "dcca648c-4dca-45c1-a344-908d7376770b"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Operationally Active - Whether an entity is \"operationally active\" in a role is determined purely on a formal basis",
+            "href": "https://www.notion.so/dcca648c4dca45c1a344908d7376770b"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "e99b5a3b-5ad1-494e-bbc5-672782febbd2"
+          },
+          {
+            "id": "d0255716-8352-4f57-8209-97deef72c1af"
+          }
+        ],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Other Ecosystem Roles  - Phrase must be read in its broadest sense by Facilitators"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Other-Ecosystem-Roles-Phrase-must-be-read-in-its-broadest-sense-by-Facilitators-74e91e89525442f389be0da755de9f8e",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "dcca648c-4dca-45c1-a344-908d7376770b",
+    "created_time": "2024-04-09T01:27:00.000Z",
+    "last_edited_time": "2024-08-29T16:52:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "29949557-a9a9-422f-bb4d-b16017e7644a"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Operationally Active - Whether an entity is \"operationally active\" in a role is determined purely on a formal basis",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Operationally Active - Whether an entity is \"operationally active\" in a role is determined purely on a formal basis",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Whether an entity is \"operationally active\" in a role is determined purely on a formal basis. As long as an entity occupies or assumes a role that is formally defined in the Atlas, that entity is \"operationally active\" in that role. This is notwithstanding the amount of time the entity devotes to a role; the nature of the work performed by the entity in a role; the fact that the entity is on a leave of absence from one role; the fact that the entity's role is uncompensated; or the fact that the entity alternates between two roles to avoid simultaneous performance of both roles.\n\nThis Tenet is based on the rationale of protecting against misalignment risks that arise when a stakeholder occupies two or more ecosystem roles, each of which has different mandates and inner incentives. Such misalignment risks include conflict of interest and bias, collusion and conspiracy.\n\nSee also, ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Whether an entity is \"operationally active\" in a role is determined purely on a formal basis. As long as an entity occupies or assumes a role that is formally defined in the Atlas, that entity is \"operationally active\" in that role. This is notwithstanding the amount of time the entity devotes to a role; the nature of the work performed by the entity in a role; the fact that the entity is on a leave of absence from one role; the fact that the entity's role is uncompensated; or the fact that the entity alternates between two roles to avoid simultaneous performance of both roles.\n\nThis Tenet is based on the rationale of protecting against misalignment risks that arise when a stakeholder occupies two or more ecosystem roles, each of which has different mandates and inner incentives. Such misalignment risks include conflict of interest and bias, collusion and conspiracy.\n\nSee also, ",
+            "href": null
+          },
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "74e91e89-5254-42f3-89be-0da755de9f8e"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Other Ecosystem Roles  - Phrase must be read in its broadest sense by Facilitators",
+            "href": "https://www.notion.so/74e91e89525442f389be0da755de9f8e"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Operationally Active - Whether an entity is \"operationally active\" in a role is determined purely on a formal basis"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "78df7b11-dc1e-497f-ac36-5584e470a1f4"
+          },
+          {
+            "id": "443c6945-056a-4704-9ea5-66de5481938e"
+          },
+          {
+            "id": "ac7b272f-54dd-4cb5-92e0-dc34a416fc71"
+          },
+          {
+            "id": "b9c41edf-cfb9-48d1-8355-47d4af2d8629"
+          },
+          {
+            "id": "97d0eb49-57a4-4a6e-a2f0-13640299cd7d"
+          }
+        ],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Operationally-Active-Whether-an-entity-is-operationally-active-in-a-role-is-determined-purely-on-dcca648c4dca45c1a344908d7376770b",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "709fdb63-40ee-488b-b6d7-0087ebe9884f",
+    "created_time": "2024-04-09T01:24:00.000Z",
+    "last_edited_time": "2024-08-27T00:47:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Highest Standard - Facilitators must apply strictest possible requirements of Universal Alignment on ACs",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Highest Standard - Facilitators must apply strictest possible requirements of Universal Alignment on ACs",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "In any adjudication involving potential misalignment of Alignment Conservers (ACs), Facilitators are unequivocally directed to apply the strictest and highest standards of Universal Alignment.\n\nAs ACs are held to the most rigorous standards of Universal Alignment, Facilitators should acknowledge evidence of misalignment if such evidence is deemed at least 51% more likely than not to be valid or to substantiate the presented claim. Additionally, should the overall weight of the evidence demonstrate a 51% or greater chance that the AC committed a misaligned act, the Facilitator is required to derecognize the AC.\n\nGiven the exceptionally high stakes in cases of potential AC misalignment, Facilitators must prioritize an approach grounded in an abundance of caution, steering away from notions of 'fairness' or 'lenience.' Any lapse or misjudgment on the part of an AC cannot be excused based on ignorance of the rules, good intentions, honest mistake or similar factors. Maximal accountability for ACs is non-negotiable, a principle underpinned by the indispensable role of ACs as stewards of Universal Alignment.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "In any adjudication involving potential misalignment of Alignment Conservers (ACs), Facilitators are unequivocally directed to apply the strictest and highest standards of Universal Alignment.\n\nAs ACs are held to the most rigorous standards of Universal Alignment, Facilitators should acknowledge evidence of misalignment if such evidence is deemed at least 51% more likely than not to be valid or to substantiate the presented claim. Additionally, should the overall weight of the evidence demonstrate a 51% or greater chance that the AC committed a misaligned act, the Facilitator is required to derecognize the AC.\n\nGiven the exceptionally high stakes in cases of potential AC misalignment, Facilitators must prioritize an approach grounded in an abundance of caution, steering away from notions of 'fairness' or 'lenience.' Any lapse or misjudgment on the part of an AC cannot be excused based on ignorance of the rules, good intentions, honest mistake or similar factors. Maximal accountability for ACs is non-negotiable, a principle underpinned by the indispensable role of ACs as stewards of Universal Alignment.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Highest Standard - Facilitators must apply strictest possible requirements of Universal Alignment on ACs"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Highest-Standard-Facilitators-must-apply-strictest-possible-requirements-of-Universal-Alignment-on-709fdb6340ee488bb6d70087ebe9884f",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "42b2d364-a0ca-4e81-ac64-52c0fb9ce09c",
+    "created_time": "2024-04-09T01:18:00.000Z",
+    "last_edited_time": "2024-08-03T22:17:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "7fcbad22-5c52-4dff-a20c-d4efb2e13b56"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "YwhD",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "%7CJCS",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Doc No (or Temp Name)": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Clearly Delineated Processes and Frameworks - AC actions must be grounded in explicit frameworks of Immutable Documents",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Clearly Delineated Processes and Frameworks - AC actions must be grounded in explicit frameworks of Immutable Documents",
+            "href": null
+          }
+        ]
+      },
+      "Content": {
+        "id": "%3DKl%60",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Generally, when an AC acts to impact governance in any way, they must do so according to rules/principles/processes that are based on the explicit language of the Immutable Documents. Because of the nature of language and the fact that the Atlas can never anticipate all possible scenarios, it will sometimes be necessary for the basis of ACs' actions to be sourced from extrapolations or inferences of logic, but these must be grounded.\n\n'Grounded inferences' means that derivations, deductions or extensions of governance logic maintain a strong, clear connection and alignment with the delineated processes and frameworks explicitly defined in the Immutable Documents.\n\nBecause ungrounded inferences of logic lack such a robust and clearly documented foundation, they introduce severe misalignment risk given the potential for intentional misrepresentation or distortion. The interpreter may deviate from the genuine intent of the Immutable Documents, not driven by an earnest effort to understand but rather influenced by personal motives or ulterior agendas.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Generally, when an AC acts to impact governance in any way, they must do so according to rules/principles/processes that are based on the explicit language of the Immutable Documents. Because of the nature of language and the fact that the Atlas can never anticipate all possible scenarios, it will sometimes be necessary for the basis of ACs' actions to be sourced from extrapolations or inferences of logic, but these must be grounded.\n\n'Grounded inferences' means that derivations, deductions or extensions of governance logic maintain a strong, clear connection and alignment with the delineated processes and frameworks explicitly defined in the Immutable Documents.\n\nBecause ungrounded inferences of logic lack such a robust and clearly documented foundation, they introduce severe misalignment risk given the potential for intentional misrepresentation or distortion. The interpreter may deviate from the genuine intent of the Immutable Documents, not driven by an earnest effort to understand but rather influenced by personal motives or ulterior agendas.",
+            "href": null
+          }
+        ]
+      },
+      "Original Context Data": {
+        "id": "MjXM",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Needed Research": {
+        "id": "aRFo",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3312211f-08b2-47a4-927c-822e445d4e7b"
+          }
+        ],
+        "has_more": false
+      },
+      "Name": {
+        "id": "urXT",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Clearly Delineated Processes and Frameworks - AC actions must be grounded in explicit frameworks of Immutable Documents"
+        }
+      },
+      "Scenarios": {
+        "id": "%7B%3ALP",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      }
+    },
+    "url": "https://www.notion.so/Clearly-Delineated-Processes-and-Frameworks-AC-actions-must-be-grounded-in-explicit-frameworks-of--42b2d364a0ca4e81ac6452c0fb9ce09c",
+    "public_url": null
+  }
+]

@@ -1,0 +1,1909 @@
+[
+  {
+    "object": "page",
+    "id": "3f7cf4f1-e519-4839-8336-70d580287ac6",
+    "created_time": "2024-08-29T03:31:00.000Z",
+    "last_edited_time": "2024-09-12T01:39:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "effd5738-0335-48a9-8ec1-a7e99cbadd1d"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "GAsU",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "KxKJ",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "ky%3EP",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Conflicting Atlas Edit Proposals"
+        }
+      },
+      "Research Prompt": {
+        "id": "%7D%7C%3FT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This is an extensive Research Track. Some critical questions to be explored:\n\nWhat criteria should be used to determine when two or more Atlas Edit Proposals are in conflict? Are conflicts strictly based on overlapping content, or do broader thematic or operational conflicts also count?\n\nFor instance: if two AEPs amend different sections of the Atlas but have implications that could lead to contradictory outcomes, how should the Governance Facilitators identify and address this indirect conflict?\n\nWhat if one AEP effects a significant overhaul of an Atlas document, while another effects minor tweaks to the same component? How do the Facilitators determine which elements of which AEP should take precedence?\n\nIf one AEP drew more support than the other, does this automatically mean the former is the best update? What if the former AEP was authored by an unknown author, while the second AEP was authored by a well-known community member with high reputation?\n\nIf merging proposals in this fashion becomes a common practice, what issues could arise? There is a risk of governance paralysis, where no significant progress can be made because of a loop of constant revisions and counter-revisions. Community fatigue could set in, where stakeholders become disengaged from the governance process due to the perception that decisions are never final. The continuous cycle of evaluating, merging, and discarding parts of conflicting AEPs is not only time-consuming but also increases the complexity of governance operations.\n\nIf the Governance Facilitators merge parts of two approved, but conflicting AEPs, and the final merged product significantly deviates from the original intents of both, the representation of SKY voters’ will becomes a compelling question.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This is an extensive Research Track. Some critical questions to be explored:\n\nWhat criteria should be used to determine when two or more Atlas Edit Proposals are in conflict? Are conflicts strictly based on overlapping content, or do broader thematic or operational conflicts also count?\n\nFor instance: if two AEPs amend different sections of the Atlas but have implications that could lead to contradictory outcomes, how should the Governance Facilitators identify and address this indirect conflict?\n\nWhat if one AEP effects a significant overhaul of an Atlas document, while another effects minor tweaks to the same component? How do the Facilitators determine which elements of which AEP should take precedence?\n\nIf one AEP drew more support than the other, does this automatically mean the former is the best update? What if the former AEP was authored by an unknown author, while the second AEP was authored by a well-known community member with high reputation?\n\nIf merging proposals in this fashion becomes a common practice, what issues could arise? There is a risk of governance paralysis, where no significant progress can be made because of a loop of constant revisions and counter-revisions. Community fatigue could set in, where stakeholders become disengaged from the governance process due to the perception that decisions are never final. The continuous cycle of evaluating, merging, and discarding parts of conflicting AEPs is not only time-consuming but also increases the complexity of governance operations.\n\nIf the Governance Facilitators merge parts of two approved, but conflicting AEPs, and the final merged product significantly deviates from the original intents of both, the representation of SKY voters’ will becomes a compelling question.",
+            "href": null
+          }
+        ]
+      },
+      "Doc No": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Conflicting Atlas Edit Proposals",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Conflicting Atlas Edit Proposals",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Conflicting-Atlas-Edit-Proposals-3f7cf4f1e5194839833670d580287ac6",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "8c75c19b-85a5-4159-8d60-900f5843b813",
+    "created_time": "2024-08-28T03:22:00.000Z",
+    "last_edited_time": "2024-08-28T15:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "effd5738-0335-48a9-8ec1-a7e99cbadd1d"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "GAsU",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "KxKJ",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "ky%3EP",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Derecognition Uncertainty Due To Anonymous Actors"
+        }
+      },
+      "Research Prompt": {
+        "id": "%7D%7C%3FT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The Target Document defines the act of derecognition as “permanently removing” an entity from the Alignment Conserver role. In fact, it is not possible to effect such a permanent removal. Given the presence of anonymous/pseudonymous actors in the decentralized “workforce” of the Sky ecosystem, a known identity of an actor can be barred from an AC role; and yet that actor can easily re-enter the system under a different pseudonym or identity. Consider what measures can be implemented to counteract the scenario where derecognized entities reappear under a different guise. A robust reputation system is already planned; by tracking reputation that is earned over a long timescale, a derecognized entity would be barred from quickly regaining a foothold.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The Target Document defines the act of derecognition as “permanently removing” an entity from the Alignment Conserver role. In fact, it is not possible to effect such a permanent removal. Given the presence of anonymous/pseudonymous actors in the decentralized “workforce” of the Sky ecosystem, a known identity of an actor can be barred from an AC role; and yet that actor can easily re-enter the system under a different pseudonym or identity. Consider what measures can be implemented to counteract the scenario where derecognized entities reappear under a different guise. A robust reputation system is already planned; by tracking reputation that is earned over a long timescale, a derecognized entity would be barred from quickly regaining a foothold.",
+            "href": null
+          }
+        ]
+      },
+      "Doc No": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Derecognition Uncertainty Due To Anonymous Actors",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Derecognition Uncertainty Due To Anonymous Actors",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Derecognition-Uncertainty-Due-To-Anonymous-Actors-8c75c19b85a541598d60900f5843b813",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "f8b87d8f-8133-47ee-866d-99a69a7e8765",
+    "created_time": "2024-08-27T13:57:00.000Z",
+    "last_edited_time": "2024-08-27T13:59:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "effd5738-0335-48a9-8ec1-a7e99cbadd1d"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "GAsU",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "KxKJ",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "ky%3EP",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Addressing Misalignment Of Ecosystem Actors Or Other Governance Participants"
+        }
+      },
+      "Research Prompt": {
+        "id": "%7D%7C%3FT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Currently, the Atlas specifies an adjudication process for Alignment Conserver misalignment or breach of operational security. Research is needed to consider a process by which Facilitators investigate and adjudicate suspected misalignment on the part of Ecosystem Actors or other governance participants.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Currently, the Atlas specifies an adjudication process for Alignment Conserver misalignment or breach of operational security. Research is needed to consider a process by which Facilitators investigate and adjudicate suspected misalignment on the part of Ecosystem Actors or other governance participants.",
+            "href": null
+          }
+        ]
+      },
+      "Doc No": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Addressing Misalignment Of Ecosystem Actors Or Other Governance Participants",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Addressing Misalignment Of Ecosystem Actors Or Other Governance Participants",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Addressing-Misalignment-Of-Ecosystem-Actors-Or-Other-Governance-Participants-f8b87d8f813347ee866d99a69a7e8765",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "85aa03ab-2548-4d9a-899a-46d695bd2c6e",
+    "created_time": "2024-08-25T20:25:00.000Z",
+    "last_edited_time": "2024-08-27T22:53:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "c066fbc5-020f-4dee-a642-e43c82409bd0"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "effd5738-0335-48a9-8ec1-a7e99cbadd1d"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "GAsU",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "KxKJ",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "ky%3EP",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Criteria For AD Voting-Communication Requirement"
+        }
+      },
+      "Research Prompt": {
+        "id": "%7D%7C%3FT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "For the purpose of enforcing the Target Document, should there be explicit criteria for Aligned Delegates’ voting-communications? What constitutes an adequate explanation for each vote? How would Governance Facilitators evaluate ADs’ explanations for quality, completeness, etc.? How can Governance Facilitators objectively assess explanations that may vary widely in style and content?\n\nHow might ADs’ explanations vary across different types of votes, and should the criteria reflect these differences? Should more complex or high-stakes votes require more detailed explanations than routine or procedural votes?\n\nWhat feedback mechanisms should be in place to help ADs improve their explanations?\n\nWhat are the risks of not having explicit criteria for voting-communications? One is the potential failure of the Target Document’s objective to ensure that ADs’ voting activity is transparent to SKY holders who have delegated to that AD.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "For the purpose of enforcing the Target Document, should there be explicit criteria for Aligned Delegates’ voting-communications? What constitutes an adequate explanation for each vote? How would Governance Facilitators evaluate ADs’ explanations for quality, completeness, etc.? How can Governance Facilitators objectively assess explanations that may vary widely in style and content?\n\nHow might ADs’ explanations vary across different types of votes, and should the criteria reflect these differences? Should more complex or high-stakes votes require more detailed explanations than routine or procedural votes?\n\nWhat feedback mechanisms should be in place to help ADs improve their explanations?\n\nWhat are the risks of not having explicit criteria for voting-communications? One is the potential failure of the Target Document’s objective to ensure that ADs’ voting activity is transparent to SKY holders who have delegated to that AD.",
+            "href": null
+          }
+        ]
+      },
+      "Doc No": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Criteria For AD Voting-Communication Requirement",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Criteria For AD Voting-Communication Requirement",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Criteria-For-AD-Voting-Communication-Requirement-85aa03ab25484d9a899a46d695bd2c6e",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "2bd576dc-4914-45be-8fc5-37d66277c8cb",
+    "created_time": "2024-08-25T04:32:00.000Z",
+    "last_edited_time": "2024-08-29T21:43:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "effd5738-0335-48a9-8ec1-a7e99cbadd1d"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "GAsU",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "KxKJ",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "ky%3EP",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "AD Whistleblower Bounty"
+        }
+      },
+      "Research Prompt": {
+        "id": "%7D%7C%3FT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The element “responsibly provided” in the Target Documents means that whistleblower evidence must have been secured ethically, i.e., publicly available blockchain data. This generally means, no hacking or unauthorized access to systems, or breaches of data protection laws. \n\nDo challenging gray areas remain? What sort of standards or criteria should be met by whistleblower evidence to be considered responsibly gathered? \n\nFor instance, is evidence gathered from private communication channels considered responsibly obtained if it was leaked to the whistleblower by an insider? How do we handle situations where the evidence is obtained through methods that might be legal but are still ethically questionable? \n\nAnd what sort of standards/criteria should be met by whistleblower evidence to be credible and useful in an investigation? \n\nHow to assess the credibility or probative value of evidence, especially when dealing with blockchain data, which can be complex and difficult to interpret? What standards of proof should be required for evidence to be considered credible, particularly in cases where the evidence is circumstantial rather than direct? Perhaps this is already answered by current logic that demands that Facilitators apply the highest standards of Universal Alignment to AC adjudications, without affording benefit of the doubt.\n\nWhat are the expectations placed on Facilitators to verify whistleblower evidence?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The element “responsibly provided” in the Target Documents means that whistleblower evidence must have been secured ethically, i.e., publicly available blockchain data. This generally means, no hacking or unauthorized access to systems, or breaches of data protection laws. \n\nDo challenging gray areas remain? What sort of standards or criteria should be met by whistleblower evidence to be considered responsibly gathered? \n\nFor instance, is evidence gathered from private communication channels considered responsibly obtained if it was leaked to the whistleblower by an insider? How do we handle situations where the evidence is obtained through methods that might be legal but are still ethically questionable? \n\nAnd what sort of standards/criteria should be met by whistleblower evidence to be credible and useful in an investigation? \n\nHow to assess the credibility or probative value of evidence, especially when dealing with blockchain data, which can be complex and difficult to interpret? What standards of proof should be required for evidence to be considered credible, particularly in cases where the evidence is circumstantial rather than direct? Perhaps this is already answered by current logic that demands that Facilitators apply the highest standards of Universal Alignment to AC adjudications, without affording benefit of the doubt.\n\nWhat are the expectations placed on Facilitators to verify whistleblower evidence?",
+            "href": null
+          }
+        ]
+      },
+      "Doc No": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": " AD Whistleblower Bounty",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": " AD Whistleblower Bounty",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/AD-Whistleblower-Bounty-2bd576dc491445be8fc537d66277c8cb",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "db95078d-52c0-469d-b1c7-40d371d00003",
+    "created_time": "2024-08-25T03:39:00.000Z",
+    "last_edited_time": "2024-08-27T13:25:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "effd5738-0335-48a9-8ec1-a7e99cbadd1d"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "GAsU",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "KxKJ",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "ky%3EP",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "AD Budget Management"
+        }
+      },
+      "Research Prompt": {
+        "id": "%7D%7C%3FT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Are there risks that should be considered regarding the potential mismanagement or misuse of the AD budget? The Target Document lists several examples of permissible ways to use the AD budget, which indicates implicitly constraints, or disallowed expenditures. How would compliance with these guidelines be monitored?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Are there risks that should be considered regarding the potential mismanagement or misuse of the AD budget? The Target Document lists several examples of permissible ways to use the AD budget, which indicates implicitly constraints, or disallowed expenditures. How would compliance with these guidelines be monitored?",
+            "href": null
+          }
+        ]
+      },
+      "Doc No": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "AD Budget Management",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "AD Budget Management",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/AD-Budget-Management-db95078d52c0469db1c740d371d00003",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "c1a605bb-ae3e-486d-a153-c900e643750b",
+    "created_time": "2024-08-24T07:40:00.000Z",
+    "last_edited_time": "2024-08-24T07:44:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "effd5738-0335-48a9-8ec1-a7e99cbadd1d"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "GAsU",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "KxKJ",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "ky%3EP",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Derecognition Procedure"
+        }
+      },
+      "Research Prompt": {
+        "id": "%7D%7C%3FT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Research specific procedural steps for the derecognition of an AC. The procedure should account for ways in which this process can be streamlined or standardized to ensure swift action. Research should identify potential bottlenecks and suggest ways to eliminate them, such as pre-defined decision-making protocols, clear documentation requirements, and fast-track procedures for urgent cases.\n\nAnother point to research involves the concepts of due process or fairness. Specific logic currently active in the Atlas clearly indicates that ACs are held to the highest standards of Universal Alignment. Such a standard would seem to indicate that “fairness” is not an objective in any proceeding involving AC derecognition. What are the arguments for and against this?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Research specific procedural steps for the derecognition of an AC. The procedure should account for ways in which this process can be streamlined or standardized to ensure swift action. Research should identify potential bottlenecks and suggest ways to eliminate them, such as pre-defined decision-making protocols, clear documentation requirements, and fast-track procedures for urgent cases.\n\nAnother point to research involves the concepts of due process or fairness. Specific logic currently active in the Atlas clearly indicates that ACs are held to the highest standards of Universal Alignment. Such a standard would seem to indicate that “fairness” is not an objective in any proceeding involving AC derecognition. What are the arguments for and against this?",
+            "href": null
+          }
+        ]
+      },
+      "Doc No": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Derecognition Procedure",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Derecognition Procedure",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Derecognition-Procedure-c1a605bbae3e486da153c900e643750b",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "54895f40-8344-4676-9ca9-89b477109fce",
+    "created_time": "2024-08-24T06:46:00.000Z",
+    "last_edited_time": "2024-08-29T17:39:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "29949557-a9a9-422f-bb4d-b16017e7644a"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "effd5738-0335-48a9-8ec1-a7e99cbadd1d"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "GAsU",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "KxKJ",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "ky%3EP",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Systematic basis of adjudication, fact-finding and evidence"
+        }
+      },
+      "Research Prompt": {
+        "id": "%7D%7C%3FT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This need is an extensive Research Track. The central research need that grows out of the Facilitator role has to do with developing systematic principles and protocols to serve as the foundation for adjudicating disputes and controversies, including processes for fact-finding, evidence validation and evaluation, mechanisms for ensuring impartiality and objectivity, an appeals process, etc. \n\nThe Atlas has made a good start with establishing an adjudication framework. There is some logic concerning procedures for how disputes and controversies (including Alignment Conserver misalignment) are brought forward and how they are reviewed. But essential elements are missing, such as protocols and standards for fact-finding and evidence. \n\nNeeded Research here includes methods for implementing a structured fact-finding process that gathers relevant information impartially and comprehensively. Who has the authority to investigate, to request evidence, to handle evidence?  What types of evidence are permissible to consider? See ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This need is an extensive Research Track. The central research need that grows out of the Facilitator role has to do with developing systematic principles and protocols to serve as the foundation for adjudicating disputes and controversies, including processes for fact-finding, evidence validation and evaluation, mechanisms for ensuring impartiality and objectivity, an appeals process, etc. \n\nThe Atlas has made a good start with establishing an adjudication framework. There is some logic concerning procedures for how disputes and controversies (including Alignment Conserver misalignment) are brought forward and how they are reviewed. But essential elements are missing, such as protocols and standards for fact-finding and evidence. \n\nNeeded Research here includes methods for implementing a structured fact-finding process that gathers relevant information impartially and comprehensively. Who has the authority to investigate, to request evidence, to handle evidence?  What types of evidence are permissible to consider? See ",
+            "href": null
+          },
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "1aebce58-d316-4be2-9d0f-2f3d618996e5"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Responsibly Provided - Whistleblower Evidence Of Misalignment Must Be Secured Ethically",
+            "href": "https://www.notion.so/1aebce58d3164be29d0f2f3d618996e5"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ". What are the processes for collecting, preserving, and analyzing this evidence? When should evidence be shared with the larger community and when should it be kept confidential? \n\nThen there is the matter of assessing evidence in a way that is rigorous and impartial, without which, confidence in the Atlas and the governance process may be undermined. What criteria should be used to validate and evaluate evidence to ensure its reliability and relevance in decision-making? This involves determining the credibility of sources, the reliability of evidence, and the relevance of information to the specific case. The research should explore different approaches to evidence evaluation, such as the application of the burden of proof, standards of proof (e.g., preponderance of evidence, beyond a reasonable doubt), and the use of experts. \n\nHow much discretion should Facilitators have in interpreting and applying the element “the highest standard of Universal Alignment”? How to safeguard against bias and ensure all Facilitator adjudications are made impartially? Investigate mechanisms to maintain objectivity and impartiality throughout the adjudication, fact-finding, and evidence evaluation processes. This could include the establishment of independent review panels (which could operate post facto to avoid excessively delaying the deplatforming of misaligned ACs), the use of conflict-of-interest policies, and training on cognitive biases for those involved in decision-making.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ". What are the processes for collecting, preserving, and analyzing this evidence? When should evidence be shared with the larger community and when should it be kept confidential? \n\nThen there is the matter of assessing evidence in a way that is rigorous and impartial, without which, confidence in the Atlas and the governance process may be undermined. What criteria should be used to validate and evaluate evidence to ensure its reliability and relevance in decision-making? This involves determining the credibility of sources, the reliability of evidence, and the relevance of information to the specific case. The research should explore different approaches to evidence evaluation, such as the application of the burden of proof, standards of proof (e.g., preponderance of evidence, beyond a reasonable doubt), and the use of experts. \n\nHow much discretion should Facilitators have in interpreting and applying the element “the highest standard of Universal Alignment”? How to safeguard against bias and ensure all Facilitator adjudications are made impartially? Investigate mechanisms to maintain objectivity and impartiality throughout the adjudication, fact-finding, and evidence evaluation processes. This could include the establishment of independent review panels (which could operate post facto to avoid excessively delaying the deplatforming of misaligned ACs), the use of conflict-of-interest policies, and training on cognitive biases for those involved in decision-making.",
+            "href": null
+          }
+        ]
+      },
+      "Doc No": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Systematic basis of adjudication, fact-finding and evidence",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Systematic basis of adjudication, fact-finding and evidence",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Systematic-basis-of-adjudication-fact-finding-and-evidence-54895f40834446769ca989b477109fce",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "04d6d7c7-c40b-4fc3-97b2-8748851013e3",
+    "created_time": "2024-08-24T06:31:00.000Z",
+    "last_edited_time": "2024-08-24T08:00:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "effd5738-0335-48a9-8ec1-a7e99cbadd1d"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "GAsU",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "KxKJ",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "ky%3EP",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Defining \"severe actions or violations\" and “governance attack”"
+        }
+      },
+      "Research Prompt": {
+        "id": "%7D%7C%3FT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "What specific criteria or actions qualify as \"severe\" enough to warrant derecognition? Develop clear guidelines that define what constitutes a \"severe case\" in the context of misaligned actions. This involves identifying key indicators of severity, such as the magnitude of the impact, the intent behind the actions, and the potential or actual harm caused.\n\nAlso needed: What actions or behaviors specifically constitute a \"Governance Attack”? Can you propose criteria or frameworks for assessing intent, the scope of actions, and their potential consequences? The research can perhaps explore how different governance models define and respond to attacks and consider psychological, legal, and operational perspectives to support a more fact-driven interpretive approach.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "What specific criteria or actions qualify as \"severe\" enough to warrant derecognition? Develop clear guidelines that define what constitutes a \"severe case\" in the context of misaligned actions. This involves identifying key indicators of severity, such as the magnitude of the impact, the intent behind the actions, and the potential or actual harm caused.\n\nAlso needed: What actions or behaviors specifically constitute a \"Governance Attack”? Can you propose criteria or frameworks for assessing intent, the scope of actions, and their potential consequences? The research can perhaps explore how different governance models define and respond to attacks and consider psychological, legal, and operational perspectives to support a more fact-driven interpretive approach.",
+            "href": null
+          }
+        ]
+      },
+      "Doc No": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Defining \"severe actions or violations\" and “governance attack”",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Defining \"severe actions or violations\" and “governance attack”",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Defining-severe-actions-or-violations-and-governance-attack-04d6d7c7c40b4fc397b28748851013e3",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "bbfd7504-375a-4501-9cd0-b7d564975bfd",
+    "created_time": "2024-08-24T06:09:00.000Z",
+    "last_edited_time": "2024-08-31T17:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "effd5738-0335-48a9-8ec1-a7e99cbadd1d"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "GAsU",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "KxKJ",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "ky%3EP",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Defining threshold for \"very mild slippery slope\" breaches"
+        }
+      },
+      "Research Prompt": {
+        "id": "%7D%7C%3FT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "What specific actions or omissions qualify as \"very mild slippery slope\" breaches? Helpful research can include: developing a set of criteria or a checklist that defines what constitutes a \"very mild slippery slope\" breach. This could involve an analysis of past or hypothetical incidents, consultations with the Facilitators, etc. Such guidelines are likely needed to help Facilitators reliably determine whether an act should be classified as a 'minor' slippery slope infraction or a more severe act which would merit derecognition.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "What specific actions or omissions qualify as \"very mild slippery slope\" breaches? Helpful research can include: developing a set of criteria or a checklist that defines what constitutes a \"very mild slippery slope\" breach. This could involve an analysis of past or hypothetical incidents, consultations with the Facilitators, etc. Such guidelines are likely needed to help Facilitators reliably determine whether an act should be classified as a 'minor' slippery slope infraction or a more severe act which would merit derecognition.",
+            "href": null
+          }
+        ]
+      },
+      "Doc No": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Defining threshold for \"very mild slippery slope\" breaches",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Defining threshold for \"very mild slippery slope\" breaches",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Defining-threshold-for-very-mild-slippery-slope-breaches-bbfd7504375a45019cd0b7d564975bfd",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "0fb3b33c-9577-447a-a76c-01fbd541a3db",
+    "created_time": "2024-08-24T05:55:00.000Z",
+    "last_edited_time": "2024-09-01T01:53:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "effd5738-0335-48a9-8ec1-a7e99cbadd1d"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "GAsU",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "KxKJ",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "ky%3EP",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Impact Of Extenuating Circumstances"
+        }
+      },
+      "Research Prompt": {
+        "id": "%7D%7C%3FT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Research should focus on the potential scope and impact of extenuating circumstances. This involves defining and analyzing possible scenarios where such circumstances can be invoked; and examining the implications for governance and accountability if such claims are overused or abused.\n\nTo help control for the risk of biased decisionmaking, it would help to consider the specific criteria Facilitators should use to determine when an extenuating circumstance is considered valid. Possible research here can develop clear criteria or a decision matrix to determine the acceptability of proffered extenuating circumstances. The goal is to see if it is possible to get reasonably close to a standardized approach to assessing whether a claim of extenuating circumstances is justified.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Research should focus on the potential scope and impact of extenuating circumstances. This involves defining and analyzing possible scenarios where such circumstances can be invoked; and examining the implications for governance and accountability if such claims are overused or abused.\n\nTo help control for the risk of biased decisionmaking, it would help to consider the specific criteria Facilitators should use to determine when an extenuating circumstance is considered valid. Possible research here can develop clear criteria or a decision matrix to determine the acceptability of proffered extenuating circumstances. The goal is to see if it is possible to get reasonably close to a standardized approach to assessing whether a claim of extenuating circumstances is justified.",
+            "href": null
+          }
+        ]
+      },
+      "Doc No": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Impact Of Extenuating Circumstances",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Impact Of Extenuating Circumstances",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Impact-Of-Extenuating-Circumstances-0fb3b33c9577447aa76c01fbd541a3db",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "e94c0ec4-e657-46df-abdb-af0b12e9eb8e",
+    "created_time": "2024-08-24T05:53:00.000Z",
+    "last_edited_time": "2024-09-01T01:50:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "effd5738-0335-48a9-8ec1-a7e99cbadd1d"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "GAsU",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "KxKJ",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "ky%3EP",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Clarification of \"Good Cause\""
+        }
+      },
+      "Research Prompt": {
+        "id": "%7D%7C%3FT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Research is required into what specific circumstances likely qualify as \"good cause.\" This can include developing guidelines or a checklist of acceptable reasons that would justify delays, as well as examples of situations that would not meet this threshold.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Research is required into what specific circumstances likely qualify as \"good cause.\" This can include developing guidelines or a checklist of acceptable reasons that would justify delays, as well as examples of situations that would not meet this threshold.",
+            "href": null
+          }
+        ]
+      },
+      "Doc No": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Clarification of \"Good Cause\"",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Clarification of \"Good Cause\"",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Clarification-of-Good-Cause-e94c0ec4e65746dfabdbaf0b12e9eb8e",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "7f751039-f938-4308-a09e-11f3fade2a67",
+    "created_time": "2024-06-08T21:52:00.000Z",
+    "last_edited_time": "2024-09-01T17:42:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "29949557-a9a9-422f-bb4d-b16017e7644a"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "effd5738-0335-48a9-8ec1-a7e99cbadd1d"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "GAsU",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "766e2a3f-2b07-4bdf-81a9-121bb5aef316"
+          },
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "KxKJ",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "ky%3EP",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Operational Security Protocols - Research Track"
+        }
+      },
+      "Research Prompt": {
+        "id": "%7D%7C%3FT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Governance Facilitators may not have the needed experience and skills to adjudicate matters involving operational security best practices. See Endgame Edge Governance Facilitator team Forum post (",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Governance Facilitators may not have the needed experience and skills to adjudicate matters involving operational security best practices. See Endgame Edge Governance Facilitator team Forum post (",
+            "href": null
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": "https://forum.makerdao.com/t/ads-derecognition-due-to-operational-security-breach/22532#proposal-for-community-discussion-2",
+              "link": {
+                "url": "https://forum.makerdao.com/t/ads-derecognition-due-to-operational-security-breach/22532#proposal-for-community-discussion-2"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "https://forum.makerdao.com/t/ads-derecognition-due-to-operational-security-breach/22532#proposal-for-community-discussion-2",
+            "href": "https://forum.makerdao.com/t/ads-derecognition-due-to-operational-security-breach/22532#proposal-for-community-discussion-2"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ") on AD derecognition: \n\n”The DAO could hire a security advisor firm/consultant as a Scope Advisor. (This could fall under the Governance Scope and its requirement for Governance Security processes.) Their task would be to thoroughly analyze the security needs and risks of the Alignment Conservers and develop ever-evolving Operational Security “Best Practices.”\n\nWith an explicit framework of agreed-upon Best Practices, all anon Alignment Conservers have a known target to meet. Further, the existence of an objective framework of Best Practices equips the Governance Facilitators to easily determine when a breach of opsec best practice has occurred. The explicit framework removes the risk of the Facilitators inappropriately inserting subjective bias into the decisionmaking process.\n\nThe Security Scope Advisor could also assist in reviewing an informant’s evidence to evaluate its validity/quality. The Security Scope Advisor could ensure that the methods used by the informant to secure the evidence were ethical. (All communications, evidence and data shared with the Security Scope Advisor would be under confidentiality protection). Finally, such an Advisor would have specialized expertise in opsec and associated matters that Governance Facilitators lack.”\n\nThis Needed Research is an extensive Research Track, given the wide-ranging implications and potential mechanisms around opsec best practices, and also how these should map onto the Atlas.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ") on AD derecognition: \n\n”The DAO could hire a security advisor firm/consultant as a Scope Advisor. (This could fall under the Governance Scope and its requirement for Governance Security processes.) Their task would be to thoroughly analyze the security needs and risks of the Alignment Conservers and develop ever-evolving Operational Security “Best Practices.”\n\nWith an explicit framework of agreed-upon Best Practices, all anon Alignment Conservers have a known target to meet. Further, the existence of an objective framework of Best Practices equips the Governance Facilitators to easily determine when a breach of opsec best practice has occurred. The explicit framework removes the risk of the Facilitators inappropriately inserting subjective bias into the decisionmaking process.\n\nThe Security Scope Advisor could also assist in reviewing an informant’s evidence to evaluate its validity/quality. The Security Scope Advisor could ensure that the methods used by the informant to secure the evidence were ethical. (All communications, evidence and data shared with the Security Scope Advisor would be under confidentiality protection). Finally, such an Advisor would have specialized expertise in opsec and associated matters that Governance Facilitators lack.”\n\nThis Needed Research is an extensive Research Track, given the wide-ranging implications and potential mechanisms around opsec best practices, and also how these should map onto the Atlas.",
+            "href": null
+          }
+        ]
+      },
+      "Doc No": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Operational Security Protocols - Research Track",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Operational Security Protocols - Research Track",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Operational-Security-Protocols-Research-Track-7f751039f9384308a09e11f3fade2a67",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "d0255716-8352-4f57-8209-97deef72c1af",
+    "created_time": "2024-04-10T02:39:00.000Z",
+    "last_edited_time": "2024-08-27T15:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "29949557-a9a9-422f-bb4d-b16017e7644a"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "effd5738-0335-48a9-8ec1-a7e99cbadd1d"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "GAsU",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "KxKJ",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "ky%3EP",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Should team contributors be subject to the ban against occupying two ecosystem roles?"
+        }
+      },
+      "Research Prompt": {
+        "id": "%7D%7C%3FT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Should team contributors be subject to the Target Document’s prohibition against occupying two roles? What would be the arguments for and against such a position? \n\nOne argument against this would be that quality contributors are a scarce resource. Further, the decentralized work paradigm encourages having several part-time jobs. \n\nThe sharing of contributors across several Sky teams  - such that contributors gain experience in multiple operational aspects - might arguably enhance ecosystem intelligence. \n\nWould it make a meaningful difference to require contributors who do wish to work multiple roles to be doxxed?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Should team contributors be subject to the Target Document’s prohibition against occupying two roles? What would be the arguments for and against such a position? \n\nOne argument against this would be that quality contributors are a scarce resource. Further, the decentralized work paradigm encourages having several part-time jobs. \n\nThe sharing of contributors across several Sky teams  - such that contributors gain experience in multiple operational aspects - might arguably enhance ecosystem intelligence. \n\nWould it make a meaningful difference to require contributors who do wish to work multiple roles to be doxxed?",
+            "href": null
+          }
+        ]
+      },
+      "Doc No": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Should team contributors be subject to the ban against occupying two ecosystem roles?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Should team contributors be subject to the ban against occupying two ecosystem roles?",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Should-team-contributors-be-subject-to-the-ban-against-occupying-two-ecosystem-roles-d025571683524f57820997deef72c1af",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "e99b5a3b-5ad1-494e-bbc5-672782febbd2",
+    "created_time": "2024-04-10T02:37:00.000Z",
+    "last_edited_time": "2024-09-02T14:12:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "c066fbc5-020f-4dee-a642-e43c82409bd0"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "effd5738-0335-48a9-8ec1-a7e99cbadd1d"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "GAsU",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "KxKJ",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "ky%3EP",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Should ban against occupying two ecosystem roles apply to all Sky stakeholder roles?"
+        }
+      },
+      "Research Prompt": {
+        "id": "%7D%7C%3FT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Given the rationale behind the Target Document ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Given the rationale behind the Target Document ",
+            "href": null
+          },
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "100b7e91-896c-4e9d-8914-b8ed5ef4c318"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "A.1.4 - Alignment Conservers - Powers And Constraints - ACs Can Be Operationally Active In Only One Role At A Time",
+            "href": "https://www.notion.so/100b7e91896c4e9d8914b8ed5ef4c318"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ", the 'simultaneous occupying of two ecosystem roles' prohibition should likely not be limited to just the AC stakeholder category, but rather should apply universally to any Sky stakeholder who occupies a role formally defined in the Atlas. What would be the arguments for and against such a position?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ", the 'simultaneous occupying of two ecosystem roles' prohibition should likely not be limited to just the AC stakeholder category, but rather should apply universally to any Sky stakeholder who occupies a role formally defined in the Atlas. What would be the arguments for and against such a position?",
+            "href": null
+          }
+        ]
+      },
+      "Doc No": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Should ban against occupying two ecosystem roles apply to all Sky stakeholder roles?",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Should ban against occupying two ecosystem roles apply to all Sky stakeholder roles?",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Should-ban-against-occupying-two-ecosystem-roles-apply-to-all-Sky-stakeholder-roles-e99b5a3b5ad1494ebbc5672782febbd2",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "454029f0-5d93-4525-b85d-ff77830ff564",
+    "created_time": "2024-04-09T01:53:00.000Z",
+    "last_edited_time": "2024-08-31T16:34:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "effd5738-0335-48a9-8ec1-a7e99cbadd1d"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "GAsU",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "KxKJ",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "ky%3EP",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Potential value of reputation system for Ecosystem Actors"
+        }
+      },
+      "Research Prompt": {
+        "id": "%7D%7C%3FT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "This Scenario highlights the potential value of having a formal reputation system for Ecosystem Actors as well. The Resource Deals process will certainly ensure that EAs have trackable deliverables and milestones and similar accountability. But it may be wise to stand up a parallel reputation system for EAs so that questionable business practices can be made legible for the community. This is a separate but needed dimension of accountability. This is a possible Research Track.",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "This Scenario highlights the potential value of having a formal reputation system for Ecosystem Actors as well. The Resource Deals process will certainly ensure that EAs have trackable deliverables and milestones and similar accountability. But it may be wise to stand up a parallel reputation system for EAs so that questionable business practices can be made legible for the community. This is a separate but needed dimension of accountability. This is a possible Research Track.",
+            "href": null
+          }
+        ]
+      },
+      "Doc No": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Potential value of reputation system for Ecosystem Actors",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Potential value of reputation system for Ecosystem Actors",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Potential-value-of-reputation-system-for-Ecosystem-Actors-454029f05d934525b85dff77830ff564",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "40e72d41-2384-40db-9624-e2f2357dd4e7",
+    "created_time": "2024-04-09T01:51:00.000Z",
+    "last_edited_time": "2024-08-31T16:34:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "effd5738-0335-48a9-8ec1-a7e99cbadd1d"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "GAsU",
+        "type": "relation",
+        "relation": [
+          {
+            "id": "3dbb9d9c-fd63-462b-99f3-1ce879f16768"
+          }
+        ],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "KxKJ",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "ky%3EP",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Impact of misalignment on Entity's involvement with Ecosystem Actor"
+        }
+      },
+      "Research Prompt": {
+        "id": "%7D%7C%3FT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "The Atlas lacks explicit logic for determining whether Entity should also be removed from its EA role or otherwise be prevented from being engaged by EAs. Entity likely did not have malign intentions in this Scenario. It is reasonable to extrapolate that, under these circumstances, derecognition from the AC role would suffice. Compare with ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "The Atlas lacks explicit logic for determining whether Entity should also be removed from its EA role or otherwise be prevented from being engaged by EAs. Entity likely did not have malign intentions in this Scenario. It is reasonable to extrapolate that, under these circumstances, derecognition from the AC role would suffice. Compare with ",
+            "href": null
+          },
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "1b6cf960-aeb7-4892-94c4-81c21366595a"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "On-call or standby role - var. 1",
+            "href": "https://www.notion.so/1b6cf960aeb7489294c481c21366595a"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ]
+      },
+      "Doc No": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Impact of misalignment on Entity's involvement with Ecosystem Actor",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Impact of misalignment on Entity's involvement with Ecosystem Actor",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Impact-of-misalignment-on-Entity-s-involvement-with-Ecosystem-Actor-40e72d41238440db9624e2f2357dd4e7",
+    "public_url": null
+  },
+  {
+    "object": "page",
+    "id": "55a74b31-7f4c-4aa0-84b9-dace01fbd099",
+    "created_time": "2024-04-08T19:34:00.000Z",
+    "last_edited_time": "2024-08-31T16:37:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "a3394e73-c6e8-4762-a6cd-3ac042c7c752"
+    },
+    "cover": null,
+    "icon": null,
+    "parent": {
+      "type": "database_id",
+      "database_id": "effd5738-0335-48a9-8ec1-a7e99cbadd1d"
+    },
+    "archived": false,
+    "in_trash": false,
+    "properties": {
+      "Master Status": {
+        "id": "GAsU",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "P0 🅗🅤🅑": {
+        "id": "KxKJ",
+        "type": "relation",
+        "relation": [],
+        "has_more": false
+      },
+      "Name": {
+        "id": "ky%3EP",
+        "type": "formula",
+        "formula": {
+          "type": "string",
+          "string": "Clear guidelines needed to determine whether an act is ‘slippery slope’ or severe misalignment"
+        }
+      },
+      "Research Prompt": {
+        "id": "%7D%7C%3FT",
+        "type": "rich_text",
+        "rich_text": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Clear guidelines are likely needed to help Facilitators reliably determine whether an act should be classified as a 'minor' slippery slope infraction or a more severe act which would merit derecognition.\n\nSee the ADs' lapse in judgment in ",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Clear guidelines are likely needed to help Facilitators reliably determine whether an act should be classified as a 'minor' slippery slope infraction or a more severe act which would merit derecognition.\n\nSee the ADs' lapse in judgment in ",
+            "href": null
+          },
+          {
+            "type": "mention",
+            "mention": {
+              "type": "page",
+              "page": {
+                "id": "2361019a-698f-4efc-9674-16c3ed509a36"
+              }
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Spell crafting teams argue for expedient solution - var. 1",
+            "href": "https://www.notion.so/2361019a698f4efc967416c3ed509a36"
+          },
+          {
+            "type": "text",
+            "text": {
+              "content": ".",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": ".",
+            "href": null
+          }
+        ]
+      },
+      "Doc No": {
+        "id": "title",
+        "type": "title",
+        "title": [
+          {
+            "type": "text",
+            "text": {
+              "content": "Clear guidelines needed to determine whether an act is ‘slippery slope’ or severe misalignment",
+              "link": null
+            },
+            "annotations": {
+              "bold": false,
+              "italic": false,
+              "strikethrough": false,
+              "underline": false,
+              "code": false,
+              "color": "default"
+            },
+            "plain_text": "Clear guidelines needed to determine whether an act is ‘slippery slope’ or severe misalignment",
+            "href": null
+          }
+        ]
+      }
+    },
+    "url": "https://www.notion.so/Clear-guidelines-needed-to-determine-whether-an-act-is-slippery-slope-or-severe-misalignment-55a74b317f4c4aa084b9dace01fbd099",
+    "public_url": null
+  }
+]
