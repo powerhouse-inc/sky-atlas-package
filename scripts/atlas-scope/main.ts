@@ -16,6 +16,7 @@ import { v4 as uuid } from "uuid";
 import dotenv from "dotenv";
 import jsonScopes from './scope.json';
 import jsonMasterStatus from './masterStatus.json';
+import notionScopes from '../data/notion-pages/scope.json';
 
 dotenv.config();
 
@@ -91,21 +92,25 @@ const addFoldersAndDocuments = async (driveServer: IBaseDocumentDriveServer, dri
         const scope = scopes[key];
         document = await driveServer.getDocument(driveName, scope.id) as AtlasScopeDocument;
 
+        // get provenanceUrl from notionScopes by scope.id
+        const notionScope = notionScopes.find((s: any) => s.id === scope.id);
+        const provenanceUrl = notionScope?.url;
+
         // pupulate document with scope data
         document = AtlasScopeReducer(
             document,
-            AtlasScopeActions.updateScope({
+            AtlasScopeActions.populateScope({
                 name: scope.nameString,
                 docNo: scope.docNoString,
                 content: scope.content[0].plain_text,
                 masterStatus: scope.masterStatus.map((s: any) => getMasterStatus(s.id)).flat(),
                 globalTags: ['CAIS'],
                 originalContextData: ['somePHID'],
-                provenance: '',
-                notionId: ''
+                provenance: provenanceUrl,
+                notionId: scope.id
             })
         )
-        
+
         const result = await driveServer.queueOperations(driveName, scope.id, document.operations.global.slice(-1));
         const documentResult: AtlasScopeDocument = result.document as AtlasScopeDocument;
         console.log('Adding scope', documentResult.state.global.name);
