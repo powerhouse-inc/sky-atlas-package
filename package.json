@@ -45,7 +45,7 @@
     "install:storybook": "tsx scripts/index.ts"
   },
   "peerDependencies": {
-    "document-model": "^2.7.1",
+    "document-model": "^2.14.0",
     "document-model-libs": "^1.116.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
