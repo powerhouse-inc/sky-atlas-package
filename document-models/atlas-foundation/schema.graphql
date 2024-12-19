@@ -24,6 +24,18 @@ type AtlasFoundationState {
   notionId: String
 }
 
+
+# article
+
+input UpdateFoundationInput {
+  name: String
+  atlasType: AtlasType
+  content: String
+  masterStatus: Status
+  globalTags: [GlobalTag!]
+  references: [PHID!]
+}
+
 enum AtlasType {
 ARTICLE
 SECTION
@@ -58,16 +70,6 @@ enum GlobalTag {
 
 
 
-# article
-
-input UpdateFoundationInput {
-  name: String
-  atlasType: AtlasType!
-  content: String
-  masterStatus: [Status!]
-  globalTags: [GlobalTag!]
-  references: [PHID!]
-}
 
 
 enum AtlasType {
@@ -106,9 +108,9 @@ input PopulateFoundationInput {
   name: String
   docNo: String
   parent: PHID!
-  atlasType: AtlasType! 
+  atlasType: AtlasType
   content: String
-  masterStatus: Status!
+  masterStatus: Status
   globalTags: [GlobalTag!]
   references: [PHID!]
   originalContextData: [PHID!]
