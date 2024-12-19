@@ -57,7 +57,7 @@
     "@powerhousedao/codegen": "^0.16.0",
     "@powerhousedao/connect": "develop",
     "@powerhousedao/scalars": "^1.8.0",
-    "@powerhousedao/design-system": "^1.9.1",
+    "@powerhousedao/design-system": "1.9.1-canary.96",
     "@powerhousedao/ph-cli": "^0.11.0",
     "@types/eslint__js": "^8.42.3",
     "@types/node": "^22.7.3",
