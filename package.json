@@ -45,7 +45,7 @@
     "install:storybook": "tsx scripts/index.ts"
   },
   "peerDependencies": {
-    "document-model": "^2.14.0",
+    "document-model": "2.14.0",
     "document-model-libs": "^1.116.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
@@ -57,14 +57,14 @@
     "@powerhousedao/codegen": "^0.16.0",
     "@powerhousedao/connect": "develop",
     "@powerhousedao/scalars": "^1.8.0",
-    "@powerhousedao/design-system": "1.9.1-canary.96",
+    "@powerhousedao/design-system":"1.9.1-canary.100",
     "@powerhousedao/ph-cli": "^0.11.0",
     "@types/eslint__js": "^8.42.3",
     "@types/node": "^22.7.3",
     "@types/react": "^18.3.9",
     "@typescript-eslint/eslint-plugin": "^8.7.0",
     "@typescript-eslint/parser": "^8.7.0",
-    "document-model": "^2.7.1",
+    "document-model": "2.14.0",
     "document-model-libs": "^1.116.0",
     "eslint": "^9.11.1",
     "eslint-config-prettier": "^9.1.0",
