@@ -17,7 +17,6 @@ export default function Editor(props: IProps) {
   } = document;
 
   const handleSubmit = (values: Record<string, any>) => {
-    alert(`values: ${JSON.stringify(values, null, 2)}`);
     dispatch({
       type: "updateScopeOperation",
       input: values,
