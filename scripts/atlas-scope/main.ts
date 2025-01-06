@@ -10,6 +10,7 @@ import {
 } from 'document-model-libs/document-drive';
 import * as DocumentModelsLibs from 'document-model-libs/document-models';
 import { AtlasScopeDocument, actions as AtlasScopeActions, reducer as AtlasScopeReducer } from '../../document-models/atlas-scope';
+import { AtlasFoundationDocument, actions as AtlasFoundationActions, reducer as AtlasFoundationReducer } from '../../document-models/atlas-foundation';
 import { ActionSigner, DocumentModel } from "document-model/document";
 import * as LocalDocumentModels from '../../document-models';
 import { v4 as uuid } from "uuid";
@@ -17,13 +18,10 @@ import dotenv from "dotenv";
 import jsonScopes from './scope.json';
 import jsonMasterStatus from './masterStatus.json';
 import notionScopes from '../data/notion-pages/scope.json';
+import notionArticles from '../data/notion-pages/article.json';
 
 dotenv.config();
 
-// const deleteFoldersAndFiles = async (driveServer: IDocumentDriveServer, driveId: string) => {
-//     const documents = await driveServer.getDocuments(driveId);
-//     return Promise.all(documents.map(e => driveServer.deleteDocument(driveId, e)))
-// }
 
 
 const addFoldersAndDocuments = async (driveServer: IBaseDocumentDriveServer, driveName: string) => {
@@ -84,7 +82,7 @@ const addFoldersAndDocuments = async (driveServer: IBaseDocumentDriveServer, dri
 
         const driveOperation = drive.operations.global.slice(-1);
         await driveServer.queueDriveOperations(driveName, driveOperation);
-        // await sleep(100)
+        await sleep(50)
     }
 
     // retrive newly created documents by using the scopes id as document id
@@ -115,6 +113,9 @@ const addFoldersAndDocuments = async (driveServer: IBaseDocumentDriveServer, dri
         const documentResult: AtlasScopeDocument = result.document as AtlasScopeDocument;
         console.log('Adding scope', documentResult.state.global.name);
         await sleep(200)
+
+        // Adding children articles
+        await addArticles(scope, scope.children, drive, driveServer, driveName)
     }
 
 }
@@ -124,7 +125,7 @@ function sleep(milliseconds: number) {
 }
 
 async function main() {
-    console.time('script');
+    console.time('Import Script');
 
     // select document models
     const documentModels = [
@@ -188,7 +189,7 @@ async function main() {
         synced = true;
         await addFoldersAndDocuments(driveServer, driveName);
         await driveServer.addDriveAction(drive.state.global.id, actions.removeListener({ listenerId }));
-        console.timeEnd('script');
+        console.timeEnd('Import Script');
         process.exit(0);
 
     })
@@ -204,5 +205,94 @@ const getMasterStatus = (searchKey: string) => {
     return statusObject.nameString.toUpperCase();
 }
 
+const addArticles = async (
+    scope: any,
+    articleIds: any[],
+    drive: DocumentDriveDocument,
+    driveServer: IBaseDocumentDriveServer,
+    driveName: string
+) => {
+    for (const articleObj of articleIds) {
+        const article = notionArticles.find((a: any) => a.id === articleObj.id);
+
+        if (article) {
+            // Create article folder
+            drive = reducer(
+                drive,
+                actions.addFolder({
+                    id: article.id + 'folder',
+                    name: `${article.properties['Doc No'].title[0].plain_text} ${article.properties['Name'].rich_text[0].plain_text}`,
+                    parentFolder: scope.id + 'folder'
+                }),
+            );
+
+            const driveOperation = drive.operations.global.slice(-1);
+            await driveServer.queueDriveOperations(driveName, driveOperation);
+            await sleep(200)
+
+            // create article document
+            drive = reducer(
+                drive,
+                DocumentDriveUtils.generateAddNodeAction(
+                    drive.state.global,
+                    {
+                        id: article.id,
+                        name: `${article.properties['Doc No'].title[0].plain_text} ${article.properties['Name'].rich_text[0].plain_text}`,
+                        documentType: 'sky/atlas-foundation',
+                        parentFolder: article.id + 'folder',
+                    },
+                    ['global', 'local']
+                )
+            );
+
+            const driveOperation1 = drive.operations.global.slice(-1);
+            await driveServer.queueDriveOperations(driveName, driveOperation1);
+            await sleep(200)
+
+            console.log('  Adding article', `${article.properties['Doc No'].title[0].plain_text} ${article.properties['Name'].rich_text[0].plain_text}`);
+
+            await populateArticle(scope, article, driveServer, driveName);
+        } else {
+            console.log('Article not found', `${scope.docNoString} ${scope.nameString}`, `articleId: ${articleObj.id}`);
+        }
+    }
+}
+
+const populateArticle = async (
+    scope: any,
+    article: any,
+    driveServer: IBaseDocumentDriveServer,
+    driveName: string
+) => {
+    let document = await driveServer.getDocument(driveName, article.id) as AtlasFoundationDocument;
+
+    if (!document) {
+        console.log('Article Document not found', article.id);
+        return;
+    }
+
+    // pupulate document with scope data
+    document = AtlasFoundationReducer(
+        document,
+        AtlasFoundationActions.populateFoundation({
+            name: article.properties['Name'].rich_text[0].plain_text,
+            docNo: article.properties['Doc No'].title[0].plain_text,
+            parent: scope.id,
+            atlasType: 'ARTICLE',
+            content: article.properties['Content'].rich_text[0].plain_text,
+            masterStatus: 'PLACEHOLDER',
+            globalTags: ['CAIS_'],
+            references: [],
+            originalContextData: article.properties['Original Context Data'].relation.map((r: any) => r.id),
+            provenance: article.url,
+            notionId: article.id
+        })
+    )
+    const documentOperation = document.operations.global.slice(-1);
+    const result = await driveServer.queueOperations(driveName, article.id, documentOperation);
+    await sleep(200)
+    const documentResult: AtlasFoundationDocument = result.document as AtlasFoundationDocument;
+    console.log('       Populating article', documentResult.state.global.name);
+}
 
 main();
