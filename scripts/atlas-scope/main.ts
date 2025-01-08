@@ -31,6 +31,9 @@ const addFoldersAndDocuments = async (driveServer: IBaseDocumentDriveServer, dri
     let drive = await driveServer.getDrive(driveName);
     let document: AtlasScopeDocument;
 
+    // clear storage
+    // await driveServer.clearStorage()
+
     // Getting scopes from json
     const scopes = jsonScopes as Record<string, any>;
 
@@ -48,7 +51,7 @@ const addFoldersAndDocuments = async (driveServer: IBaseDocumentDriveServer, dri
     await sleep(100)
 
 
-    // Run through each scope and create a folder and a document for each
+    // First, create all scope folders and documents
     for (const key in scopes) {
         const scope = scopes[key];
 
@@ -114,8 +117,17 @@ const addFoldersAndDocuments = async (driveServer: IBaseDocumentDriveServer, dri
         console.log('Adding scope', documentResult.state.global.name);
         await sleep(200)
 
-        // Adding children articles
-        await addArticles(scope, scope.children, drive, driveServer, driveName)
+        // // Adding children articles
+        // await addArticles(scope, scope.children, driveServer, driveName, drive)
+    }
+
+
+    // Then, create articles in a separate loop
+    for (const key in scopes) {
+        const scope = scopes[key];
+        // Get fresh drive state before adding articles
+        // drive = await driveServer.getDrive(driveName);
+        await addArticles(scope, scope.children, driveServer, driveName, drive);
     }
 
 }
@@ -208,55 +220,60 @@ const getMasterStatus = (searchKey: string) => {
 const addArticles = async (
     scope: any,
     articleIds: any[],
-    drive: DocumentDriveDocument,
     driveServer: IBaseDocumentDriveServer,
-    driveName: string
+    driveName: string,
+    drive: DocumentDriveDocument
 ) => {
+
     for (const articleObj of articleIds) {
         const article = notionArticles.find((a: any) => a.id === articleObj.id);
 
-        if (article) {
-            // Create article folder
-            drive = reducer(
-                drive,
-                actions.addFolder({
-                    id: article.id + 'folder',
-                    name: `${article.properties['Doc No'].title[0].plain_text} ${article.properties['Name'].rich_text[0].plain_text}`,
-                    parentFolder: scope.id + 'folder'
-                }),
-            );
-
-            const driveOperation = drive.operations.global.slice(-1);
-            await driveServer.queueDriveOperations(driveName, driveOperation);
-            await sleep(200)
-
-            // create article document
-            drive = reducer(
-                drive,
-                DocumentDriveUtils.generateAddNodeAction(
-                    drive.state.global,
-                    {
-                        id: article.id,
-                        name: `${article.properties['Doc No'].title[0].plain_text} ${article.properties['Name'].rich_text[0].plain_text}`,
-                        documentType: 'sky/atlas-foundation',
-                        parentFolder: article.id + 'folder',
-                    },
-                    ['global', 'local']
-                )
-            );
-
-            const driveOperation1 = drive.operations.global.slice(-1);
-            await driveServer.queueDriveOperations(driveName, driveOperation1);
-            console.log('  Adding article', `${article.properties['Doc No'].title[0].plain_text} ${article.properties['Name'].rich_text[0].plain_text}`);
-            await sleep(200)
-
-
-            await populateArticle(scope, article, driveServer, driveName);
-        } else {
-            console.log('Article not found', `${scope.docNoString} ${scope.nameString}`, `articleId: ${articleObj.id}`);
+        if (!article) {
+            console.warn(`  Article not found: ${articleObj.id} for scope ${scope.docNoString}`);
+            continue;
         }
+
+        // Get fresh drive state before each article operation
+        drive = await driveServer.getDrive(driveName);
+
+        // Create article folder
+        drive = reducer(
+            drive,
+            actions.addFolder({
+                id: article.id + 'folder',
+                name: `${article.properties['Doc No'].title[0].plain_text} ${article.properties['Name'].rich_text[0].plain_text}`,
+                parentFolder: scope.id + 'folder'
+            }),
+        );
+
+        const driveOperation = drive.operations.global.slice(-1);
+        await driveServer.queueDriveOperations(driveName, driveOperation);
+        await sleep(100)
+
+        // create article document
+        drive = reducer(
+            drive,
+            DocumentDriveUtils.generateAddNodeAction(
+                drive.state.global,
+                {
+                    id: article.id,
+                    name: `${article.properties['Doc No'].title[0].plain_text} ${article.properties['Name'].rich_text[0].plain_text}`,
+                    documentType: 'sky/atlas-foundation',
+                    parentFolder: article.id + 'folder',
+                },
+                ['global', 'local']
+            )
+        );
+
+        const driveOperation1 = drive.operations.global.slice(-1);
+        await driveServer.queueDriveOperations(driveName, driveOperation1);
+        await sleep(100)
+        
     }
+    // await populateArticle(scope, article, driveServer, driveName);
 }
+
+
 
 const populateArticle = async (
     scope: any,
@@ -290,7 +307,7 @@ const populateArticle = async (
         const documentResult: AtlasFoundationDocument = result.document as AtlasFoundationDocument;
         console.log('       Populating article', documentResult.state.global.name);
     } else {
-        console.log('Article Document found', article.id);
+        // console.log('Article Document not found', article.id);
     }
 
 
