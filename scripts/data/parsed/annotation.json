@@ -1,8 +1,8 @@
 {
-  "154f2ff0-8d73-8015-aba7-d48a5afa4733": {
-    "id": "154f2ff0-8d73-8015-aba7-d48a5afa4733",
+  "170f2ff0-8d73-8001-b6cc-d7b2feac2255": {
+    "id": "170f2ff0-8d73-8001-b6cc-d7b2feac2255",
     "type": "annotation",
-    "docNo": "Straight Line Basis - Element Annotation",
+    "docNo": "Test New Element Annotation",
     "name": "",
     "content": [
       {
@@ -10,10 +10,10 @@
           {
             "type": "text",
             "text": {
-              "content": "The element “straight-line basis” refers to a parameter being adjusted linearly between a starting value and an ending value based on time elapsed. For example: if a debt ceiling is adjusted from 100 million USD to 200 million USD on a straight-line basis over 60 days, then after 30 days have elapsed, the debt ceiling would be 150 million USD.",
+              "content": "Existing content test",
               "link": null
             },
-            "plain_text": "The element “straight-line basis” refers to a parameter being adjusted linearly between a starting value and an ending value based on time elapsed. For example: if a debt ceiling is adjusted from 100 million USD to 200 million USD on a straight-line basis over 60 days, then after 30 days have elapsed, the debt ceiling would be 150 million USD.",
+            "plain_text": "Existing content test",
             "annotations": {
               "bold": false,
               "italic": false,
@@ -28,12 +28,8 @@
     ],
     "children": [],
     "files": [],
-    "masterStatus": [
-      "fe75a64f-585b-4d08-af00-ef8667d9c307"
-    ],
-    "masterStatusNames": [
-      "Approved"
-    ],
+    "masterStatus": [],
+    "masterStatusNames": [],
     "hubUrls": [],
     "supportingDocuments": {}
   },

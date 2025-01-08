@@ -45,7 +45,7 @@ const addFoldersAndDocuments = async (driveServer: IBaseDocumentDriveServer, dri
     // // queue last 1 drive operations
     const driveOperations = drive.operations.global.slice(-1);
     await driveServer.queueDriveOperations(driveName, driveOperations);
-    // await sleep(100)
+    await sleep(100)
 
 
     // Run through each scope and create a folder and a document for each
@@ -63,7 +63,7 @@ const addFoldersAndDocuments = async (driveServer: IBaseDocumentDriveServer, dri
 
         const driveOperation1 = drive.operations.global.slice(-1);
         await driveServer.queueDriveOperations(driveName, driveOperation1);
-        // await sleep(100)
+        await sleep(100)
 
         drive = reducer(
             drive,
@@ -82,7 +82,7 @@ const addFoldersAndDocuments = async (driveServer: IBaseDocumentDriveServer, dri
 
         const driveOperation = drive.operations.global.slice(-1);
         await driveServer.queueDriveOperations(driveName, driveOperation);
-        await sleep(50)
+        await sleep(100)
     }
 
     // retrive newly created documents by using the scopes id as document id
@@ -247,9 +247,9 @@ const addArticles = async (
 
             const driveOperation1 = drive.operations.global.slice(-1);
             await driveServer.queueDriveOperations(driveName, driveOperation1);
+            console.log('  Adding article', `${article.properties['Doc No'].title[0].plain_text} ${article.properties['Name'].rich_text[0].plain_text}`);
             await sleep(200)
 
-            console.log('  Adding article', `${article.properties['Doc No'].title[0].plain_text} ${article.properties['Name'].rich_text[0].plain_text}`);
 
             await populateArticle(scope, article, driveServer, driveName);
         } else {
@@ -266,33 +266,34 @@ const populateArticle = async (
 ) => {
     let document = await driveServer.getDocument(driveName, article.id) as AtlasFoundationDocument;
 
-    if (!document) {
-        console.log('Article Document not found', article.id);
-        return;
+    if (document) {
+        // pupulate document with scope data
+        document = AtlasFoundationReducer(
+            document,
+            AtlasFoundationActions.populateFoundation({
+                name: article.properties['Name'].rich_text[0].plain_text,
+                docNo: article.properties['Doc No'].title[0].plain_text,
+                parent: scope.id,
+                atlasType: 'ARTICLE',
+                content: article.properties['Content'].rich_text[0].plain_text,
+                masterStatus: 'PLACEHOLDER',
+                globalTags: ['CAIS_'],
+                references: [],
+                originalContextData: article.properties['Original Context Data'].relation.map((r: any) => r.id),
+                provenance: article.url,
+                notionId: article.id
+            })
+        )
+        const documentOperation = document.operations.global.slice(-1);
+        const result = await driveServer.queueOperations(driveName, article.id, documentOperation);
+        await sleep(200)
+        const documentResult: AtlasFoundationDocument = result.document as AtlasFoundationDocument;
+        console.log('       Populating article', documentResult.state.global.name);
+    } else {
+        console.log('Article Document found', article.id);
     }
 
-    // pupulate document with scope data
-    document = AtlasFoundationReducer(
-        document,
-        AtlasFoundationActions.populateFoundation({
-            name: article.properties['Name'].rich_text[0].plain_text,
-            docNo: article.properties['Doc No'].title[0].plain_text,
-            parent: scope.id,
-            atlasType: 'ARTICLE',
-            content: article.properties['Content'].rich_text[0].plain_text,
-            masterStatus: 'PLACEHOLDER',
-            globalTags: ['CAIS_'],
-            references: [],
-            originalContextData: article.properties['Original Context Data'].relation.map((r: any) => r.id),
-            provenance: article.url,
-            notionId: article.id
-        })
-    )
-    const documentOperation = document.operations.global.slice(-1);
-    const result = await driveServer.queueOperations(driveName, article.id, documentOperation);
-    await sleep(200)
-    const documentResult: AtlasFoundationDocument = result.document as AtlasFoundationDocument;
-    console.log('       Populating article', documentResult.state.global.name);
+
 }
 
 main();

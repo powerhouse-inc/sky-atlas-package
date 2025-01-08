@@ -1,16 +1,16 @@
 {
-  "152f2ff0-8d73-805f-ade0-e3a0a718e920": {
-    "id": "152f2ff0-8d73-805f-ade0-e3a0a718e920",
+  "171f2ff0-8d73-80e0-b869-f5be6974d1b8": {
+    "id": "171f2ff0-8d73-80e0-b869-f5be6974d1b8",
     "hub": [],
     "type": "article",
     "docNo": [
       {
         "type": "text",
         "text": {
-          "content": "A.7.1",
+          "content": "A.9 - DEMO EXISTING ARTICLE",
           "link": null
         },
-        "plain_text": "A.7.1",
+        "plain_text": "A.9 - DEMO EXISTING ARTICLE",
         "annotations": {
           "bold": false,
           "italic": false,
@@ -21,15 +21,15 @@
         }
       }
     ],
-    "docNoString": "A.7.1",
+    "docNoString": "A.9 - DEMO EXISTING ARTICLE",
     "name": [
       {
         "type": "text",
         "text": {
-          "content": "A Test Article",
+          "content": "DEMO - EXISTIG ARTICLE",
           "link": null
         },
-        "plain_text": "A Test Article",
+        "plain_text": "DEMO - EXISTIG ARTICLE",
         "annotations": {
           "bold": false,
           "italic": false,
@@ -40,17 +40,17 @@
         }
       }
     ],
-    "nameString": "A Test Article",
+    "nameString": "DEMO - EXISTIG ARTICLE",
     "content": [
       {
         "text": [
           {
             "type": "text",
             "text": {
-              "content": "Existing content",
+              "content": "Existing Content: Duis aute irure dolor in reprehenderit in voluptate velit esse. test test",
               "link": null
             },
-            "plain_text": "Existing content",
+            "plain_text": "Existing Content: Duis aute irure dolor in reprehenderit in voluptate velit esse. test test",
             "annotations": {
               "bold": false,
               "italic": false,
@@ -63,20 +63,7 @@
         ]
       }
     ],
-    "children": [
-      {
-        "id": "152f2ff0-8d73-8051-a454-edbd5815ae9a"
-      },
-      {
-        "id": "152f2ff0-8d73-8044-9c53-d2b0134086bc"
-      },
-      {
-        "id": "152f2ff0-8d73-8010-a3d1-c2c81cf15ada"
-      },
-      {
-        "id": "152f2ff0-8d73-8062-a70d-f4065a8f7562"
-      }
-    ],
+    "children": [],
     "masterStatus": [],
     "supportingDocuments": {
       "originalContextData": [],
