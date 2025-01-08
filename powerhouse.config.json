@@ -1,4 +1,5 @@
 {
   "documentModelsDir": "./document-models",
-  "editorsDir": "./editors"
+  "editorsDir": "./editors",
+  "dbPath": "postgres://postgres:postgres@localhost:5444/postgres"
 }
