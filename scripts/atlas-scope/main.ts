@@ -236,41 +236,57 @@ const addArticles = async (
         // Get fresh drive state before each article operation
         drive = await driveServer.getDrive(driveName);
 
-        // Create article folder
-        drive = reducer(
-            drive,
-            actions.addFolder({
-                id: article.id + 'folder',
-                name: `${article.properties['Doc No'].title[0].plain_text} ${article.properties['Name'].rich_text[0].plain_text}`,
-                parentFolder: scope.id + 'folder'
-            }),
-        );
-
-        const driveOperation = drive.operations.global.slice(-1);
-        await driveServer.queueDriveOperations(driveName, driveOperation);
+        await driveServer.queueDriveAction(driveName, actions.addFolder({
+            id: article.id + 'folder',
+            name: `${article.properties['Doc No'].title[0].plain_text} ${article.properties['Name'].rich_text[0].plain_text}`,
+            parentFolder: scope.id + 'folder'
+        }));
         await sleep(100)
+
+        await driveServer.queueDriveAction(driveName, actions.addFile({
+            id: article.id,
+            name: `${article.properties['Doc No'].title[0].plain_text} ${article.properties['Name'].rich_text[0].plain_text}`,
+            parentFolder: article.id + 'folder',
+            documentType: 'sky/atlas-foundation',
+            synchronizationUnits: []
+        }));
+        await sleep(100)
+
+        // // Create article folder
+        // drive = reducer(
+        //     drive,
+        //     actions.addFolder({
+        //         id: article.id + 'folder',
+        //         name: `${article.properties['Doc No'].title[0].plain_text} ${article.properties['Name'].rich_text[0].plain_text}`,
+        //         parentFolder: scope.id + 'folder'
+        //     }),
+        // );
+
+        // const driveOperation = drive.operations.global.slice(-1);
+        // await driveServer.queueDriveOperations(driveName, driveOperation);
+        // await sleep(100)
 
         // create article document
-        drive = reducer(
-            drive,
-            DocumentDriveUtils.generateAddNodeAction(
-                drive.state.global,
-                {
-                    id: article.id,
-                    name: `${article.properties['Doc No'].title[0].plain_text} ${article.properties['Name'].rich_text[0].plain_text}`,
-                    documentType: 'sky/atlas-foundation',
-                    parentFolder: article.id + 'folder',
-                },
-                ['global', 'local']
-            )
-        );
+        // drive = reducer(
+        //     drive,
+        //     DocumentDriveUtils.generateAddNodeAction(
+        //         drive.state.global,
+        //         {
+        //             id: article.id,
+        //             name: `${article.properties['Doc No'].title[0].plain_text} ${article.properties['Name'].rich_text[0].plain_text}`,
+        //             documentType: 'sky/atlas-foundation',
+        //             parentFolder: article.id + 'folder',
+        //         },
+        //         ['global', 'local']
+        //     )
+        // );
 
-        const driveOperation1 = drive.operations.global.slice(-1);
-        await driveServer.queueDriveOperations(driveName, driveOperation1);
-        await sleep(100)
+        // const driveOperation1 = drive.operations.global.slice(-1);
+        // await driveServer.queueDriveOperations(driveName, driveOperation1);
+        // await sleep(100)
         
+        await populateArticle(scope, article, driveServer, driveName);
     }
-    // await populateArticle(scope, article, driveServer, driveName);
 }
 
 
