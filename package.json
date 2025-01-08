@@ -25,7 +25,7 @@
   },
   "scripts": {
     "generate": "powerhouse generate",
-    "reactor": "ph reactor",
+    "reactor": "ph dev",
     "format-generated": "npx prettier \"**/gen/**/*\" --write --ignore-path /dev/null",
     "postgenerate": "npm run format-generated",
     "check-types": "tsc",
