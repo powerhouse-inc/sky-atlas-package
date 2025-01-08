@@ -14,36 +14,24 @@ type AtlasFoundationState {
   name: String
   docNo: String
   parent: PHID!
-  atlasType: AtlasType! 
+  atlasType: FAtlasType! 
   content: String
-  masterStatus: Status!
-  globalTags: [GlobalTag!]!
+  masterStatus: FStatus!
+  globalTags: [FGlobalTag!]!
   references: [PHID!]!
   originalContextData: [PHID!]!
   provenance: URL
   notionId: String
 }
 
-
-# article
-
-input UpdateFoundationInput {
-  name: String
-  atlasType: AtlasType
-  content: String
-  masterStatus: Status
-  globalTags: [GlobalTag!]
-  references: [PHID!]
-}
-
-enum AtlasType {
+enum FAtlasType {
 ARTICLE
 SECTION
 CORE
 ACTIVE_DATA_CONTROLLER
 }
 
-enum Status {
+enum FStatus {
   PLACEHOLDER
   PROVISIONAL
   APPROVED
@@ -51,7 +39,7 @@ enum Status {
   ARCHIVED
 }
 
-enum GlobalTag {
+enum FGlobalTag {
   SCOPE_ADVISOR_
   AVC_
   CAIS_
@@ -70,16 +58,26 @@ enum GlobalTag {
 
 
 
+# article
+
+input UpdateFoundationInput {
+  name: String
+  atlasType: FAtlasType!
+  content: String
+  masterStatus: [FStatus!]
+  globalTags: [FGlobalTag!]
+  references: [PHID!]
+}
 
 
-enum AtlasType {
+enum FAtlasType {
 ARTICLE
 SECTION
 CORE
 ACTIVE_DATA_CONTROLLER
 }
 
-enum Status {
+enum FStatus {
   PLACEHOLDER
   PROVISIONAL
   APPROVED
@@ -87,7 +85,7 @@ enum Status {
   ARCHIVED
 }
 
-enum GlobalTag {
+enum FGlobalTag {
   SCOPE_ADVISOR_
   AVC_
   CAIS_
@@ -108,17 +106,17 @@ input PopulateFoundationInput {
   name: String
   docNo: String
   parent: PHID!
-  atlasType: AtlasType
+  atlasType: FAtlasType! 
   content: String
-  masterStatus: Status
-  globalTags: [GlobalTag!]
+  masterStatus: FStatus!
+  globalTags: [FGlobalTag!]
   references: [PHID!]
   originalContextData: [PHID!]
   provenance: URL
   notionId: String
 }
 
-enum AtlasType {
+enum FAtlasType {
 ARTICLE
 SECTION
 CORE
@@ -126,7 +124,7 @@ ACTIVE_DATA_CONTROLLER
 }
 
 
-enum Status {
+enum FStatus {
   PLACEHOLDER
   PROVISIONAL
   APPROVED
@@ -134,7 +132,7 @@ enum Status {
   ARCHIVED
 }
 
-enum GlobalTag {
+enum FGlobalTag {
   SCOPE_ADVISOR_
   AVC_
   CAIS_
