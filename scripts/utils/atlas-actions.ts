@@ -81,23 +81,23 @@ export const addArticles = async (
     await addFolder(
       driveServer,
       driveId,
-      article.id + "folder",
+      article.id + "-folder",
       `${article.properties["Doc No"].title[0].plain_text} ${article.properties["Name"].rich_text[0].plain_text}`,
-      scope.id
+      scope.id + "-folder"
     );
     await addDocument(
       driveServer,
       driveId,
-      article.id,
+      article.id + "-document",
       `${article.properties["Doc No"].title[0].plain_text} ${article.properties["Name"].rich_text[0].plain_text}`,
       "sky/atlas-foundation",
-      article.id + "folder"
+      article.id + "-folder"
     );
 
     const result = await populateArticle(
       driveServer,
       driveId,
-      documentId,
+      article.id + "-document",
       article,
       scope
     );

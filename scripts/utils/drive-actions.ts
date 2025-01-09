@@ -1,6 +1,10 @@
 import { randomUUID } from "crypto";
 import { DocumentDriveServer, IBaseDocumentDriveServer } from "document-drive";
-import { actions } from "document-model-libs/document-drive";
+import {
+  actions,
+  generateSynchronizationUnitId,
+  generateSynchronizationUnits,
+} from "document-model-libs/document-drive";
 import * as DocumentModelsLibs from "document-model-libs/document-models";
 import { DocumentModel } from "document-model/document";
 import { module as DocumentModelLib } from "document-model/document-model";
@@ -24,7 +28,7 @@ export const addFolder = (
   );
 };
 
-export const addDocument = (
+export const addDocument = async (
   driveServer: IBaseDocumentDriveServer,
   driveId: string,
   documentId: string,
@@ -32,6 +36,7 @@ export const addDocument = (
   documentType: string,
   parentFolder: string
 ) => {
+  const drive = await driveServer.getDrive(driveId);
   return driveServer.addDriveAction(
     driveId,
     actions.addFile({
@@ -39,7 +44,9 @@ export const addDocument = (
       id: documentId,
       name: documentName,
       parentFolder,
-      synchronizationUnits: [],
+      synchronizationUnits: generateSynchronizationUnits(drive.state.global, [
+        "global",
+      ]),
     })
   );
 };

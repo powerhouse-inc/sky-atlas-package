@@ -14,9 +14,7 @@ async function main() {
   const driveServer = (await createReactorAndCreateLocalDrive(
     "http://localhost:4001/d/powerhouse"
   )) as IBaseDocumentDriveServer;
-  driveServer.on("strandUpdate", (update) => {
-    console.log(update);
-  });
+
   const driveIds = await driveServer.getDrives();
   console.log(driveIds);
   let drive = await driveServer.getDrive(driveIds[0]);
@@ -33,12 +31,14 @@ async function main() {
   }
 
   // create section 1 folders and documents
-  for (let entry of Object.entries(jsonScopes)) {
+  for (let entry of Object.entries(jsonScopes).sort((a, b) =>
+    a[1].docNoString.localeCompare(b[1].docNoString)
+  )) {
     const [key, scope] = entry;
     const result = await addFolder(
       driveServer,
       driveIds[0],
-      scope.id + "folder",
+      scope.id + "-folder",
       `${scope.docNoString} ${scope.nameString}`,
       rootDirId.id
     );
@@ -46,17 +46,17 @@ async function main() {
     await addDocument(
       driveServer,
       driveIds[0],
-      scope.id,
+      scope.id + "-document",
       `${scope.docNoString} ${scope.nameString}`,
       "sky/atlas-scope",
-      scope.id + "folder"
+      scope.id + "-folder"
     );
 
     const notionScope = notionScopes.find((s: any) => s.id === scope.id);
     await populateScope(
       driveServer,
       driveIds[0],
-      scope.id,
+      scope.id + "-document",
       scope,
       notionScope?.url,
       jsonMasterStatus
@@ -65,12 +65,14 @@ async function main() {
     await addArticles(
       driveServer,
       driveIds[0],
-      scope.id,
+      scope.id + "-document",
       scope.children,
       notionArticles,
       scope
     );
   }
+
+  process.exit(0);
 }
 
 main();
