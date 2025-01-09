@@ -17,9 +17,13 @@ export default function Editor(props: IProps) {
   } = document;
 
   const handleSubmit = (values: Record<string, any>) => {
+    const filteredValues = Object.fromEntries(
+      Object.entries(values).filter(([_, value]) => value !== null),
+    );
+
     dispatch({
       type: "updateScopeOperation",
-      input: values,
+      input: filteredValues,
       scope: "global",
     });
   };
@@ -30,7 +34,6 @@ export default function Editor(props: IProps) {
       <EnumField
         className="mb-4"
         label="Status"
-        multiple
         name="masterStatus"
         options={[
           { value: "PLACEHOLDER", label: "PLACEHOLDER" },
